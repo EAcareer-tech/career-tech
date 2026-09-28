@@ -3,24 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Career Tech — Radar des Opportunités Étudiantes</title>
+  <title>Career Tech — Plateforme Carrières & Opportunités Étudiantes</title>
 
-  <!-- Tailwind CSS -->
+  <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
-      darkMode: 'class',
       theme: {
         extend: {
           colors: {
             brand: {
-              bg: '#080c14',
-              card: '#0f172a',
-              border: '#1e293b',
-              accent: '#6366f1',
-              emerald: '#10b981',
-              amber: '#f59e0b',
-              rose: '#f43f5e'
+              primary: '#4f46e5',
+              hover: '#4338ca',
+              surface: '#ffffff',
+              bg: '#f8fafc',
+              border: '#e2e8f0',
+              textDark: '#0f172a',
+              textMuted: '#64748b'
             }
           },
           fontFamily: {
@@ -35,91 +34,102 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
 
   <!-- Lucide Icons -->
   <script src="https://unpkg.com/lucide@latest"></script>
 
-  <!-- Leaflet Map CSS & JS -->
+  <!-- Leaflet Maps -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
   <style>
     body {
-      background-color: #080c14;
-      color: #f1f5f9;
+      background-color: #f8fafc;
+      color: #0f172a;
       font-family: 'Inter', sans-serif;
     }
     .font-title { font-family: 'Plus Jakarta Sans', sans-serif; }
-    .glass {
-      background: rgba(15, 23, 42, 0.75);
-      backdrop-filter: blur(12px);
-      border: 1px solid rgba(255, 255, 255, 0.08);
-    }
-    .glass:hover {
-      border-color: rgba(99, 102, 241, 0.4);
-    }
     #map { height: 420px; border-radius: 1rem; }
-    .leaflet-container { background: #0b1120; }
   </style>
 </head>
 <body class="antialiased selection:bg-indigo-500 selection:text-white">
 
-  <!-- Navigation -->
-  <header class="sticky top-0 z-50 glass border-b border-gray-800/80">
+  <!-- BARRE SUPÉRIEURE : CONFIGURATION RÉSEAU ALUMNI -->
+  <div class="bg-indigo-900 text-white text-xs py-2 px-4">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
+      <div class="flex items-center gap-2">
+        <i data-lucide="graduation-cap" class="w-4 h-4 text-indigo-300"></i>
+        <span><strong>Réseau Alumni personnalisé :</strong> Ciblez les diplômés de votre école dans chaque entreprise.</span>
+      </div>
+      <div class="flex items-center gap-2">
+        <label for="schoolInput" class="text-indigo-200">Mon école / université :</label>
+        <input type="text" id="schoolInput" placeholder="Ex: Dauphine, Télécom, HEC, EPITA..." class="px-2.5 py-1 rounded bg-indigo-950 border border-indigo-700 text-white placeholder-indigo-400 focus:outline-none focus:ring-1 focus:ring-indigo-400 text-xs w-48">
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVIGATION -->
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-      <div class="flex items-center space-x-3">
-        <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-indigo-600 via-indigo-500 to-cyan-400 flex items-center justify-center font-bold text-white shadow-lg shadow-indigo-500/25">
-          <i data-lucide="radar" class="w-5 h-5 text-white"></i>
+      <a href="#" class="flex items-center space-x-3">
+        <div class="w-10 h-10 rounded-xl bg-indigo-600 flex items-center justify-center font-bold text-white shadow-md shadow-indigo-600/20">
+          <i data-lucide="compass" class="w-5 h-5 text-white"></i>
         </div>
         <div>
-          <span class="font-title text-lg font-bold tracking-tight text-white flex items-center gap-1.5">
-            CAREER<span class="text-indigo-400">TECH</span>
-            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+          <span class="font-title text-xl font-bold tracking-tight text-slate-900 flex items-center gap-1.5">
+            CAREER<span class="text-indigo-600">TECH</span>
+            <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
           </span>
-          <span class="text-[10px] text-gray-400 uppercase tracking-wider block -mt-1">Plateforme Étudiants & Carrières</span>
+          <span class="text-[11px] text-slate-500 uppercase tracking-wider block -mt-1 font-semibold">Radar Carrières Étudiantes</span>
         </div>
-      </div>
+      </a>
 
       <nav class="hidden md:flex items-center space-x-1 text-sm font-medium">
-        <a href="#offres" class="px-3 py-1.5 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800/60 transition">Offres en direct</a>
-        <a href="#calendrier" class="px-3 py-1.5 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800/60 transition">Calendrier</a>
-        <a href="#metiers" class="px-3 py-1.5 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800/60 transition">Métiers & Salaires</a>
-        <a href="#carte" class="px-3 py-1.5 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800/60 transition">Hubs Tech</a>
+        <a href="#offres" class="px-3 py-2 rounded-lg text-slate-600 hover:text-indigo-600 hover:bg-slate-100 transition">Offres</a>
+        <a href="#sdr-bdr" onclick="filterTrack('sdr')" class="px-3 py-2 rounded-lg text-amber-600 font-semibold hover:bg-amber-50 transition flex items-center gap-1">
+          <i data-lucide="trending-up" class="w-4 h-4"></i> SDR & BDR
+        </a>
+        <a href="#graduate-guide" class="px-3 py-2 rounded-lg text-indigo-600 font-semibold hover:bg-indigo-50 transition flex items-center gap-1">
+          <i data-lucide="award" class="w-4 h-4"></i> Guide Graduates
+        </a>
+        <a href="#metiers" class="px-3 py-2 rounded-lg text-slate-600 hover:text-indigo-600 hover:bg-slate-100 transition">Salaires & Fiches</a>
+        <a href="#carte" class="px-3 py-2 rounded-lg text-slate-600 hover:text-indigo-600 hover:bg-slate-100 transition">Hubs Tech</a>
       </nav>
 
-      <div class="flex items-center space-x-2 text-xs">
-        <div id="syncIndicator" class="px-3 py-1.5 rounded-full bg-gray-900/90 border border-gray-800 text-gray-400 flex items-center gap-1.5">
-          <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
-          <span id="lastUpdatedText">Vérification des flux...</span>
+      <div class="flex items-center space-x-3 text-xs">
+        <div class="px-3 py-1.5 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-700 font-medium flex items-center gap-1.5">
+          <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+          <span id="syncText">Flux direct actif</span>
         </div>
       </div>
     </div>
   </header>
 
-  <!-- Hero & Moteur de Recherche -->
-  <section class="pt-12 pb-14 px-4 sm:px-6 max-w-7xl mx-auto text-center relative">
-    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-indigo-500/30 bg-indigo-500/10 text-indigo-300 text-xs mb-4">
-      <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
-      <span>Synchronisation directe Greenhouse, Lever et programmes d'élite</span>
+  <!-- HERO SECTION -->
+  <section class="py-12 px-4 sm:px-6 max-w-7xl mx-auto text-center">
+    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-50 border border-indigo-100 text-indigo-700 text-xs font-semibold mb-4">
+      <i data-lucide="sparkles" class="w-4 h-4"></i>
+      <span>+60 entreprises suivies : Licornes FR, Big Tech, AI Labs & Firmes Quant</span>
     </div>
-    <h1 class="font-title text-3xl sm:text-5xl font-extrabold text-white max-w-4xl mx-auto leading-tight">
-      Décroche ton <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-purple-300 to-emerald-400">Stage, Alternance ou Graduate</span> avant la fermeture.
+    
+    <h1 class="font-title text-3xl sm:text-5xl font-extrabold text-slate-900 max-w-4xl mx-auto leading-tight">
+      Accédez aux meilleures opportunités de la Tech <span class="text-indigo-600">avant la fermeture des candidatures</span>.
     </h1>
-    <p class="mt-3 text-sm sm:text-base text-gray-400 max-w-2xl mx-auto">
-      Suivi continu des ouvertures de postes : ne perdez plus votre temps à envoyer votre CV sur des offres fermées ou expirées.
+    <p class="mt-4 text-base text-slate-600 max-w-2xl mx-auto">
+      Fini les offres périmées. Visualisez directement la ville, la rémunération estimée, le type de contrat et contactez les anciens élèves en 1 clic.
     </p>
 
-    <!-- Zone de recherche rapide -->
-    <div class="mt-8 max-w-3xl mx-auto glass p-2.5 rounded-2xl flex flex-col sm:flex-row gap-2 border border-gray-800 shadow-2xl">
+    <!-- BARRE DE RECHERCHE -->
+    <div class="mt-8 max-w-3xl mx-auto bg-white p-3 rounded-2xl border border-slate-200 shadow-lg flex flex-col sm:flex-row gap-3">
       <div class="flex-1 relative">
-        <i data-lucide="search" class="w-4 h-4 absolute left-3.5 top-3.5 text-gray-400"></i>
-        <input type="text" id="searchInput" oninput="applyFilters()" placeholder="Poste, mot-clé (Python, React, Mistral...)..." class="w-full pl-10 pr-3 py-2.5 bg-gray-950/80 border border-gray-800 rounded-xl text-sm text-white placeholder-gray-500 focus:outline-none focus:border-indigo-500">
+        <i data-lucide="search" class="w-4 h-4 absolute left-3.5 top-3.5 text-slate-400"></i>
+        <input type="text" id="searchInput" oninput="applyFilters()" placeholder="Titre du poste, entreprise, compétence (Python, SDR, SQL, React)..." class="w-full pl-10 pr-3 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:border-indigo-500">
       </div>
       <div class="sm:w-56 relative">
-        <select id="locationFilter" onchange="applyFilters()" class="w-full px-3 py-2.5 bg-gray-950/80 border border-gray-800 rounded-xl text-sm text-white focus:outline-none focus:border-indigo-500">
-          <option value="">Toutes les localisations</option>
-          <option value="Paris">Paris / France</option>
+        <select id="locationFilter" onchange="applyFilters()" class="w-full px-3 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm text-slate-700 focus:outline-none focus:border-indigo-500">
+          <option value="">Toutes les villes</option>
+          <option value="Paris">Paris & Île-de-France</option>
           <option value="London">Londres (UK)</option>
           <option value="Zurich">Zurich (Suisse)</option>
           <option value="Remote">100% Remote / Télétravail</option>
@@ -128,181 +138,327 @@
     </div>
   </section>
 
-  <!-- Section des Offres avec Onglets par Contrat -->
-  <section id="offres" class="max-w-7xl mx-auto px-4 sm:px-6 pb-20">
-    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
-      <div class="flex flex-wrap gap-2" id="contractTabs">
-        <button onclick="setContract('all')" class="tab-btn active px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-indigo-600 text-white transition" data-c="all">Toutes (<span id="count-all">0</span>)</button>
-        <button onclick="setContract('stage')" class="tab-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold text-gray-400 bg-gray-900 border border-gray-800 hover:text-white transition" data-c="stage">Stages & PFE (<span id="count-stage">0</span>)</button>
-        <button onclick="setContract('graduate')" class="tab-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold text-gray-400 bg-gray-900 border border-gray-800 hover:text-white transition" data-c="graduate">Graduate Schemes (<span id="count-graduate">0</span>)</button>
-        <button onclick="setContract('alternance')" class="tab-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold text-gray-400 bg-gray-900 border border-gray-800 hover:text-white transition" data-c="alternance">Alternances (<span id="count-alternance">0</span>)</button>
-        <button onclick="setContract('cdi')" class="tab-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold text-gray-400 bg-gray-900 border border-gray-800 hover:text-white transition" data-c="cdi">Premier CDI (<span id="count-cdi">0</span>)</button>
+  <!-- SECTION OFFRES EN DIRECT -->
+  <section id="offres" class="max-w-7xl mx-auto px-4 sm:px-6 pb-16">
+    
+    <!-- FILTRES PAR FILIÈRE ET PAR CONTRAT -->
+    <div class="space-y-3 mb-8">
+      <!-- Filtres grandes catégories -->
+      <div class="flex flex-wrap items-center gap-2">
+        <span class="text-xs font-bold text-slate-400 uppercase tracking-wider mr-2">Pôle :</span>
+        <button onclick="filterTrack('all')" class="track-btn active px-4 py-1.5 rounded-lg text-xs font-bold bg-slate-900 text-white transition" data-track="all">Tous les profils</button>
+        <button onclick="filterTrack('sdr')" class="track-btn px-4 py-1.5 rounded-lg text-xs font-bold bg-amber-100 text-amber-800 hover:bg-amber-200 transition" data-track="sdr">🔥 SDR & BDR (Tech Sales)</button>
+        <button onclick="filterTrack('tech')" class="track-btn px-4 py-1.5 rounded-lg text-xs font-bold bg-slate-200 text-slate-700 hover:bg-slate-300 transition" data-track="tech">💻 Software & Infra</button>
+        <button onclick="filterTrack('data')" class="track-btn px-4 py-1.5 rounded-lg text-xs font-bold bg-slate-200 text-slate-700 hover:bg-slate-300 transition" data-track="data">🧠 Data & IA</button>
       </div>
 
-      <!-- Filtres par statut -->
-      <div class="flex items-center gap-2 text-xs">
-        <span class="text-gray-500">Statut :</span>
-        <button onclick="setStatus('all')" class="status-btn font-semibold text-white px-2.5 py-1 rounded bg-gray-800" data-s="all">Tous</button>
-        <button onclick="setStatus('open')" class="status-btn text-emerald-400 hover:text-emerald-300 px-2.5 py-1 rounded" data-s="open">🟢 Ouverts</button>
-        <button onclick="setStatus('closed')" class="status-btn text-rose-400 hover:text-rose-300 px-2.5 py-1 rounded" data-s="closed">🔴 Clôturés</button>
+      <!-- Filtres types de contrat -->
+      <div class="flex flex-wrap items-center justify-between gap-4 pt-3 border-t border-slate-200">
+        <div class="flex flex-wrap gap-2" id="contractTabs">
+          <button onclick="setContract('all')" class="tab-btn active px-3 py-1.5 rounded-lg text-xs font-semibold bg-indigo-600 text-white" data-c="all">Tous contrats (<span id="count-all">0</span>)</button>
+          <button onclick="setContract('stage')" class="tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-600 bg-white border border-slate-200 hover:bg-slate-50" data-c="stage">Stages & PFE (<span id="count-stage">0</span>)</button>
+          <button onclick="setContract('graduate')" class="tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-600 bg-white border border-slate-200 hover:bg-slate-50" data-c="graduate">Graduates (<span id="count-graduate">0</span>)</button>
+          <button onclick="setContract('alternance')" class="tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-600 bg-white border border-slate-200 hover:bg-slate-50" data-c="alternance">Alternances (<span id="count-alternance">0</span>)</button>
+          <button onclick="setContract('cdi')" class="tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-600 bg-white border border-slate-200 hover:bg-slate-50" data-c="cdi">Premier CDI (<span id="count-cdi">0</span>)</button>
+        </div>
+
+        <!-- Filtre Statut d'ouverture -->
+        <div class="flex items-center gap-2 text-xs">
+          <span class="text-slate-500 font-medium">Disponibilité :</span>
+          <button onclick="setStatus('all')" class="status-btn font-bold text-slate-900 px-2.5 py-1 rounded bg-slate-200" data-s="all">Toutes</button>
+          <button onclick="setStatus('open')" class="status-btn text-emerald-700 px-2.5 py-1 rounded hover:bg-emerald-50" data-s="open">🟢 En cours</button>
+          <button onclick="setStatus('closed')" class="status-btn text-rose-700 px-2.5 py-1 rounded hover:bg-rose-50" data-s="closed">🔴 Clôturées</button>
+        </div>
       </div>
     </div>
 
-    <!-- Grille dynamique des offres -->
-    <div id="jobsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+    <!-- GRILLE DES CARTES D'OFFRES -->
+    <div id="jobsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       <!-- Rempli par JavaScript -->
     </div>
   </section>
 
-  <!-- Calendrier des vagues de candidature -->
-  <section id="calendrier" class="border-t border-gray-800/80 py-16 bg-gray-950/40">
+  <!-- ==================== PAGE DÉDIÉE : GUIDE ULTIME DES GRADUATE PROGRAMS ==================== -->
+  <section id="graduate-guide" class="border-t border-slate-200 py-16 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6">
-      <div class="text-center max-w-2xl mx-auto mb-10">
-        <span class="text-xs font-bold text-indigo-400 uppercase tracking-wider">Anticipation stratégique</span>
-        <h2 class="font-title text-2xl sm:text-3xl font-bold text-white mt-1">Quand postuler ? Le calendrier officiel</h2>
-        <p class="text-xs sm:text-sm text-gray-400 mt-2">Les meilleures opportunités Big Tech et banques ferment 8 à 10 mois à l'avance.</p>
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="text-xs font-extrabold text-indigo-600 uppercase tracking-widest bg-indigo-50 px-3 py-1 rounded-full border border-indigo-100">Dossier Spécial Étudiants</span>
+        <h2 class="font-title text-3xl font-extrabold text-slate-900 mt-3">Tout savoir sur les Graduate Programs Tech</h2>
+        <p class="text-sm text-slate-600 mt-2 leading-relaxed">
+          Les Graduate Programs ne sont pas de simples CDIs : ce sont des parcours d'accélération d'élite (12 à 24 mois) avec rotations entre départements, coaching exécutif et salaires supérieurs de 25% à 40% au marché.
+        </p>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-4 gap-4 text-xs">
-        <div class="glass p-5 rounded-xl border-l-4 border-l-indigo-500">
-          <span class="font-bold text-indigo-400 block mb-1">Août — Octobre</span>
-          <h3 class="font-bold text-white text-sm">Big Tech & Finance (Londres/US)</h3>
-          <p class="text-gray-400 mt-2 leading-relaxed">Google, Bloomberg, Palantir, Jane Street ouvrent leurs Summer Internships et Graduate Schemes.</p>
+      <!-- Les 4 étapes de sélection décortiquées -->
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-16">
+        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200">
+          <div class="w-8 h-8 rounded-lg bg-indigo-600 text-white font-bold flex items-center justify-center mb-4">1</div>
+          <h3 class="font-title font-bold text-base text-slate-900">Screening ATS & CV</h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+            Filtrage algorithmique. Vos CVs doivent impérativement faire figurer des chiffres d'impact, vos projets GitHub/persos et les mots-clés exacts de la fiche de poste.
+          </p>
+          <span class="inline-block mt-3 text-[11px] font-semibold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded">Taux d'accès : ~15%</span>
         </div>
-        <div class="glass p-5 rounded-xl border-l-4 border-l-cyan-500">
-          <span class="font-bold text-cyan-400 block mb-1">Novembre — Janvier</span>
-          <h3 class="font-bold text-white text-sm">Licornes & Scale-ups FR/EU</h3>
-          <p class="text-gray-400 mt-2 leading-relaxed">Datadog, Doctolib, Qonto, Alan publient leurs stages PFE de fin d'études débutant au 1er semestre.</p>
+
+        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200">
+          <div class="w-8 h-8 rounded-lg bg-indigo-600 text-white font-bold flex items-center justify-center mb-4">2</div>
+          <h3 class="font-title font-bold text-base text-slate-900">OA & Vidéo HireVue</h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+            Tests en ligne : HackerRank / LeetCode (SWE) ou études de cas de rentabilité (SDR/Product), couplés à 3 questions comportementales enregistrées en vidéo asynchrone (HireVue).
+          </p>
+          <span class="inline-block mt-3 text-[11px] font-semibold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded">Objectif : Score > 80%</span>
         </div>
-        <div class="glass p-5 rounded-xl border-l-4 border-l-emerald-500">
-          <span class="font-bold text-emerald-400 block mb-1">Février — Mai</span>
-          <h3 class="font-bold text-white text-sm">Campagne Alternances</h3>
-          <p class="text-gray-400 mt-2 leading-relaxed">Contrats d'apprentissage et de professionnalisation de 1 ou 2 ans pour la rentrée de septembre.</p>
+
+        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200">
+          <div class="w-8 h-8 rounded-lg bg-indigo-600 text-white font-bold flex items-center justify-center mb-4">3</div>
+          <h3 class="font-title font-bold text-base text-slate-900">Assessment Centre</h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+            Demi-journée en présentiel ou sur Zoom : résolution d'un cas business complexe en groupe (évaluation de l'écoute et du leadership) et présentation devant un jury.
+          </p>
+          <span class="inline-block mt-3 text-[11px] font-semibold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded">Focus : Posture & Travail d'équipe</span>
         </div>
-        <div class="glass p-5 rounded-xl border-l-4 border-l-amber-500">
-          <span class="font-bold text-amber-400 block mb-1">Toute l'année</span>
-          <h3 class="font-bold text-white text-sm">Startups & Premier CDI</h3>
-          <p class="text-gray-400 mt-2 leading-relaxed">Recrutements continus au fil des levées de fonds (Seed / Série A). Idéal pour échanger avec le CTO.</p>
+
+        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200">
+          <div class="w-8 h-8 rounded-lg bg-indigo-600 text-white font-bold flex items-center justify-center mb-4">4</div>
+          <h3 class="font-title font-bold text-base text-slate-900">Entretien VP / Partner</h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+            Échange d'adéquation culturelle (*Fit*) avec le directeur de pôle : motivation profonde, vision du produit et capacité à monter en compétences rapidement.
+          </p>
+          <span class="inline-block mt-3 text-[11px] font-semibold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded">Offre d'embauche ferme</span>
         </div>
+      </div>
+
+      <!-- Fiches détaillées des Meilleurs Graduate Programs Tech -->
+      <h3 class="font-title text-xl font-bold text-slate-900 mb-6 text-center">Les Meilleurs Programmes Européens à la Loupe</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition">
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-base font-bold text-slate-900">Bloomberg LP</span>
+            <span class="text-xs font-bold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded">Londres</span>
+          </div>
+          <div class="text-xs text-slate-500 font-semibold mb-3">Global Technology & Data Scheme</div>
+          <div class="p-3 bg-slate-50 rounded-xl space-y-1.5 text-xs text-slate-700 mb-4">
+            <div class="flex justify-between"><span>Package :</span> <strong class="text-emerald-600">£65,000 + £10k bonus</strong></div>
+            <div class="flex justify-between"><span>Durée :</span> <strong>Formation 16 sem. + CDI</strong></div>
+            <div class="flex justify-between"><span>Candidatures :</span> <strong class="text-amber-600">Septembre à Novembre</strong></div>
+          </div>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            Formation accélérée sur les architectures temps réel et systèmes financiers. Très orienté C++, Python et algorithmes d'optimisation.
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition">
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-base font-bold text-slate-900">Salesforce</span>
+            <span class="text-xs font-bold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded">Paris / Dublin</span>
+          </div>
+          <div class="text-xs text-slate-500 font-semibold mb-3">Success Graduate Program (SDR / Solution Eng.)</div>
+          <div class="p-3 bg-slate-50 rounded-xl space-y-1.5 text-xs text-slate-700 mb-4">
+            <div class="flex justify-between"><span>Package :</span> <strong class="text-emerald-600">55 000€ - 68 000€ OTE</strong></div>
+            <div class="flex justify-between"><span>Durée :</span> <strong>12 mois avec rotations</strong></div>
+            <div class="flex justify-between"><span>Candidatures :</span> <strong class="text-amber-600">Octobre à Janvier</strong></div>
+          </div>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            Le standard d'or pour démarrer en Tech Sales ou Solution Engineering. Vous êtes formé aux cycles de vente grands comptes d'entreprises du CAC40.
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition">
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-base font-bold text-slate-900">Palantir</span>
+            <span class="text-xs font-bold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded">Londres / Paris</span>
+          </div>
+          <div class="text-xs text-slate-500 font-semibold mb-3">Forward Deployed Engineer & Strategist</div>
+          <div class="p-3 bg-slate-50 rounded-xl space-y-1.5 text-xs text-slate-700 mb-4">
+            <div class="flex justify-between"><span>Package :</span> <strong class="text-emerald-600">£75,000 / 70 000€ + Equity</strong></div>
+            <div class="flex justify-between"><span>Durée :</span> <strong>Intégration directe Squad</strong></div>
+            <div class="flex justify-between"><span>Candidatures :</span> <strong class="text-amber-600">Août à Octobre</strong></div>
+          </div>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            Rôle hybride d'élite à mi-chemin entre l'architecture logicielle et le conseil stratégique chez des clients de défense et de haute industrie.
+          </p>
+        </div>
+
       </div>
     </div>
   </section>
 
-  <!-- Métiers et Salaires Réels -->
-  <section id="metiers" class="border-t border-gray-800/80 py-16 max-w-7xl mx-auto px-4 sm:px-6">
+  <!-- ==================== SECTION SALAIRES & BAROMÈTRE ==================== -->
+  <section id="metiers" class="border-t border-slate-200 py-16 max-w-7xl mx-auto px-4 sm:px-6">
     <div class="text-center max-w-2xl mx-auto mb-10">
-      <span class="text-xs font-bold text-indigo-400 uppercase tracking-wider">Transparence des rémunérations</span>
-      <h2 class="font-title text-2xl sm:text-3xl font-bold text-white mt-1">Grilles Salariales Étudiants & Juniors</h2>
+      <span class="text-xs font-bold text-indigo-600 uppercase tracking-wider">Baromètre 2026 / 2027</span>
+      <h2 class="font-title text-2xl sm:text-3xl font-bold text-slate-900 mt-1">Grilles Salariales Réelles par Rôle</h2>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-xs">
-      <div class="glass p-6 rounded-2xl">
-        <h3 class="font-title font-bold text-base text-white">Software Engineer (Backend / Cloud)</h3>
-        <div class="my-4 space-y-1 bg-gray-950 p-3 rounded-xl border border-gray-800">
-          <div class="flex justify-between text-gray-400"><span>Stage (France) :</span> <strong class="text-white">1 600€ - 2 500€/m</strong></div>
-          <div class="flex justify-between text-gray-400"><span>Junior (France) :</span> <strong class="text-emerald-400">45 000€ - 55 000€</strong></div>
-          <div class="flex justify-between text-gray-400"><span>Graduate (UK/CH) :</span> <strong class="text-indigo-400">£65k / 130k CHF</strong></div>
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6 text-xs">
+      <!-- SDR BDR -->
+      <div class="bg-white p-6 rounded-2xl border border-amber-200 shadow-sm">
+        <span class="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-amber-100 text-amber-800">Tech Sales & Business</span>
+        <h3 class="font-title font-bold text-base text-slate-900 mt-2">SDR / BDR (Débutant)</h3>
+        <div class="my-4 space-y-1.5 bg-slate-50 p-3 rounded-xl border border-slate-100">
+          <div class="flex justify-between"><span>Stage (France) :</span> <strong class="text-slate-900">1 200€ - 1 700€/m</strong></div>
+          <div class="flex justify-between"><span>CDI Fixe :</span> <strong class="text-slate-900">38k€ - 45k€</strong></div>
+          <div class="flex justify-between"><span>Package Total (OTE) :</span> <strong class="text-emerald-600">50k€ - 65k€</strong></div>
         </div>
-        <p class="text-gray-400 leading-relaxed"><strong>Compétences clés :</strong> Go, Python, Java, PostgreSQL, Docker, Algorithmes & Systèmes Distribués.</p>
+        <p class="text-slate-600 leading-relaxed">Prospection multicanale (Cold call, LinkedIn, Vidéo), qualification de leads et démos produit.</p>
       </div>
 
-      <div class="glass p-6 rounded-2xl">
-        <h3 class="font-title font-bold text-base text-white">AI / LLM Engineer</h3>
-        <div class="my-4 space-y-1 bg-gray-950 p-3 rounded-xl border border-gray-800">
-          <div class="flex justify-between text-gray-400"><span>Stage (France) :</span> <strong class="text-white">1 800€ - 3 000€/m</strong></div>
-          <div class="flex justify-between text-gray-400"><span>Junior (France) :</span> <strong class="text-emerald-400">52 000€ - 70 000€</strong></div>
-          <div class="flex justify-between text-gray-400"><span>US Remote Junior :</span> <strong class="text-indigo-400">$110k - $145k</strong></div>
+      <!-- Dev Backend -->
+      <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
+        <span class="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-indigo-50 text-indigo-700">Engineering</span>
+        <h3 class="font-title font-bold text-base text-slate-900 mt-2">Software Engineer Junior</h3>
+        <div class="my-4 space-y-1.5 bg-slate-50 p-3 rounded-xl border border-slate-100">
+          <div class="flex justify-between"><span>Stage (France) :</span> <strong class="text-slate-900">1 600€ - 2 400€/m</strong></div>
+          <div class="flex justify-between"><span>CDI (France) :</span> <strong class="text-emerald-600">45k€ - 55k€</strong></div>
+          <div class="flex justify-between"><span>Graduate (UK/CH) :</span> <strong class="text-indigo-600">£65k / 130k CHF</strong></div>
         </div>
-        <p class="text-gray-400 leading-relaxed"><strong>Compétences clés :</strong> PyTorch, Fine-tuning, RAG, Vector DBs, vLLM, Mathématiques appliquées.</p>
+        <p class="text-slate-600 leading-relaxed">Conception d'APIs, architecture distribuée, bases de données relationnelles et non-relationnelles.</p>
       </div>
 
-      <div class="glass p-6 rounded-2xl">
-        <h3 class="font-title font-bold text-base text-white">Associate Product Manager (APM)</h3>
-        <div class="my-4 space-y-1 bg-gray-950 p-3 rounded-xl border border-gray-800">
-          <div class="flex justify-between text-gray-400"><span>Stage (France) :</span> <strong class="text-white">1 500€ - 2 200€/m</strong></div>
-          <div class="flex justify-between text-gray-400"><span>Junior (France) :</span> <strong class="text-emerald-400">46 000€ - 54 000€</strong></div>
-          <div class="flex justify-between text-gray-400"><span>Rotational APM :</span> <strong class="text-indigo-400">£55k - £70k</strong></div>
+      <!-- Data / IA -->
+      <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
+        <span class="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-indigo-50 text-indigo-700">Intelligence Artificielle</span>
+        <h3 class="font-title font-bold text-base text-slate-900 mt-2">LLM / AI Engineer</h3>
+        <div class="my-4 space-y-1.5 bg-slate-50 p-3 rounded-xl border border-slate-100">
+          <div class="flex justify-between"><span>Stage (France) :</span> <strong class="text-slate-900">1 800€ - 3 000€/m</strong></div>
+          <div class="flex justify-between"><span>CDI (France) :</span> <strong class="text-emerald-600">55k€ - 70k€</strong></div>
+          <div class="flex justify-between"><span>US Remote Junior :</span> <strong class="text-indigo-600">$110k - $145k</strong></div>
         </div>
-        <p class="text-gray-400 leading-relaxed"><strong>Compétences clés :</strong> Product Discovery, SQL, Analyse de métriques produit, Figma, Priorisation.</p>
+        <p class="text-slate-600 leading-relaxed">Déploiement de modèles de fondation, RAG, évaluation de pipelines et optimisation GPU.</p>
+      </div>
+
+      <!-- APM Product -->
+      <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
+        <span class="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-indigo-50 text-indigo-700">Produit & Design</span>
+        <h3 class="font-title font-bold text-base text-slate-900 mt-2">Associate Product Manager</h3>
+        <div class="my-4 space-y-1.5 bg-slate-50 p-3 rounded-xl border border-slate-100">
+          <div class="flex justify-between"><span>Stage (France) :</span> <strong class="text-slate-900">1 500€ - 2 200€/m</strong></div>
+          <div class="flex justify-between"><span>CDI (France) :</span> <strong class="text-emerald-600">46k€ - 54k€</strong></div>
+          <div class="flex justify-between"><span>Rotational APM :</span> <strong class="text-indigo-600">£55k - £70k</strong></div>
+        </div>
+        <p class="text-slate-600 leading-relaxed">Discovery utilisateur, analyse SQL des comportements et priorisation des sprints tech.</p>
       </div>
     </div>
   </section>
 
-  <!-- Hubs & Carte Interactive -->
-  <section id="carte" class="border-t border-gray-800/80 py-16 max-w-7xl mx-auto px-4 sm:px-6">
-    <div class="text-center max-w-2xl mx-auto mb-10">
-      <span class="text-xs font-bold text-cyan-400 uppercase tracking-wider">Écosystème géographique</span>
-      <h2 class="font-title text-2xl sm:text-3xl font-bold text-white mt-1">Les Hubs Tech Européens</h2>
-      <p class="text-xs sm:text-sm text-gray-400 mt-2">Localisation des sièges et centres de R&D qui recrutent.</p>
+  <!-- CARTE INTERACTIVE DES HUBS -->
+  <section id="carte" class="border-t border-slate-200 py-16 max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="text-center max-w-2xl mx-auto mb-8">
+      <span class="text-xs font-bold text-indigo-600 uppercase tracking-wider">Implantation géographique</span>
+      <h2 class="font-title text-2xl sm:text-3xl font-bold text-slate-900 mt-1">Les Hubs qui Recrutent</h2>
+      <p class="text-xs sm:text-sm text-slate-500 mt-1">Cliquez sur un centre névralgique pour découvrir les bureaux des entreprises.</p>
     </div>
-    <div id="map" class="shadow-2xl border border-gray-800"></div>
+    <div id="map" class="shadow-md border border-slate-200"></div>
   </section>
 
-  <!-- Script d'actualisation JavaScript -->
+  <!-- ==================== LOGIQUE JAVASCRIPT ==================== -->
   <script>
-    // Base de secours par défaut si jobs.json n'est pas encore créé par tracker.py
-    const DEMO_JOBS = [
+    // Données de secours riches si jobs.json est en cours de création
+    const DEMO_DATA = [
       {
-        id: "demo-1",
-        title: "Software Engineering Intern - Summer 2027",
+        id: "demo-sdr-1",
+        title: "Inbound Sales Development Representative (SDR) - Stage / CDI",
         company: "Datadog",
         category: "stage",
+        track: "sdr",
         status: "open",
         location: "Paris, France",
+        salary: "1 700€/m (Stage) ou 52k€ OTE (CDI)",
         url: "https://www.datadoghq.com/careers/",
-        tags: ["Go", "Kafka", "Distributed Systems"],
+        tags: ["Tech Sales", "SaaS", "Inbound", "CRM"],
         first_seen: "Aujourd'hui"
       },
       {
-        id: "demo-2",
+        id: "demo-sdr-2",
+        title: "Business Development Representative (BDR) - French Market",
+        company: "Stripe",
+        category: "cdi",
+        track: "sdr",
+        status: "open",
+        location: "Paris / Remote",
+        salary: "55 000€ - 65 000€ OTE",
+        url: "https://stripe.com/jobs",
+        tags: ["Fintech", "Prospection", "Outbound"],
+        first_seen: "Hier"
+      },
+      {
+        id: "demo-grad-1",
         title: "Graduate Technology Scheme 2027",
         company: "Bloomberg",
         category: "graduate",
+        track: "tech",
         status: "open",
         location: "Londres, UK",
+        salary: "£65,000 / an + Relocation",
         url: "https://www.bloomberg.com/company/careers/early-career/",
-        tags: ["C++", "Python", "Data Structures"],
+        tags: ["C++", "Python", "Rotational"],
         first_seen: "Cette semaine"
       },
       {
-        id: "demo-3",
-        title: "Alternance Data Scientist / LLM Engineer (1-2 ans)",
+        id: "demo-tech-1",
+        title: "Software Engineering Intern - PFE 2027",
         company: "Mistral AI",
-        category: "alternance",
+        category: "stage",
+        track: "data",
         status: "open",
-        location: "Paris (Sentier)",
+        location: "Paris (Silicon Sentier)",
+        salary: "2 200€ / mois",
         url: "https://mistral.ai/careers/",
-        tags: ["PyTorch", "Transformers", "NLP"],
-        first_seen: "Récemment"
+        tags: ["PyTorch", "LLM", "DeepTech"],
+        first_seen: "Il y a 2 jours"
       },
       {
-        id: "demo-4",
-        title: "Junior Backend Engineer",
+        id: "demo-alt-1",
+        title: "Alternance Product Operations & Growth (1-2 ans)",
         company: "Qonto",
-        category: "cdi",
+        category: "alternance",
+        track: "sdr",
         status: "open",
-        location: "Paris / Remote",
+        location: "Paris, France",
+        salary: "1 600€ - 1 900€ / mois",
         url: "https://qonto.com/fr/careers",
-        tags: ["Ruby", "PostgreSQL", "Kafka"],
-        first_seen: "Hier"
+        tags: ["Product Growth", "SQL", "SalesOps"],
+        first_seen: "Récemment"
       }
     ];
 
     let allJobs = [];
     let activeContract = 'all';
+    let activeTrack = 'all';
     let activeStatus = 'all';
+
+    // Gestion de l'école de l'utilisateur pour le lien LinkedIn Alumni
+    const schoolInput = document.getElementById('schoolInput');
+    schoolInput.value = localStorage.getItem('career_user_school') || '';
+    schoolInput.addEventListener('input', (e) => {
+      localStorage.setItem('career_user_school', e.target.value.trim());
+      renderJobs(getFilteredJobs());
+    });
 
     async function loadJobs() {
       try {
         const res = await fetch('./jobs.json?t=' + Date.now());
-        if (!res.ok) throw new Error("jobs.json absent");
+        if (!res.ok) throw new Error();
         allJobs = await res.json();
-        document.getElementById('lastUpdatedText').textContent = "Flux en direct connecté";
+        document.getElementById('syncText').textContent = "Synchronisé avec les ATS";
       } catch (e) {
-        console.info("jobs.json introuvable, affichage des offres démo.");
-        allJobs = DEMO_JOBS;
-        document.getElementById('lastUpdatedText').textContent = "Données pré-chargées";
+        allJobs = DEMO_DATA;
+        document.getElementById('syncText').textContent = "Base d'exemple active";
       }
+
+      // Enrichissement des catégories et des tracks
+      allJobs.forEach(j => {
+        const t = (j.title || '').toLowerCase();
+        if (t.includes('sdr') || t.includes('bdr') || t.includes('sales development') || t.includes('business development')) {
+          j.track = 'sdr';
+        } else if (t.includes('data') || t.includes('ai') || t.includes('ml') || t.includes('machine learning') || t.includes('llm')) {
+          j.track = 'data';
+        } else {
+          j.track = 'tech';
+        }
+      });
+
       updateCounters();
       applyFilters();
     }
@@ -315,13 +471,25 @@
       document.getElementById('count-cdi').textContent = allJobs.filter(j => j.category === 'cdi').length;
     }
 
+    function filterTrack(track) {
+      activeTrack = track;
+      document.querySelectorAll('.track-btn').forEach(btn => {
+        if (btn.getAttribute('data-track') === track) {
+          btn.className = "track-btn active px-4 py-1.5 rounded-lg text-xs font-bold bg-slate-900 text-white transition";
+        } else {
+          btn.className = "track-btn px-4 py-1.5 rounded-lg text-xs font-bold bg-slate-200 text-slate-700 hover:bg-slate-300 transition";
+        }
+      });
+      applyFilters();
+    }
+
     function setContract(c) {
       activeContract = c;
       document.querySelectorAll('#contractTabs .tab-btn').forEach(btn => {
         if (btn.getAttribute('data-c') === c) {
-          btn.className = "tab-btn active px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-indigo-600 text-white transition";
+          btn.className = "tab-btn active px-3 py-1.5 rounded-lg text-xs font-semibold bg-indigo-600 text-white";
         } else {
-          btn.className = "tab-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold text-gray-400 bg-gray-900 border border-gray-800 hover:text-white transition";
+          btn.className = "tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-600 bg-white border border-slate-200 hover:bg-slate-50";
         }
       });
       applyFilters();
@@ -331,40 +499,46 @@
       activeStatus = s;
       document.querySelectorAll('.status-btn').forEach(btn => {
         if (btn.getAttribute('data-s') === s) {
-          btn.classList.add('bg-gray-800', 'font-bold');
+          btn.classList.add('bg-slate-200', 'font-bold');
         } else {
-          btn.classList.remove('bg-gray-800', 'font-bold');
+          btn.classList.remove('bg-slate-200', 'font-bold');
         }
       });
       applyFilters();
     }
 
-    function applyFilters() {
+    function getFilteredJobs() {
       const q = document.getElementById('searchInput').value.toLowerCase().trim();
       const loc = document.getElementById('locationFilter').value.toLowerCase().trim();
 
-      const filtered = allJobs.filter(job => {
-        const matchC = activeContract === 'all' || job.category === activeContract;
-        const matchS = activeStatus === 'all' || job.status === activeStatus;
+      return allJobs.filter(job => {
+        const matchTrack = (activeTrack === 'all' || job.track === activeTrack);
+        const matchContract = (activeContract === 'all' || job.category === activeContract);
+        const matchStatus = (activeStatus === 'all' || job.status === activeStatus);
         const matchLoc = !loc || (job.location && job.location.toLowerCase().includes(loc));
         const matchQ = !q || (
           job.title.toLowerCase().includes(q) ||
           job.company.toLowerCase().includes(q) ||
           (job.tags && job.tags.some(t => t.toLowerCase().includes(q)))
         );
-        return matchC && matchS && matchLoc && matchQ;
+        return matchTrack && matchContract && matchStatus && matchLoc && matchQ;
       });
+    }
 
-      renderJobs(filtered);
+    function applyFilters() {
+      renderJobs(getFilteredJobs());
     }
 
     function renderJobs(jobs) {
       const container = document.getElementById('jobsGrid');
+      const userSchool = (localStorage.getItem('career_user_school') || '').trim();
+
       if (!jobs.length) {
         container.innerHTML = `
-          <div class="col-span-full text-center py-16 text-gray-500">
-            <i data-lucide="inbox" class="w-10 h-10 mx-auto mb-2 text-gray-600"></i>
-            <p class="text-sm font-semibold">Aucune offre ne correspond à vos filtres actuels.</p>
+          <div class="col-span-full text-center py-16 bg-white rounded-2xl border border-slate-200 text-slate-500">
+            <i data-lucide="folder-search" class="w-10 h-10 mx-auto mb-2 text-slate-400"></i>
+            <p class="text-sm font-semibold text-slate-700">Aucune offre trouvée avec ces critères.</p>
+            <p class="text-xs text-slate-400 mt-1">Réinitialisez la recherche ou modifiez les filtres de pôles.</p>
           </div>
         `;
         lucide.createIcons();
@@ -373,36 +547,91 @@
 
       container.innerHTML = jobs.map(j => {
         const isOpen = j.status === 'open';
+
+        // Badge couleur de contrat
+        let contractBadge = "";
+        if (j.category === 'stage') {
+          contractBadge = `<span class="bg-blue-50 text-blue-700 border border-blue-200 text-[11px] font-bold px-2.5 py-0.5 rounded-full">Stage / PFE</span>`;
+        } else if (j.category === 'graduate') {
+          contractBadge = `<span class="bg-purple-50 text-purple-700 border border-purple-200 text-[11px] font-bold px-2.5 py-0.5 rounded-full">Graduate Scheme</span>`;
+        } else if (j.category === 'alternance') {
+          contractBadge = `<span class="bg-emerald-50 text-emerald-700 border border-emerald-200 text-[11px] font-bold px-2.5 py-0.5 rounded-full">Alternance</span>`;
+        } else {
+          contractBadge = `<span class="bg-slate-100 text-slate-700 border border-slate-300 text-[11px] font-bold px-2.5 py-0.5 rounded-full">CDI Junior</span>`;
+        }
+
+        // Requête LinkedIn Alumni ciblée
+        const roleKeyword = (j.track === 'sdr') ? 'SDR OR BDR OR "Business Development"' : 'Engineer OR Tech';
+        const linkedinQuery = userSchool 
+          ? `https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(j.company + ' ' + roleKeyword + ' ' + userSchool)}`
+          : `https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(j.company + ' ' + roleKeyword)}`;
+
         return `
-          <div class="glass p-5 rounded-2xl flex flex-col justify-between transition relative">
+          <div class="bg-white rounded-2xl border border-slate-200 p-6 flex flex-col justify-between hover:shadow-xl hover:border-indigo-300 transition-all duration-200 relative group">
             <div>
-              <div class="flex items-start justify-between gap-2 mb-3">
-                <div>
-                  <span class="text-[10px] uppercase font-bold text-indigo-400 tracking-wider">${j.company}</span>
-                  <h3 class="font-title font-bold text-white text-sm leading-snug mt-0.5">${j.title}</h3>
+              <!-- En-tête de la carte : Logo initiales + Entreprise en GRAND -->
+              <div class="flex items-start justify-between gap-3 mb-4">
+                <div class="flex items-center space-x-3">
+                  <div class="w-12 h-12 rounded-xl bg-slate-900 text-white font-title font-extrabold text-lg flex items-center justify-center shadow-md">
+                    ${j.company.substring(0, 2).toUpperCase()}
+                  </div>
+                  <div>
+                    <h2 class="font-title text-xl font-extrabold text-slate-900 group-hover:text-indigo-600 transition leading-tight">
+                      ${j.company}
+                    </h2>
+                    <div class="mt-1 flex items-center gap-1.5">
+                      ${contractBadge}
+                      ${j.track === 'sdr' ? '<span class="bg-amber-100 text-amber-800 text-[10px] font-bold px-2 py-0.5 rounded-full">🔥 SDR/BDR</span>' : ''}
+                    </div>
+                  </div>
                 </div>
-                <span class="${isOpen ? 'bg-emerald-500/15 text-emerald-400 border-emerald-500/30' : 'bg-rose-500/15 text-rose-400 border-rose-500/30'} border text-[10px] font-bold px-2 py-0.5 rounded-full shrink-0">
-                  ${isOpen ? '🟢 Ouvert' : '🔴 Clôturé'}
+
+                <!-- Statut Ouvert/Fermé -->
+                <span class="${isOpen ? 'bg-emerald-50 text-emerald-700 border-emerald-200' : 'bg-rose-50 text-rose-700 border-rose-200'} border text-[11px] font-bold px-2.5 py-1 rounded-full shrink-0 flex items-center gap-1">
+                  <span class="w-1.5 h-1.5 rounded-full ${isOpen ? 'bg-emerald-500' : 'bg-rose-500'}"></span>
+                  ${isOpen ? 'Ouvert' : 'Clôturé'}
                 </span>
               </div>
 
-              <div class="text-xs text-gray-400 space-y-1.5 my-3">
-                <div class="flex items-center gap-1.5">
-                  <i data-lucide="map-pin" class="w-3.5 h-3.5 text-gray-500"></i>
-                  <span>${j.location || 'Localisation non précisée'}</span>
+              <!-- Titre du poste -->
+              <h3 class="text-base font-bold text-slate-800 leading-snug mb-3">
+                ${j.title}
+              </h3>
+
+              <!-- Ville et Package -->
+              <div class="space-y-2 text-xs text-slate-600 bg-slate-50 p-3 rounded-xl border border-slate-100 mb-4">
+                <div class="flex items-center gap-2">
+                  <i data-lucide="map-pin" class="w-4 h-4 text-slate-400"></i>
+                  <strong class="text-slate-800">${j.location || 'Paris / Télétravail'}</strong>
                 </div>
+                ${j.salary ? `
+                <div class="flex items-center gap-2 text-emerald-700 font-semibold">
+                  <i data-lucide="banknote" class="w-4 h-4"></i>
+                  <span>${j.salary}</span>
+                </div>` : ''}
               </div>
 
-              <div class="flex flex-wrap gap-1 mt-3">
-                ${(j.tags || []).map(t => `<span class="px-2 py-0.5 rounded bg-gray-900 border border-gray-800 text-[10px] text-gray-300">${t}</span>`).join('')}
+              <!-- Tags techniques -->
+              <div class="flex flex-wrap gap-1.5">
+                ${(j.tags || []).map(t => `<span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 font-medium text-[11px] border border-slate-200">${t}</span>`).join('')}
               </div>
             </div>
 
-            <div class="mt-5 pt-3 border-t border-gray-800 flex items-center justify-between text-xs">
-              <span class="text-[11px] text-gray-500">${j.first_seen ? 'Détecté: ' + j.first_seen : ''}</span>
-              <a href="${j.url}" target="_blank" rel="noopener" class="${isOpen ? 'bg-indigo-600 hover:bg-indigo-500 text-white shadow-md shadow-indigo-600/30' : 'bg-gray-800 text-gray-500 pointer-events-none'} px-3 py-1.5 rounded-lg font-semibold flex items-center gap-1 transition">
-                ${isOpen ? 'Postuler direct' : 'Offre Close'} <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
-              </a>
+            <!-- Actions au bas de la carte -->
+            <div class="mt-6 pt-4 border-t border-slate-100 space-y-2">
+              <div class="flex items-center justify-between gap-2">
+                <!-- Bouton Trouver un Alumni LinkedIn -->
+                <a href="${linkedinQuery}" target="_blank" rel="noopener" class="text-xs font-semibold text-slate-700 bg-slate-100 hover:bg-indigo-50 hover:text-indigo-700 px-3 py-2 rounded-xl transition flex items-center gap-1.5 border border-slate-200">
+                  <i data-lucide="linkedin" class="w-3.5 h-3.5 text-blue-600"></i>
+                  <span>Alumni ${userSchool ? '(' + userSchool + ')' : ''}</span>
+                </a>
+
+                <!-- Bouton Postuler -->
+                <a href="${j.url}" target="_blank" rel="noopener" class="${isOpen ? 'bg-indigo-600 hover:bg-indigo-500 text-white shadow-md shadow-indigo-600/20' : 'bg-slate-200 text-slate-400 pointer-events-none'} text-xs font-bold px-4 py-2 rounded-xl transition flex items-center gap-1">
+                  <span>${isOpen ? 'Postuler direct' : 'Clôturé'}</span>
+                  <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+                </a>
+              </div>
             </div>
           </div>
         `;
@@ -413,26 +642,20 @@
 
     function initMap() {
       const map = L.map('map').setView([48.8566, 2.3522], 4);
-      L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-        attribution: '&copy; CARTO',
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; OpenStreetMap',
         maxZoom: 18
       }).addTo(map);
 
       const hubs = [
-        { name: "Paris (Silicon Sentier & Station F)", coords: [48.8672, 2.3490], desc: "Datadog, Mistral AI, Qonto, Doctolib, Payfit" },
-        { name: "Londres (Tech City & Shoreditch)", coords: [51.5130, -0.0905], desc: "Bloomberg, DeepMind, Deliveroo, Spotify UK" },
-        { name: "Zurich", coords: [47.3686, 8.5391], desc: "Google R&D Center, Apple ML Research, Meta" },
-        { name: "Amsterdam", coords: [52.3676, 4.9041], desc: "Uber EMEA HQ, Adyen, Booking.com" }
+        { name: "Paris (Sentier & Station F)", coords: [48.8672, 2.3490], desc: "Datadog, Mistral AI, Qonto, Doctolib, Payfit, Stripe FR" },
+        { name: "Londres (Tech City)", coords: [51.5130, -0.0905], desc: "Bloomberg, Palantir, DeepMind, Citadel, Spotify UK" },
+        { name: "Zurich", coords: [47.3686, 8.5391], desc: "Google R&D, Apple ML Research, Meta Zurich" },
+        { name: "Amsterdam", coords: [52.3676, 4.9041], desc: "Uber EMEA, Booking.com, Adyen" }
       ];
 
       hubs.forEach(h => {
-        L.circleMarker(h.coords, {
-          radius: 8,
-          fillColor: '#6366f1',
-          color: '#ffffff',
-          weight: 2,
-          fillOpacity: 0.95
-        }).addTo(map).bindPopup(`<div style="color:#111; font-family:sans-serif; font-size:12px;"><strong>${h.name}</strong><br><span style="color:#555;">${h.desc}</span></div>`);
+        L.marker(h.coords).addTo(map).bindPopup(`<div style="font-family:sans-serif; font-size:12px;"><strong>${h.name}</strong><br><span style="color:#555;">${h.desc}</span></div>`);
       });
     }
 
