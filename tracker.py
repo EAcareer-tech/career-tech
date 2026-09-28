@@ -77,10 +77,12 @@ COMMUNITY_FEEDS = [
 ]
 
 STUDENT_KEYWORDS = [
-    "intern", "internship", "stage", "stagiaire", "pfe",
+"intern", "internship", "stage", "stagiaire", "pfe",
     "graduate", "grad", "early career", "rotational",
     "alternan", "alternance", "apprenti", "apprentissage",
-    "junior", "associate"
+    "junior", "associate",
+    # Mots-clés Tech Sales & Business :
+    "sdr", "bdr", "sales development", "business development representative"
 ]
 
 JOBS_FILE = "jobs.json"
