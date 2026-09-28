@@ -5,161 +5,127 @@ from datetime import datetime
 import requests
 
 # ==============================================================================
-# 1. ENTREPRISES SURVEILLÉES VIA LEURS API ATS DIRECTES
+# 1. ENTREPRISES CIBLES AVEC FORTE ACTIVITÉ TECH SALES / SDR / BDR
 # ==============================================================================
-
-# Plateformes Greenhouse (Scale-ups, Licornes FR & Géants US)
 GREENHOUSE_TARGETS = [
-    # Licornes françaises & Européennes
+    # Licornes & Scale-ups France (Très fortes équipes Sales à Paris)
     {"name": "Datadog", "token": "datadog"},
-    {"name": "Mistral AI", "token": "mistralai"},
-    {"name": "Ledger", "token": "ledger"},
-    {"name": "Pigment", "token": "pigment"},
+    {"name": "Alan", "token": "alan"},
     {"name": "Contentsquare", "token": "contentsquare"},
-    {"name": "Back Market", "token": "backmarket"},
-    {"name": "Mirakl", "token": "mirakl"},
-    {"name": "Spendesk", "token": "spendesk"},
+    {"name": "Pigment", "token": "pigment"},
     {"name": "Swile", "token": "swile"},
+    {"name": "Spendesk", "token": "spendesk"},
+    {"name": "Mirakl", "token": "mirakl"},
+    {"name": "Pennylane", "token": "pennylane"},
+    {"name": "Malt", "token": "malt"},
 
-    # IA Générative & Cloud US
-    {"name": "Anthropic", "token": "anthropic"},
-    {"name": "Scale AI", "token": "scaleai"},
+    # Géants du SaaS & International
     {"name": "Stripe", "token": "stripe"},
-    {"name": "Figma", "token": "figma"},
     {"name": "Notion", "token": "notion"},
+    {"name": "Figma", "token": "figma"},
+    {"name": "HubSpot", "token": "hubspot"},
+    {"name": "Miro", "token": "miro"},
+    {"name": "Snowflake", "token": "snowflake"},
+    {"name": "Databricks", "token": "databricks"},
     {"name": "Cloudflare", "token": "cloudflare"},
     {"name": "GitLab", "token": "gitlab"},
-    {"name": "Vercel", "token": "vercel"},
-
-    # Plateformes Mondiales & Fintech
-    {"name": "Airbnb", "token": "airbnb"},
-    {"name": "Discord", "token": "discord"},
-    {"name": "Reddit", "token": "reddit"},
-    {"name": "Pinterest", "token": "pinterest"},
-    {"name": "Dropbox", "token": "dropbox"},
-    {"name": "Coinbase", "token": "coinbase"},
-    {"name": "Ramp", "token": "ramp"},
-    {"name": "Brex", "token": "brex"}
+    {"name": "Vercel", "token": "vercel"}
 ]
 
-# Plateformes Lever
 LEVER_TARGETS = [
-    {"name": "Spotify", "token": "spotify"},
     {"name": "Qonto", "token": "qonto"},
     {"name": "Payfit", "token": "payfit"},
-    {"name": "Alan", "token": "alan"},
-    {"name": "Pennylane", "token": "pennylane"},
-    {"name": "Cohere", "token": "cohere"}
+    {"name": "Spotify", "token": "spotify"}
 ]
 
-# Entreprises ciblées dans les flux communautaires Big Tech & Quant
-COMMUNITY_BIGTECH_TARGETS = [
-    # GAFAM & Big Tech
-    "google", "microsoft", "salesforce", "meta", "apple", 
-    "amazon", "palantir", "netflix", "uber", "adobe", "nvidia",
-    "tesla", "snowflake", "databricks", "atlassian", "mongodb", "intel", "amd",
-    
-    # Quant Trading & Finance Tech d'élite
-    "jane street", "citadel", "two sigma", "jump trading", 
-    "hudson river trading", "optiver", "bloomberg"
+SMARTRECRUITERS_TARGETS = [
+    {"name": "Doctolib", "token": "doctolib"}
 ]
 
-# Flux communautaires open source vérifiés
+# Géants Tech recrutant massivement en Sales Graduates (via flux communautaire)
+COMMUNITY_SALES_TARGETS = [
+    "salesforce", "oracle", "cisco", "bloomberg", "aws", "amazon",
+    "microsoft", "google", "sap", "servicenow", "adobe", "workday"
+]
+
 COMMUNITY_FEEDS = [
-    {
-        "category": "stage",
-        "url": "https://raw.githubusercontent.com/SimplifyJobs/Summer2026-Internships/dev/.github/scripts/listings.json"
-    },
     {
         "category": "graduate",
         "url": "https://raw.githubusercontent.com/SimplifyJobs/New-Grad-Positions/dev/.github/scripts/listings.json"
+    },
+    {
+        "category": "stage",
+        "url": "https://raw.githubusercontent.com/SimplifyJobs/Summer2026-Internships/dev/.github/scripts/listings.json"
     }
 ]
 
-STUDENT_KEYWORDS = [
-"intern", "internship", "stage", "stagiaire", "pfe",
-    "graduate", "grad", "early career", "rotational",
-    "alternan", "alternance", "apprenti", "apprentissage",
-    "junior", "associate",
-    # Mots-clés Tech Sales & Business :
-    "sdr", "bdr", "sales development", "business development representative"
+# Mots-clés OBLIGATOIRES pour qualifier une offre commerciale
+SALES_KEYWORDS = [
+    "sdr", "bdr", "sales development", "business development", 
+    "inside sales", "account executive", "commercial", "sales intern", 
+    "sales representative", "sales graduate", "sales academy",
+    "account manager", "growth sales", "sales trainee", "solution sales"
+]
+
+# Exclusion stricte des profils de développement et d'ingénierie technique
+EXCLUDE_KEYWORDS = [
+    "software engineer", "developer", "backend", "frontend", "fullstack",
+    "devops", "qa engineer", "infrastructure", "machine learning", "deep learning",
+    "hardware", "firmware", "site reliability", "security engineer"
 ]
 
 JOBS_FILE = "jobs.json"
-REQUEST_HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-}
 
 # ==============================================================================
-# 2. FONCTIONS DE FILTRAGE ET ANALYSE
+# 2. FILTRES SPÉCIALISÉS SALES
 # ==============================================================================
-def is_student_job(title: str) -> bool:
+def is_sales_job(title: str) -> bool:
     t = title.lower()
-    return any(k in t for k in STUDENT_KEYWORDS)
+    
+    # 1. Vérifier si un terme technique à exclure est présent
+    if any(ex in t for ex in EXCLUDE_KEYWORDS):
+        return False
+        
+    # 2. Vérifier si un rôle commercial est explicitement mentionné
+    return any(sk in t for sk in SALES_KEYWORDS)
 
-def detect_category(title: str, default_cat: str = "cdi") -> str:
+def detect_contract(title: str, default_cat: str = "cdi") -> str:
     t = title.lower()
-    if any(k in t for k in ["graduate", "rotational", "early career", "new grad"]):
+    if any(k in t for k in ["graduate", "rotational", "early career", "academy", "program"]):
         return "graduate"
     if any(k in t for k in ["alternan", "apprenti", "apprentissage"]):
         return "alternance"
-    if any(k in t for k in ["intern", "stage", "pfe", "stagiaire"]):
+    if any(k in t for k in ["intern", "stage", "pfe", "stagiaire", "trainee"]):
         return "stage"
     return default_cat
 
-def extract_tags(title: str) -> list:
-    known_tags = [
-        "Python", "Go", "Golang", "Java", "C++", "Rust", "TypeScript", 
-        "JavaScript", "React", "Node", "Backend", "Frontend", "Fullstack",
-        "Data", "AI", "Machine Learning", "LLM", "DevOps", "Cloud", 
-        "Security", "Cyber", "Product", "Mobile", "iOS", "Android", "Quant"
-    ]
+def extract_sales_tags(title: str) -> list:
     tags = []
-    for tag in known_tags:
-        if re.search(r'\b' + re.escape(tag) + r'\b', title, re.IGNORECASE):
-            tags.append(tag)
-    return tags if tags else ["Tech"]
+    t = title.lower()
+    if "sdr" in t or "sales development" in t:
+        tags.append("SDR")
+    if "bdr" in t or "business development" in t:
+        tags.append("BDR")
+    if "inbound" in t:
+        tags.append("Inbound")
+    if "outbound" in t:
+        tags.append("Outbound")
+    if "account executive" in t or "ae" in t:
+        tags.append("Account Executive")
+    if "graduate" in t or "academy" in t:
+        tags.append("Graduate Track")
+    if not tags:
+        tags = ["Tech Sales", "B2B SaaS"]
+    return tags
 
 # ==============================================================================
-# 3. COLLECTE DES OFFRES
+# 3. EXTRACTIONS DES PLATEFORMES CARRIÈRES
 # ==============================================================================
-def fetch_community_jobs():
-    jobs = []
-    for feed in COMMUNITY_FEEDS:
-        try:
-            res = requests.get(feed["url"], headers=REQUEST_HEADERS, timeout=12)
-            if res.status_code == 200:
-                data = res.json()
-                for item in data:
-                    comp_name = item.get("company_name", "").strip()
-                    comp_lower = comp_name.lower()
-
-                    if any(target in comp_lower for target in COMMUNITY_BIGTECH_TARGETS):
-                        if not item.get("active", True):
-                            continue
-
-                        locations = item.get("locations", [])
-                        loc_str = ", ".join(locations[:2]) if isinstance(locations, list) else str(locations)
-
-                        jobs.append({
-                            "id": f"comm_{comp_lower[:4]}_{abs(hash(item.get('url', '')))}",
-                            "title": item.get("title", "").strip(),
-                            "company": comp_name,
-                            "category": detect_category(item.get("title", ""), default_cat=feed["category"]),
-                            "status": "open",
-                            "location": loc_str if loc_str else "International / Multi",
-                            "url": item.get("url"),
-                            "tags": extract_tags(item.get("title", ""))
-                        })
-        except Exception as e:
-            print(f"[!] Erreur sur le flux communautaire ({feed['category']}): {e}")
-    return jobs
-
-def fetch_greenhouse_jobs(company: str, token: str) -> list:
+def fetch_greenhouse(company: str, token: str) -> list:
     jobs = []
     url = f"https://boards-api.greenhouse.io/v1/boards/{token}/jobs"
     try:
-        res = requests.get(url, headers=REQUEST_HEADERS, timeout=10)
+        res = requests.get(url, timeout=10)
         if res.status_code == 200:
             for item in res.json().get("jobs", []):
                 jobs.append({
@@ -173,11 +139,11 @@ def fetch_greenhouse_jobs(company: str, token: str) -> list:
         print(f"[!] Erreur Greenhouse ({company}): {e}")
     return jobs
 
-def fetch_lever_jobs(company: str, token: str) -> list:
+def fetch_lever(company: str, token: str) -> list:
     jobs = []
     url = f"https://api.lever.co/v0/postings/{token}?mode=json"
     try:
-        res = requests.get(url, headers=REQUEST_HEADERS, timeout=10)
+        res = requests.get(url, timeout=10)
         if res.status_code == 200:
             for item in res.json():
                 cat = item.get("categories", {})
@@ -192,12 +158,61 @@ def fetch_lever_jobs(company: str, token: str) -> list:
         print(f"[!] Erreur Lever ({company}): {e}")
     return jobs
 
+def fetch_smartrecruiters(company: str, token: str) -> list:
+    jobs = []
+    url = f"https://api.smartrecruiters.com/v1/companies/{token}/postings"
+    try:
+        res = requests.get(url, timeout=10)
+        if res.status_code == 200:
+            for item in res.json().get("content", []):
+                loc = item.get("location", {})
+                loc_str = f"{loc.get('city', '')}, {loc.get('country', '')}".strip(", ")
+                jobs.append({
+                    "id": f"sr_{token}_{item.get('id')}",
+                    "title": item.get("name", "").strip(),
+                    "company": company,
+                    "location": loc_str if loc_str else "Paris, France",
+                    "url": f"https://jobs.smartrecruiters.com/{token}/{item.get('id')}"
+                })
+    except Exception as e:
+        print(f"[!] Erreur SmartRecruiters ({company}): {e}")
+    return jobs
+
+def fetch_community_sales() -> list:
+    jobs = []
+    headers = {"User-Agent": "Mozilla/5.0"}
+    for feed in COMMUNITY_FEEDS:
+        try:
+            res = requests.get(feed["url"], headers=headers, timeout=12)
+            if res.status_code == 200:
+                for item in res.json():
+                    comp = item.get("company_name", "").strip()
+                    title = item.get("title", "").strip()
+                    if any(target in comp.lower() for target in COMMUNITY_SALES_TARGETS) and is_sales_job(title):
+                        if not item.get("active", True):
+                            continue
+                        locs = item.get("locations", [])
+                        loc_str = ", ".join(locs[:2]) if isinstance(locs, list) else str(locs)
+                        jobs.append({
+                            "id": f"comm_{comp[:4].lower()}_{abs(hash(item.get('url', '')))}",
+                            "title": title,
+                            "company": comp,
+                            "category": detect_contract(title, default_cat=feed["category"]),
+                            "status": "open",
+                            "location": loc_str if loc_str else "International",
+                            "url": item.get("url"),
+                            "tags": extract_sales_tags(title)
+                        })
+        except Exception as e:
+            print(f"[!] Erreur flux communautaire : {e}")
+    return jobs
+
 # ==============================================================================
-# 4. SYNCHRONISATION GLOBALE
+# 4. SYNCHRONISATION
 # ==============================================================================
 def main():
     now_str = datetime.now().strftime("%d/%m/%Y")
-    print(f"[{datetime.now().strftime('%H:%M:%S')}] Démarrage de la synchronisation étendue...")
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] Lancement du scan 100% TECH SALES...")
 
     old_jobs = {}
     if os.path.exists(JOBS_FILE):
@@ -206,70 +221,82 @@ def main():
                 for j in json.load(f):
                     old_jobs[j["id"]] = j
         except Exception as e:
-            print(f"[!] Impossible de charger {JOBS_FILE}: {e}")
+            print(f"[!] Erreur de lecture : {e}")
 
     current_seen_ids = set()
     updated_jobs = []
 
-    # 1. Collecte Big Tech & Quant (Google, Meta, Jane Street, Citadel...)
-    print("-> Scan Big Tech & Quant Trading...")
-    for job in fetch_community_jobs():
+    # 1. Greenhouse
+    for comp in GREENHOUSE_TARGETS:
+        for job in fetch_greenhouse(comp["name"], comp["token"]):
+            if is_sales_job(job["title"]):
+                current_seen_ids.add(job["id"])
+                is_new = job["id"] not in old_jobs
+                updated_jobs.append({
+                    "id": job["id"],
+                    "title": job["title"],
+                    "company": job["company"],
+                    "category": detect_contract(job["title"]),
+                    "status": "open",
+                    "location": job["location"],
+                    "url": job["url"],
+                    "tags": extract_sales_tags(job["title"]),
+                    "first_seen": old_jobs[job["id"]]["first_seen"] if not is_new else now_str
+                })
+
+    # 2. Lever
+    for comp in LEVER_TARGETS:
+        for job in fetch_lever(comp["name"], comp["token"]):
+            if is_sales_job(job["title"]):
+                current_seen_ids.add(job["id"])
+                is_new = job["id"] not in old_jobs
+                updated_jobs.append({
+                    "id": job["id"],
+                    "title": job["title"],
+                    "company": job["company"],
+                    "category": detect_contract(job["title"]),
+                    "status": "open",
+                    "location": job["location"],
+                    "url": job["url"],
+                    "tags": extract_sales_tags(job["title"]),
+                    "first_seen": old_jobs[job["id"]]["first_seen"] if not is_new else now_str
+                })
+
+    # 3. SmartRecruiters (Doctolib)
+    for comp in SMARTRECRUITERS_TARGETS:
+        for job in fetch_smartrecruiters(comp["name"], comp["token"]):
+            if is_sales_job(job["title"]):
+                current_seen_ids.add(job["id"])
+                is_new = job["id"] not in old_jobs
+                updated_jobs.append({
+                    "id": job["id"],
+                    "title": job["title"],
+                    "company": job["company"],
+                    "category": detect_contract(job["title"]),
+                    "status": "open",
+                    "location": job["location"],
+                    "url": job["url"],
+                    "tags": extract_sales_tags(job["title"]),
+                    "first_seen": old_jobs[job["id"]]["first_seen"] if not is_new else now_str
+                })
+
+    # 4. Big Tech Sales Graduates
+    for job in fetch_community_sales():
         current_seen_ids.add(job["id"])
         is_new = job["id"] not in old_jobs
         job["first_seen"] = old_jobs[job["id"]]["first_seen"] if not is_new else now_str
         updated_jobs.append(job)
 
-    # 2. Collecte Greenhouse (Datadog, Anthropic, Mistral, Scale AI, Pigment...)
-    print("-> Scan des plateformes Greenhouse...")
-    for comp in GREENHOUSE_TARGETS:
-        for job in fetch_greenhouse_jobs(comp["name"], comp["token"]):
-            if is_student_job(job["title"]):
-                current_seen_ids.add(job["id"])
-                is_new = job["id"] not in old_jobs
-                updated_jobs.append({
-                    "id": job["id"],
-                    "title": job["title"],
-                    "company": job["company"],
-                    "category": detect_category(job["title"]),
-                    "status": "open",
-                    "location": job["location"],
-                    "url": job["url"],
-                    "tags": extract_tags(job["title"]),
-                    "first_seen": old_jobs[job["id"]]["first_seen"] if not is_new else now_str
-                })
-
-    # 3. Collecte Lever (Spotify, Qonto, Alan, Pennylane, Payfit...)
-    print("-> Scan des plateformes Lever...")
-    for comp in LEVER_TARGETS:
-        for job in fetch_lever_jobs(comp["name"], comp["token"]):
-            if is_student_job(job["title"]):
-                current_seen_ids.add(job["id"])
-                is_new = job["id"] not in old_jobs
-                updated_jobs.append({
-                    "id": job["id"],
-                    "title": job["title"],
-                    "company": job["company"],
-                    "category": detect_category(job["title"]),
-                    "status": "open",
-                    "location": job["location"],
-                    "url": job["url"],
-                    "tags": extract_tags(job["title"]),
-                    "first_seen": old_jobs[job["id"]]["first_seen"] if not is_new else now_str
-                })
-
-    # 4. Identification des offres fermées
+    # 5. Détection des postes retirés
     for old_id, old_job in old_jobs.items():
         if old_id not in current_seen_ids:
             old_job["status"] = "closed"
             updated_jobs.append(old_job)
 
-    # Écriture dans jobs.json
     with open(JOBS_FILE, "w", encoding="utf-8") as f:
         json.dump(updated_jobs, f, indent=2, ensure_ascii=False)
 
-    open_total = sum(1 for j in updated_jobs if j["status"] == "open")
-    closed_total = sum(1 for j in updated_jobs if j["status"] == "closed")
-    print(f"[✓] Terminé avec succès : {open_total} postes ouverts et {closed_total} archivés sur plus de 60 entreprises.")
+    print(f"[✓] Terminé : {len(updated_jobs)} opportunités Tech Sales synchronisées.")
 
 if __name__ == "__main__":
     main()
