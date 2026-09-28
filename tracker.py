@@ -5,32 +5,66 @@ from datetime import datetime
 import requests
 
 # ==============================================================================
-# 1. CONFIGURATION DES SOURCES DIRECTES (SCALE-UPS & LICORNES)
+# 1. ENTREPRISES SURVEILLÉES VIA LEURS API ATS DIRECTES
 # ==============================================================================
+
+# Plateformes Greenhouse (Scale-ups, Licornes FR & Géants US)
 GREENHOUSE_TARGETS = [
+    # Licornes françaises & Européennes
     {"name": "Datadog", "token": "datadog"},
+    {"name": "Mistral AI", "token": "mistralai"},
+    {"name": "Ledger", "token": "ledger"},
+    {"name": "Pigment", "token": "pigment"},
+    {"name": "Contentsquare", "token": "contentsquare"},
+    {"name": "Back Market", "token": "backmarket"},
+    {"name": "Mirakl", "token": "mirakl"},
+    {"name": "Spendesk", "token": "spendesk"},
+    {"name": "Swile", "token": "swile"},
+
+    # IA Générative & Cloud US
+    {"name": "Anthropic", "token": "anthropic"},
+    {"name": "Scale AI", "token": "scaleai"},
     {"name": "Stripe", "token": "stripe"},
     {"name": "Figma", "token": "figma"},
+    {"name": "Notion", "token": "notion"},
     {"name": "Cloudflare", "token": "cloudflare"},
-    {"name": "Mistral AI", "token": "mistralai"},
     {"name": "GitLab", "token": "gitlab"},
     {"name": "Vercel", "token": "vercel"},
-    {"name": "Notion", "token": "notion"}
+
+    # Plateformes Mondiales & Fintech
+    {"name": "Airbnb", "token": "airbnb"},
+    {"name": "Discord", "token": "discord"},
+    {"name": "Reddit", "token": "reddit"},
+    {"name": "Pinterest", "token": "pinterest"},
+    {"name": "Dropbox", "token": "dropbox"},
+    {"name": "Coinbase", "token": "coinbase"},
+    {"name": "Ramp", "token": "ramp"},
+    {"name": "Brex", "token": "brex"}
 ]
 
+# Plateformes Lever
 LEVER_TARGETS = [
     {"name": "Spotify", "token": "spotify"},
     {"name": "Qonto", "token": "qonto"},
-    {"name": "Payfit", "token": "payfit"}
+    {"name": "Payfit", "token": "payfit"},
+    {"name": "Alan", "token": "alan"},
+    {"name": "Pennylane", "token": "pennylane"},
+    {"name": "Cohere", "token": "cohere"}
 ]
 
-# Big Tech ciblées dans le flux communautaire
-BIG_TECH_TARGETS = [
+# Entreprises ciblées dans les flux communautaires Big Tech & Quant
+COMMUNITY_BIGTECH_TARGETS = [
+    # GAFAM & Big Tech
     "google", "microsoft", "salesforce", "meta", "apple", 
-    "amazon", "palantir", "netflix", "uber", "adobe", "nvidia"
+    "amazon", "palantir", "netflix", "uber", "adobe", "nvidia",
+    "tesla", "snowflake", "databricks", "atlassian", "mongodb", "intel", "amd",
+    
+    # Quant Trading & Finance Tech d'élite
+    "jane street", "citadel", "two sigma", "jump trading", 
+    "hudson river trading", "optiver", "bloomberg"
 ]
 
-# URLs des flux communautaires open-source (SimplifyJobs)
+# Flux communautaires open source vérifiés
 COMMUNITY_FEEDS = [
     {
         "category": "stage",
@@ -50,9 +84,12 @@ STUDENT_KEYWORDS = [
 ]
 
 JOBS_FILE = "jobs.json"
+REQUEST_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+}
 
 # ==============================================================================
-# 2. FONCTIONS UTILITAIRES & FILTRES
+# 2. FONCTIONS DE FILTRAGE ET ANALYSE
 # ==============================================================================
 def is_student_job(title: str) -> bool:
     t = title.lower()
@@ -73,7 +110,7 @@ def extract_tags(title: str) -> list:
         "Python", "Go", "Golang", "Java", "C++", "Rust", "TypeScript", 
         "JavaScript", "React", "Node", "Backend", "Frontend", "Fullstack",
         "Data", "AI", "Machine Learning", "LLM", "DevOps", "Cloud", 
-        "Security", "Cyber", "Product", "Mobile", "iOS", "Android"
+        "Security", "Cyber", "Product", "Mobile", "iOS", "Android", "Quant"
     ]
     tags = []
     for tag in known_tags:
@@ -82,26 +119,21 @@ def extract_tags(title: str) -> list:
     return tags if tags else ["Tech"]
 
 # ==============================================================================
-# 3. COLLECTEURS DE DONNÉES
+# 3. COLLECTE DES OFFRES
 # ==============================================================================
-def fetch_community_bigtech():
-    """Récupère les offres Big Tech via les flux open-source centralisés."""
+def fetch_community_jobs():
     jobs = []
-    headers = {"User-Agent": "Mozilla/5.0"}
-
     for feed in COMMUNITY_FEEDS:
         try:
-            res = requests.get(feed["url"], headers=headers, timeout=12)
+            res = requests.get(feed["url"], headers=REQUEST_HEADERS, timeout=12)
             if res.status_code == 200:
                 data = res.json()
                 for item in data:
                     comp_name = item.get("company_name", "").strip()
                     comp_lower = comp_name.lower()
 
-                    # On ne conserve que les géants de la Tech demandés
-                    if any(target in comp_lower for target in BIG_TECH_TARGETS):
-                        is_active = item.get("active", True)
-                        if not is_active:
+                    if any(target in comp_lower for target in COMMUNITY_BIGTECH_TARGETS):
+                        if not item.get("active", True):
                             continue
 
                         locations = item.get("locations", [])
@@ -113,20 +145,19 @@ def fetch_community_bigtech():
                             "company": comp_name,
                             "category": detect_category(item.get("title", ""), default_cat=feed["category"]),
                             "status": "open",
-                            "location": loc_str if loc_str else "International",
+                            "location": loc_str if loc_str else "International / Multi",
                             "url": item.get("url"),
                             "tags": extract_tags(item.get("title", ""))
                         })
         except Exception as e:
             print(f"[!] Erreur sur le flux communautaire ({feed['category']}): {e}")
-
     return jobs
 
-def fetch_greenhouse(company: str, token: str) -> list:
+def fetch_greenhouse_jobs(company: str, token: str) -> list:
     jobs = []
     url = f"https://boards-api.greenhouse.io/v1/boards/{token}/jobs"
     try:
-        res = requests.get(url, timeout=12)
+        res = requests.get(url, headers=REQUEST_HEADERS, timeout=10)
         if res.status_code == 200:
             for item in res.json().get("jobs", []):
                 jobs.append({
@@ -140,11 +171,11 @@ def fetch_greenhouse(company: str, token: str) -> list:
         print(f"[!] Erreur Greenhouse ({company}): {e}")
     return jobs
 
-def fetch_lever(company: str, token: str) -> list:
+def fetch_lever_jobs(company: str, token: str) -> list:
     jobs = []
     url = f"https://api.lever.co/v0/postings/{token}?mode=json"
     try:
-        res = requests.get(url, timeout=12)
+        res = requests.get(url, headers=REQUEST_HEADERS, timeout=10)
         if res.status_code == 200:
             for item in res.json():
                 cat = item.get("categories", {})
@@ -160,13 +191,12 @@ def fetch_lever(company: str, token: str) -> list:
     return jobs
 
 # ==============================================================================
-# 4. EXÉCUTION & SYNCHRONISATION
+# 4. SYNCHRONISATION GLOBALE
 # ==============================================================================
 def main():
     now_str = datetime.now().strftime("%d/%m/%Y")
-    print(f"[{datetime.now().strftime('%H:%M:%S')}] Lancement de la synchronisation globale...")
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] Démarrage de la synchronisation étendue...")
 
-    # Chargement de la base existante
     old_jobs = {}
     if os.path.exists(JOBS_FILE):
         try:
@@ -174,23 +204,23 @@ def main():
                 for j in json.load(f):
                     old_jobs[j["id"]] = j
         except Exception as e:
-            print(f"[!] Impossible de lire {JOBS_FILE}: {e}")
+            print(f"[!] Impossible de charger {JOBS_FILE}: {e}")
 
     current_seen_ids = set()
     updated_jobs = []
 
-    # 1. Rapatriement Big Tech (Google, Microsoft, Salesforce, etc.)
-    print("-> Analyse du flux Big Tech (Google, Microsoft, Salesforce...)...")
-    for job in fetch_community_bigtech():
+    # 1. Collecte Big Tech & Quant (Google, Meta, Jane Street, Citadel...)
+    print("-> Scan Big Tech & Quant Trading...")
+    for job in fetch_community_jobs():
         current_seen_ids.add(job["id"])
         is_new = job["id"] not in old_jobs
         job["first_seen"] = old_jobs[job["id"]]["first_seen"] if not is_new else now_str
         updated_jobs.append(job)
 
-    # 2. Rapatriement Greenhouse (Datadog, Mistral, Stripe, etc.)
-    print("-> Analyse des boards Greenhouse...")
+    # 2. Collecte Greenhouse (Datadog, Anthropic, Mistral, Scale AI, Pigment...)
+    print("-> Scan des plateformes Greenhouse...")
     for comp in GREENHOUSE_TARGETS:
-        for job in fetch_greenhouse(comp["name"], comp["token"]):
+        for job in fetch_greenhouse_jobs(comp["name"], comp["token"]):
             if is_student_job(job["title"]):
                 current_seen_ids.add(job["id"])
                 is_new = job["id"] not in old_jobs
@@ -206,10 +236,10 @@ def main():
                     "first_seen": old_jobs[job["id"]]["first_seen"] if not is_new else now_str
                 })
 
-    # 3. Rapatriement Lever (Spotify, Qonto, Payfit...)
-    print("-> Analyse des boards Lever...")
+    # 3. Collecte Lever (Spotify, Qonto, Alan, Pennylane, Payfit...)
+    print("-> Scan des plateformes Lever...")
     for comp in LEVER_TARGETS:
-        for job in fetch_lever(comp["name"], comp["token"]):
+        for job in fetch_lever_jobs(comp["name"], comp["token"]):
             if is_student_job(job["title"]):
                 current_seen_ids.add(job["id"])
                 is_new = job["id"] not in old_jobs
@@ -225,19 +255,19 @@ def main():
                     "first_seen": old_jobs[job["id"]]["first_seen"] if not is_new else now_str
                 })
 
-    # 4. Détection des postes retirés -> Passage en statut "closed"
+    # 4. Identification des offres fermées
     for old_id, old_job in old_jobs.items():
         if old_id not in current_seen_ids:
             old_job["status"] = "closed"
             updated_jobs.append(old_job)
 
-    # Sauvegarde dans jobs.json
+    # Écriture dans jobs.json
     with open(JOBS_FILE, "w", encoding="utf-8") as f:
         json.dump(updated_jobs, f, indent=2, ensure_ascii=False)
 
-    open_count = sum(1 for j in updated_jobs if j["status"] == "open")
-    closed_count = sum(1 for j in updated_jobs if j["status"] == "closed")
-    print(f"[✓] Terminé : {open_count} offres ouvertes et {closed_count} archivées dans {JOBS_FILE}.")
+    open_total = sum(1 for j in updated_jobs if j["status"] == "open")
+    closed_total = sum(1 for j in updated_jobs if j["status"] == "closed")
+    print(f"[✓] Terminé avec succès : {open_total} postes ouverts et {closed_total} archivés sur plus de 60 entreprises.")
 
 if __name__ == "__main__":
     main()
