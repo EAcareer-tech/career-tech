@@ -1,5 +1,2986 @@
 [
   {
+    "id": "comm_pala_3909188513343145466",
+    "title": "Forward Deployed Software Engineer Intern",
+    "company": "Palantir",
+    "category": "stage",
+    "status": "open",
+    "location": "NYC",
+    "url": "https://jobs.lever.co/palantir/ac0dc094-2480-43c2-8495-26ade227ff4f/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_netf_6513817688060867532",
+    "title": "Video Algorithms Intern - Video Coding - Gaussian Splatting",
+    "company": "Netflix",
+    "category": "stage",
+    "status": "open",
+    "location": "LA, Los Gatos, CA",
+    "url": "https://explore.jobs.netflix.net/careers/job/790315673635",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_sale_4199074139771097265",
+    "title": "Software Engineer Intern",
+    "company": "Salesforce",
+    "category": "stage",
+    "status": "open",
+    "location": "Palo Alto, CA, Seattle, WA",
+    "url": "https://salesforce.wd12.myworkdayjobs.com/Futureforce_Internships/job/California---San-Francisco/Summer-2027-Intern---Software-Engineer_JR340771",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_sale_8770187445458921764",
+    "title": "Software Engineer Intern",
+    "company": "Salesforce",
+    "category": "stage",
+    "status": "open",
+    "location": "Palo Alto, CA, Seattle, WA",
+    "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Summer-2027-Intern---Software-Engineer_JR340771-1",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_6421970762817181546",
+    "title": "Year at Palantir Intern - Forward Deployed Software Engineer",
+    "company": "Palantir",
+    "category": "stage",
+    "status": "open",
+    "location": "Washington, DC",
+    "url": "https://jobs.lever.co/palantir/5c4c65c5-77da-4d36-856c-4ade87631019/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_1601147148479926438",
+    "title": "Year at Palantir Intern - Forward Deployed Software Engineer - Commercial",
+    "company": "Palantir",
+    "category": "stage",
+    "status": "open",
+    "location": "NYC",
+    "url": "https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_1947537937183427544",
+    "title": "Palantir Intern - Software Engineer",
+    "company": "Palantir",
+    "category": "stage",
+    "status": "open",
+    "location": "NYC",
+    "url": "https://jobs.lever.co/palantir/655f9937-a4ce-4e7d-80e2-a6659af07329/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_5782207839021712663",
+    "title": "Year at Palantir Intern - Forward Deployed Software Engineer",
+    "company": "Palantir",
+    "category": "stage",
+    "status": "open",
+    "location": "NYC",
+    "url": "https://jobs.lever.co/palantir/5c7bb70c-83ea-43e7-8055-0c8f319f4333/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_4483085148733819040",
+    "title": "Software PhD Intern",
+    "company": "Apple",
+    "category": "stage",
+    "status": "open",
+    "location": "United States",
+    "url": "https://jobs.apple.com/en-us/details/200664323",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_6184314295814233718",
+    "title": "Undergrad Engineering Intern",
+    "company": "Apple",
+    "category": "stage",
+    "status": "open",
+    "location": "United States",
+    "url": "https://jobs.apple.com/en-us/details/200663968",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_7086429354528172334",
+    "title": "Hardware Technologies Engineering Intern",
+    "company": "Apple",
+    "category": "stage",
+    "status": "open",
+    "location": "United States",
+    "url": "https://jobs.apple.com/en-us/details/200664383",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_7052988446285497208",
+    "title": "Software Undergrad Engineer Intern",
+    "company": "Apple",
+    "category": "stage",
+    "status": "open",
+    "location": "United States",
+    "url": "https://jobs.apple.com/en-us/details/200664785",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_7240918118945219321",
+    "title": "Software Engineering Masters Intern",
+    "company": "Apple",
+    "category": "stage",
+    "status": "open",
+    "location": "United States",
+    "url": "https://jobs.apple.com/en-us/details/200664320",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_5319279715474147540",
+    "title": "Hardware Engineering Intern",
+    "company": "Apple",
+    "category": "stage",
+    "status": "open",
+    "location": "United States",
+    "url": "https://jobs.apple.com/en-us/details/200663981",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_3079690919757261047",
+    "title": "Machine Learning and Artificial Intelligence Undergraduate Intern",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "United States",
+    "url": "https://jobs.apple.com/en-us/details/200664780",
+    "tags": [
+      "Machine Learning"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_9077515654785667822",
+    "title": "Machine Learning and Artificial Intelligence Intern",
+    "company": "Apple",
+    "category": "stage",
+    "status": "open",
+    "location": "United States",
+    "url": "https://jobs.apple.com/en-us/details/200664221",
+    "tags": [
+      "Machine Learning"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_2544635672609105913",
+    "title": "Hardware Technologies PhD Intern",
+    "company": "Apple",
+    "category": "stage",
+    "status": "open",
+    "location": "United States",
+    "url": "https://jobs.apple.com/en-us/details/200664414",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_7871371034492668935",
+    "title": "Hardware Engineering Intern",
+    "company": "Apple",
+    "category": "stage",
+    "status": "open",
+    "location": "United States",
+    "url": "https://jobs.apple.com/en-us/details/200664419",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_2352815224279021262",
+    "title": "Machine Learning and Artificial Intelligence PhD Intern",
+    "company": "Apple",
+    "category": "stage",
+    "status": "open",
+    "location": "United States",
+    "url": "https://jobs.apple.com/en-us/details/200664223",
+    "tags": [
+      "Machine Learning"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_meta_2709303957919495168",
+    "title": "Research Scientist Intern - AI Alignment",
+    "company": "Meta",
+    "category": "stage",
+    "status": "open",
+    "location": "Boston, MA, Seattle, WA",
+    "url": "https://www.metacareers.com/jobs/1782902493113620",
+    "tags": [
+      "AI"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_8770500926194844166",
+    "title": "Forward Deployed Software Engineer Intern - Defense Tech",
+    "company": "Palantir",
+    "category": "stage",
+    "status": "open",
+    "location": "Washington, DC",
+    "url": "https://jobs.lever.co/palantir/cccfe1bd-f15b-4fe5-b044-c793e7961c1b/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_258663626116182056",
+    "title": "Forward Deployed Software Engineer Intern",
+    "company": "Palantir",
+    "category": "stage",
+    "status": "open",
+    "location": "NYC",
+    "url": "https://jobs.lever.co/palantir/e0010393-c300-446f-bf67-fa2ef067f16f/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_2224600059141726776",
+    "title": "Forward Deployed Software Engineer Intern - US Government",
+    "company": "Palantir",
+    "category": "stage",
+    "status": "open",
+    "location": "Washington, DC",
+    "url": "https://jobs.lever.co/palantir/e6ff8bf2-135e-474d-ad37-24f490ae1dd2/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_2396016557213138818",
+    "title": "Software Engineer Intern",
+    "company": "Palantir",
+    "category": "stage",
+    "status": "open",
+    "location": "NYC",
+    "url": "https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_1693525978866121015",
+    "title": "Software Engineer Intern",
+    "company": "Palantir",
+    "category": "stage",
+    "status": "open",
+    "location": "Denver, CO",
+    "url": "https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_4141853665747964120",
+    "title": "Software Engineer Intern",
+    "company": "Palantir",
+    "category": "stage",
+    "status": "open",
+    "location": "Palo Alto, CA",
+    "url": "https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_7771480490201519633",
+    "title": "Software Engineer Intern - Defense Tech",
+    "company": "Palantir",
+    "category": "stage",
+    "status": "open",
+    "location": "Washington, DC",
+    "url": "https://jobs.lever.co/palantir/f17e98d0-046a-4e6e-9d65-ed0b12dd0ff7/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_6315703170582686108",
+    "title": "Software Engineer Intern",
+    "company": "Palantir",
+    "category": "stage",
+    "status": "open",
+    "location": "Washington, DC",
+    "url": "https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_917283025264556426",
+    "title": "Forward Deployed Software Engineer Intern - Commercial",
+    "company": "Palantir",
+    "category": "stage",
+    "status": "open",
+    "location": "Chicago, IL",
+    "url": "https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_7917038507006199243",
+    "title": "Palantir Software Engineer Intern - Forward Deployed Software Engineer - Commercial",
+    "company": "Palantir",
+    "category": "stage",
+    "status": "open",
+    "location": "Chicago, IL",
+    "url": "https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_3642659768848539861",
+    "title": "Software Engineer Intern - Production Infrastructure",
+    "company": "Palantir",
+    "category": "stage",
+    "status": "open",
+    "location": "Seattle, WA",
+    "url": "https://jobs.lever.co/palantir/373367a9-3160-49d8-b7af-2efec062fad1/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_7606576104858798653",
+    "title": "Software Engineer Intern - Production Infrastructure",
+    "company": "Palantir",
+    "category": "stage",
+    "status": "open",
+    "location": "Washington, DC",
+    "url": "https://jobs.lever.co/palantir/3ab9e715-1ea9-4c6c-ad50-7340eac14e86/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_3548982859804856911",
+    "title": "Forward Deployed Software Engineer Intern - Commercial",
+    "company": "Palantir",
+    "category": "stage",
+    "status": "open",
+    "location": "NYC",
+    "url": "https://jobs.lever.co/palantir/4d29249a-d7e8-4c39-880d-3b35d7b2f6f6/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_netf_3408113399750542836",
+    "title": "AI/ML Scientist Intern - AIMS AI Foundations",
+    "company": "Netflix",
+    "category": "stage",
+    "status": "open",
+    "location": "Los Gatos, CA",
+    "url": "https://explore.jobs.netflix.net/careers/job/790316547536",
+    "tags": [
+      "AI"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_7292173078592035879",
+    "title": "Privacy and Civil Liberties Software Engineer Intern",
+    "company": "Palantir",
+    "category": "stage",
+    "status": "open",
+    "location": "NYC",
+    "url": "https://jobs.lever.co/palantir/09846827-b931-4a9f-bd64-c3bb8860187b/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_8691604315383632709",
+    "title": "Software Engineer Intern - Defense Tech",
+    "company": "Palantir",
+    "category": "stage",
+    "status": "open",
+    "location": "Palo Alto, CA",
+    "url": "https://jobs.lever.co/palantir/a483f41b-0da9-42ea-8ed6-cbf6eb93cc6d/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_4209034105763958495",
+    "title": "Software Engineer Intern - Defense Tech",
+    "company": "Palantir",
+    "category": "stage",
+    "status": "open",
+    "location": "NYC",
+    "url": "https://jobs.lever.co/palantir/8bcf4f33-0a79-4248-bbfd-49ac4be9dd8e/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_amaz_8481951079111714295",
+    "title": "Software Development Engineer Apprentice - Military Veterans",
+    "company": "Amazon",
+    "category": "alternance",
+    "status": "open",
+    "location": "Arlington, VA, Bellevue, WA",
+    "url": "https://amazon.jobs/en/jobs/3188438/software-development-engineer-apprentice-military-veterans",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_goog_2345960346003946995",
+    "title": "Student Researcher",
+    "company": "Google",
+    "category": "stage",
+    "status": "open",
+    "location": "Toronto, ON, Canada, Kitchener, ON, Canada",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/113855697199735494",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_goog_8938427905041671628",
+    "title": "Student Researcher",
+    "company": "Google",
+    "category": "stage",
+    "status": "open",
+    "location": "Toronto, ON, Canada, Kitchener, ON, Canada",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/128430823337534150",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_7845618397557328493",
+    "title": "Applied Data Solutions Program Intern",
+    "company": "Apple",
+    "category": "stage",
+    "status": "open",
+    "location": "Austin, TX",
+    "url": "https://jobs.apple.com/en-us/details/200673612",
+    "tags": [
+      "Data"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_6868091304279252059",
+    "title": "Forward Deployed Software Engineer Intern - Commercial",
+    "company": "Palantir",
+    "category": "stage",
+    "status": "open",
+    "location": "London, UK",
+    "url": "https://jobs.lever.co/palantir/599b1907-aba1-4303-837b-66e69a521636/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_2488035042035845145",
+    "title": "Software Engineer Intern",
+    "company": "Palantir",
+    "category": "stage",
+    "status": "open",
+    "location": "London, UK",
+    "url": "https://jobs.lever.co/palantir/76a60923-bb49-40f5-b061-7c7eb1299602/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_6974789944941724240",
+    "title": "Forward Deployed Software Engineer Intern",
+    "company": "Palantir",
+    "category": "stage",
+    "status": "open",
+    "location": "London, UK",
+    "url": "https://jobs.lever.co/palantir/26e23f5d-083b-45aa-b223-1a6e43d960bf/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_goog_4423437015890924014",
+    "title": "Data Science PhD Intern",
+    "company": "Google",
+    "category": "stage",
+    "status": "open",
+    "location": "London, UK",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/73321728058499782",
+    "tags": [
+      "Data"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_goog_9166975661596959336",
+    "title": "Research Scientist PhD Intern",
+    "company": "Google",
+    "category": "stage",
+    "status": "open",
+    "location": "London, UK",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/134795423167455942",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_1768116946058287458",
+    "title": "Hardware ASIC Design Intern - Hardware",
+    "company": "NVIDIA",
+    "category": "stage",
+    "status": "open",
+    "location": "Santa Clara, CA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-ASIC-Design_JR2023486",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_4332102172094426907",
+    "title": "Systems Software Engineering Intern",
+    "company": "NVIDIA",
+    "category": "stage",
+    "status": "open",
+    "location": "Santa Clara, CA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Systems-Software-Engineering_JR2023492",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_6646988630844646500",
+    "title": "Hardware Engineering Intern",
+    "company": "NVIDIA",
+    "category": "stage",
+    "status": "open",
+    "location": "Santa Clara, CA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Engineering_JR2023508-1",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_2128704933446750768",
+    "title": "Deep Learning Intern - Deep Learning Applications and Algorithms - Deep Learning Frameworks and Libraries",
+    "company": "NVIDIA",
+    "category": "stage",
+    "status": "open",
+    "location": "Santa Clara, CA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning_JR2023497-1",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_6720047976129210890",
+    "title": "Hardware Physical Design / VLSI Intern",
+    "company": "NVIDIA",
+    "category": "stage",
+    "status": "open",
+    "location": "Santa Clara, CA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Physical-Design---VLSI_JR2023501",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_8271813309973679291",
+    "title": "Hardware Verification Intern",
+    "company": "NVIDIA",
+    "category": "stage",
+    "status": "open",
+    "location": "Santa Clara, CA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Verification_JR2023500",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_1955951897395319353",
+    "title": "Software Engineering Intern",
+    "company": "NVIDIA",
+    "category": "stage",
+    "status": "open",
+    "location": "Canada, Santa Clara, CA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_7017920926599524824",
+    "title": "Deep Learning Computer Architecture Intern",
+    "company": "NVIDIA",
+    "category": "stage",
+    "status": "open",
+    "location": "Santa Clara, CA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning-Computer-Architecture_JR2023491",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_7777755939680821898",
+    "title": "Hardware Design for Test Intern - DFT",
+    "company": "NVIDIA",
+    "category": "stage",
+    "status": "open",
+    "location": "Santa Clara, CA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Design-for-Test--DFT-_JR2023487-1",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_8709343077776045471",
+    "title": "Mixed Signal Design Intern",
+    "company": "NVIDIA",
+    "category": "stage",
+    "status": "open",
+    "location": "Santa Clara, CA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Mixed-Signal-Design_JR2023502",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_goog_5847872246284520410",
+    "title": "Software Engineer Intern",
+    "company": "Google",
+    "category": "stage",
+    "status": "open",
+    "location": "Palo Alto, CA, Cambridge, MA",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/91436104816698054",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_goog_2877508578923936834",
+    "title": "Software Developer Intern",
+    "company": "Google",
+    "category": "stage",
+    "status": "open",
+    "location": "Montreal, QC, Canada, Toronto, ON, Canada",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/112518690523488966",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_goog_8611267116769646513",
+    "title": "Research Intern - PhD",
+    "company": "Google",
+    "category": "stage",
+    "status": "open",
+    "location": "Palo Alto, CA, Cambridge, MA",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/86701057991680710",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_7817779530417414740",
+    "title": "GPU Intern",
+    "company": "Apple",
+    "category": "stage",
+    "status": "open",
+    "location": "London, UK, Cambridge, UK",
+    "url": "https://jobs.apple.com/en-us/details/200679650",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_2278115065571699657",
+    "title": "GPU Intern",
+    "company": "Apple",
+    "category": "stage",
+    "status": "open",
+    "location": "London, UK, Cambridge, UK",
+    "url": "https://jobs.apple.com/en-us/details/200679652",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_prim_1621860038858806428",
+    "title": "IT Data & Analytics Intern - Asset Demand & Procurement",
+    "company": "Primetals Technologies",
+    "category": "stage",
+    "status": "open",
+    "location": "Lake Mary, FL",
+    "url": "https://mhicareers.com/job/Lake-Mary-IT-Data-&-Analytics-Intern-FL-32746/1429739133/?ats=successfactors",
+    "tags": [
+      "Data"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_netf_5521104644913408368",
+    "title": "Machine Learning Scientist Intern - AI",
+    "company": "Netflix",
+    "category": "stage",
+    "status": "open",
+    "location": "Los Gatos, CA",
+    "url": "https://explore.jobs.netflix.net/careers/job/790317916733",
+    "tags": [
+      "AI",
+      "Machine Learning"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_amaz_387874612165655065",
+    "title": "Software Development Engineer Intern - Annapurna Labs",
+    "company": "Amazon",
+    "category": "stage",
+    "status": "open",
+    "location": "Seattle, WA, Austin, TX",
+    "url": "https://amazon.jobs/en/jobs/10517567/software-development-engineer-intern-annapurna-labs-2027",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_adob_5694146288157610893",
+    "title": "Machine Learning Engineer Intern",
+    "company": "Adobe",
+    "category": "stage",
+    "status": "open",
+    "location": "Seattle, WA, SF",
+    "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Machine-Learning-Engineer_R171519",
+    "tags": [
+      "Machine Learning"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_micr_7155148880763525399",
+    "title": "Data Scientist Intern",
+    "company": "Microsoft",
+    "category": "stage",
+    "status": "open",
+    "location": "Redmond, WA",
+    "url": "https://apply.careers.microsoft.com/careers/job/1970393556982928",
+    "tags": [
+      "Data"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_565523392146490179",
+    "title": "Digital Circuit Design Intern",
+    "company": "NVIDIA",
+    "category": "stage",
+    "status": "open",
+    "location": "Santa Clara, CA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Digital-Circuit-Design_JR2023504",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_goog_5211579145222661690",
+    "title": "Software Engineering or Site Reliability Engineering PhD Intern",
+    "company": "Google",
+    "category": "stage",
+    "status": "open",
+    "location": "London, UK",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/80037545080955590",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_comm_4292165433041186845",
+    "title": "AI Intern",
+    "company": "Commercial Metals",
+    "category": "stage",
+    "status": "open",
+    "location": "Irving, TX",
+    "url": "https://jobs.cmc.com/job/Irving-AI-Intern-SIOP-TX-75039/1417644400/?ats=successfactors",
+    "tags": [
+      "AI"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_adob_1583132975540388108",
+    "title": "Software Engineer Intern",
+    "company": "Adobe",
+    "category": "stage",
+    "status": "open",
+    "location": "Seattle, WA, SF",
+    "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Software-Engineer_R171666",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_amaz_5365081490458216624",
+    "title": "Software Development Engineer Intern - Robotics",
+    "company": "Amazon",
+    "category": "stage",
+    "status": "open",
+    "location": "Seattle, WA, Nashville, TN",
+    "url": "https://amazon.jobs/en/jobs/10529525/software-development-engineer-intern-robotics-2027",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_amaz_1889537728601890345",
+    "title": "Applied Science Intern - Automated Reasoning - PhD Student Science Recruiting",
+    "company": "Amazon",
+    "category": "stage",
+    "status": "open",
+    "location": "Seattle, WA",
+    "url": "https://amazon.jobs/en/jobs/10394156/2026-fall-applied-science-internship-automated-reasoning-united-states-phd-student-science-recruiting",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_3654022907050666193",
+    "title": "Formal Verification Intern",
+    "company": "Apple",
+    "category": "stage",
+    "status": "open",
+    "location": "St Albans, UK",
+    "url": "https://jobs.apple.com/en-us/details/200681934",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_7465920073903686735",
+    "title": "GPU Intern - Multiple Teams",
+    "company": "Apple",
+    "category": "stage",
+    "status": "open",
+    "location": "London, UK, Cambridge, UK",
+    "url": "https://jobs.apple.com/en-us/details/200682357",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_micr_1561473130270379023",
+    "title": "Robotics Systems and Control Intern",
+    "company": "Microsoft",
+    "category": "stage",
+    "status": "open",
+    "location": "Cambridge, UK",
+    "url": "https://apply.careers.microsoft.com/careers/job/1970393556991724",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_amaz_5420106959738972698",
+    "title": "Machine Learning Systems Software Development Engineer Intern - Annapurna Labs",
+    "company": "Amazon",
+    "category": "stage",
+    "status": "open",
+    "location": "Toronto, ON, Canada",
+    "url": "https://amazon.jobs/en/jobs/10538066/ml-systems-software-development-engineer-intern-annapurna-labs-2027",
+    "tags": [
+      "Machine Learning"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_micr_7605275704286044120",
+    "title": "Software Engineer Intern",
+    "company": "Microsoft",
+    "category": "stage",
+    "status": "open",
+    "location": "Redmond, WA",
+    "url": "https://apply.careers.microsoft.com/careers/job/1970393556983221",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_micr_8066521861543810609",
+    "title": "Product Manager Intern - Specialized Cloud",
+    "company": "Microsoft",
+    "category": "stage",
+    "status": "open",
+    "location": "Redmond, WA",
+    "url": "https://apply.careers.microsoft.com/careers/job/1970393556983226",
+    "tags": [
+      "Cloud",
+      "Product"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_micr_3631471470475808865",
+    "title": "Software Engineer Intern",
+    "company": "Microsoft",
+    "category": "stage",
+    "status": "open",
+    "location": "Reston, VA",
+    "url": "https://apply.careers.microsoft.com/careers/job/1970393556983223",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_goog_2797095741919916555",
+    "title": "Silicon Engineering Intern",
+    "company": "Google",
+    "category": "stage",
+    "status": "open",
+    "location": "Madison, WI, Austin, TX",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/136529930677560006",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_goog_1727063354749732431",
+    "title": "Student Researcher",
+    "company": "Google",
+    "category": "stage",
+    "status": "open",
+    "location": "Palo Alto, CA, Cambridge, MA",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/134313315235963590",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_goog_1792955443813522028",
+    "title": "Business Data Scientist Intern",
+    "company": "Google",
+    "category": "stage",
+    "status": "open",
+    "location": "Palo Alto, CA, Cambridge, MA",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/134577198026629830",
+    "tags": [
+      "Data"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_goog_6332515335478408634",
+    "title": "Data Scientist Intern - Product",
+    "company": "Google",
+    "category": "stage",
+    "status": "open",
+    "location": "Palo Alto, CA, Cambridge, MA",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/119184035237765830",
+    "tags": [
+      "Data",
+      "Product"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_goog_7362266752840737841",
+    "title": "Student Researcher - BS/MS",
+    "company": "Google",
+    "category": "stage",
+    "status": "open",
+    "location": "Montreal, QC, Canada",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/104405499448828614",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_goog_2279790783728092876",
+    "title": "User Experience Engineer Intern - PhD - Summer 2027",
+    "company": "Google",
+    "category": "stage",
+    "status": "open",
+    "location": "Palo Alto, CA, Cambridge, MA",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/117572151191446214",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_goog_1677318527135151609",
+    "title": "Silicon Engineering Intern - BS/MS - Multiple Teams",
+    "company": "Google",
+    "category": "stage",
+    "status": "open",
+    "location": "Madison, WI, Sunnyvale, CA",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/88570332985598662",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_goog_1516863006363536519",
+    "title": "Student Researcher - PhD",
+    "company": "Google",
+    "category": "stage",
+    "status": "open",
+    "location": "Toronto, ON, Canada, Waterloo, ON, Canada",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/75043041429070534",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_goog_1778599016018527515",
+    "title": "Hardware Engineer Intern",
+    "company": "Google",
+    "category": "stage",
+    "status": "open",
+    "location": "Palo Alto, CA, Cambridge, MA",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/122803627516404422",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_goog_1540810598792146336",
+    "title": "User Experience Engineer Intern",
+    "company": "Google",
+    "category": "stage",
+    "status": "open",
+    "location": "Palo Alto, CA, Cambridge, MA",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/112499004540887750",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_goog_5076512192064925292",
+    "title": "Hardware Engineer Intern - PhD",
+    "company": "Google",
+    "category": "stage",
+    "status": "open",
+    "location": "Palo Alto, CA, Cambridge, MA",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/97352132356645574",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_goog_1238081800486270669",
+    "title": "Data Scientist Research Intern - PhD",
+    "company": "Google",
+    "category": "stage",
+    "status": "open",
+    "location": "Palo Alto, CA, Cambridge, MA",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/89965613241246406",
+    "tags": [
+      "Data"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_5657842837981094709",
+    "title": "PMU Design Verification Intern",
+    "company": "Apple",
+    "category": "stage",
+    "status": "open",
+    "location": "Swindon, UK",
+    "url": "https://jobs.apple.com/en-us/details/200683293",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_home_462058120942575131",
+    "title": "Full Stack Engineer Co-op",
+    "company": "Hometap",
+    "category": "stage",
+    "status": "open",
+    "location": "Boston, MA",
+    "url": "https://job-boards.greenhouse.io/hometapjobs/jobs/4927882007",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_amaz_8875271786930053459",
+    "title": "Software Development Engineer Intern - Summer",
+    "company": "Amazon",
+    "category": "stage",
+    "status": "open",
+    "location": "Seattle, WA, Arlington County, Arlington, VA",
+    "url": "https://amazon.jobs/en/jobs/10552937/software-development-engineer-internship-summer-2027-usa",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_micr_4446489718743638447",
+    "title": "Silicon Engineering Intern - 6-month Program",
+    "company": "Microsoft",
+    "category": "stage",
+    "status": "open",
+    "location": "Hillsboro, OR, Mountain View, CA",
+    "url": "https://apply.careers.microsoft.com/careers/job/1970393556982259",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_micr_688700770352716854",
+    "title": "Software Engineer Intern",
+    "company": "Microsoft",
+    "category": "stage",
+    "status": "open",
+    "location": "Redmond, WA, Santa Clara, CA",
+    "url": "https://apply.careers.microsoft.com/careers/job/1970393556982258",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_micr_560934949630677935",
+    "title": "Electrical Engineer Intern - 6-Month Program",
+    "company": "Microsoft",
+    "category": "stage",
+    "status": "open",
+    "location": "Seattle, WA, San Jose, CA",
+    "url": "https://apply.careers.microsoft.com/careers/job/1970393556982262",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_amaz_7042736549977892849",
+    "title": "Software Development Engineer Intern - Summer 2027",
+    "company": "Amazon",
+    "category": "stage",
+    "status": "open",
+    "location": "Vancouver, BC, Canada",
+    "url": "https://amazon.jobs/en/jobs/10553947/software-development-engineer-intern-summer-2027-can",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_micr_1110905948111694144",
+    "title": "Hardware Engineering Intern",
+    "company": "Microsoft",
+    "category": "stage",
+    "status": "open",
+    "location": "Redmond, WA",
+    "url": "https://apply.careers.microsoft.com/careers/job/1970393557002608",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_goog_5081940723847837294",
+    "title": "Product Manager Intern - Summer 2027",
+    "company": "Google",
+    "category": "stage",
+    "status": "open",
+    "location": "SF, San Bruno, CA",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/134770032394543814",
+    "tags": [
+      "Product"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_micr_3537339939357716779",
+    "title": "Robotics Resident - Robotics",
+    "company": "Microsoft",
+    "category": "stage",
+    "status": "open",
+    "location": "Cambridge, UK",
+    "url": "https://apply.careers.microsoft.com/careers/job/1970393557006388",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_amaz_6664575212768982860",
+    "title": "Quantum Applied Science Intern - Quantum Technologies team",
+    "company": "Amazon",
+    "category": "stage",
+    "status": "open",
+    "location": "Boston, MA, SF",
+    "url": "https://amazon.jobs/en/jobs/10556930/2027-quantum-applied-science-internship-quantum-technologies-team",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_neub_7284365105879708900",
+    "title": "Quantitative Analyst Intern",
+    "company": "Neuberger Berman",
+    "category": "stage",
+    "status": "open",
+    "location": "NYC",
+    "url": "https://nb.wd1.myworkdayjobs.com/en-US/NBCareers/job/New-York-NY/Quantitative-2027-Summer-Intern_R0012643",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_micr_4387538796514120527",
+    "title": "Software Engineer Intern",
+    "company": "Microsoft",
+    "category": "stage",
+    "status": "open",
+    "location": "Mountain View, CA",
+    "url": "https://apply.careers.microsoft.com/careers/job/1970393557004819",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_micr_5817418416200605691",
+    "title": "Product Manager Intern",
+    "company": "Microsoft",
+    "category": "stage",
+    "status": "open",
+    "location": "Mountain View, CA",
+    "url": "https://apply.careers.microsoft.com/careers/job/1970393557004836",
+    "tags": [
+      "Product"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_7378341540233478608",
+    "title": "Design Verification Engineer Intern",
+    "company": "Apple",
+    "category": "stage",
+    "status": "open",
+    "location": "Cupertino, CA",
+    "url": "https://jobs.apple.com/en-us/details/200685172",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_micr_5961393687072411865",
+    "title": "Software Engineer Intern",
+    "company": "Microsoft",
+    "category": "stage",
+    "status": "open",
+    "location": "Atlanta, GA",
+    "url": "https://apply.careers.microsoft.com/careers/job/1970393557008714",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_7504092298263760826",
+    "title": "Research Scientist - Electronic Design Automation",
+    "company": "NVIDIA",
+    "category": "graduate",
+    "status": "open",
+    "location": "Santa Clara, CA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Electronic-Design-Automation---New-College-Grad-2026_JR2012979",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_6903929848329582629",
+    "title": "ASIC Verification Engineer",
+    "company": "NVIDIA",
+    "category": "graduate",
+    "status": "open",
+    "location": "Austin, TX, Santa Clara, CA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/ASIC-Verification-Engineer---New-College-Grad-2026_JR2012573",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_7997370021346805323",
+    "title": "Research Scientist – PhD New College Grad - Generative AI for Physical AI",
+    "company": "NVIDIA",
+    "category": "graduate",
+    "status": "open",
+    "location": "Santa Clara, CA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Generative-AI-for-Physical-AI---PhD-New-College-Grad-2026_JR2016032",
+    "tags": [
+      "AI"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_6326237926536351851",
+    "title": "ASIC Physical Design and Timing Engineer – New College Grad",
+    "company": "NVIDIA",
+    "category": "graduate",
+    "status": "open",
+    "location": "Santa Clara, CA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Timing-Engineer---New-College-Grad-2026_JR2013177",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_amaz_8908829881853755365",
+    "title": "Software Development Engineer",
+    "company": "Amazon",
+    "category": "graduate",
+    "status": "open",
+    "location": "London, UK, Edinburgh, UK",
+    "url": "https://amazon.jobs/en/jobs/10408763/software-development-engineer-2026",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_7534093086622141649",
+    "title": "GPU Power Architect New Grad",
+    "company": "NVIDIA",
+    "category": "graduate",
+    "status": "open",
+    "location": "Santa Clara, CA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/GPU-Power-Architect---New-College-Grad-2026_JR2017169",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_amaz_4770061231740570890",
+    "title": "Software Development Engineer",
+    "company": "Amazon",
+    "category": "graduate",
+    "status": "open",
+    "location": "Seattle, WA",
+    "url": "https://amazon.jobs/en/jobs/3177934/software-development-engineer-2026-us",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_8823831047038336324",
+    "title": "Power Methodology and Modeling Engineer New Grad",
+    "company": "NVIDIA",
+    "category": "graduate",
+    "status": "open",
+    "location": "Austin, TX",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/Power-Methodology-and-Modeling-Engineer---New-College-Grad-2026_JR2017486-1",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_5570367656912790181",
+    "title": "SoC Physical Design Engineer - Static Timing Analysis",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "San Jose, CA",
+    "url": "https://jobs.apple.com/en-us/details/200657915",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_1917983831312728144",
+    "title": "Integration Engineer",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Santa Clara, CA",
+    "url": "https://jobs.apple.com/en-us/details/200657280",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_1301994885291540827",
+    "title": "SoC Physical Design Engineer - Top Level",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "San Jose, CA",
+    "url": "https://jobs.apple.com/en-us/details/200645433",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_1806528985245805193",
+    "title": "GPU Top Level Physical Design Engineer",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Cambridge, MA",
+    "url": "https://jobs.apple.com/en-us/details/200644458",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_6798832324977343383",
+    "title": "SoC Firmware Engineer",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Cupertino, CA",
+    "url": "https://jobs.apple.com/en-us/details/200656978",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_4209038960309217725",
+    "title": "SoC DFT Engineer",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Cupertino, CA",
+    "url": "https://jobs.apple.com/en-us/details/200657231",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_5997276030733379801",
+    "title": "Formal Verification Engineer",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Austin, TX",
+    "url": "https://jobs.apple.com/en-us/details/200657422",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_2797735499183602340",
+    "title": "GPU DFT Design Verification Engineer",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Austin, TX",
+    "url": "https://jobs.apple.com/en-us/details/200657281",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_5163336870725950919",
+    "title": "SoC Full Chip DV Engineer",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Austin, TX",
+    "url": "https://jobs.apple.com/en-us/details/200657237",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_3072105523912436327",
+    "title": "GPU Top Level Physical Design Engineer",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Lafayette, KS",
+    "url": "https://jobs.apple.com/en-us/details/200645609",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_3066050140347465581",
+    "title": "SoC Physical Design Engineer - Place and Route",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Beaverton, OR",
+    "url": "https://jobs.apple.com/en-us/details/200657740",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_4545851936447065049",
+    "title": "SoC DFT DV Engineer",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Austin, TX",
+    "url": "https://jobs.apple.com/en-us/details/200657230",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_151152019688719798",
+    "title": "SoC DFT Engineer",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Austin, TX",
+    "url": "https://jobs.apple.com/en-us/details/200657229",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_5361798114902077000",
+    "title": "Design Verification Engineer",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Cupertino, CA",
+    "url": "https://jobs.apple.com/en-us/details/200657248",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_949961273614702911",
+    "title": "Design Verification Engineer",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Beaverton, OR",
+    "url": "https://jobs.apple.com/en-us/details/200657243",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_2279207416830003573",
+    "title": "SoC Physical Design Engineer - Static Timing Analysis",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Beaverton, OR",
+    "url": "https://jobs.apple.com/en-us/details/200658152",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_7876310043166236195",
+    "title": "SoC Physical Design Engineer - Place and Route",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Waltham, MA",
+    "url": "https://jobs.apple.com/en-us/details/200657986",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_2523792525906062515",
+    "title": "Design Verification Engineer",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Seattle, WA",
+    "url": "https://jobs.apple.com/en-us/details/200657034",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_5611481853377360453",
+    "title": "SoC Physical Design Engineer - Place and Route",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "San Jose, CA",
+    "url": "https://jobs.apple.com/en-us/details/200658151",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_2630165427978364973",
+    "title": "ASIC Design and Integration Engineer – Silicon Security",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Cupertino, CA",
+    "url": "https://jobs.apple.com/en-us/details/200652710",
+    "tags": [
+      "Security"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_9149534050183745724",
+    "title": "Design Verification Engineer",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Austin, TX",
+    "url": "https://jobs.apple.com/en-us/details/200657001",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_1288804513509154627",
+    "title": "GPU Physical Design Engineer",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Lafayette, KS",
+    "url": "https://jobs.apple.com/en-us/details/200657130",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_3906822304510014811",
+    "title": "ASIC Design Engineer - Pixel Ip DMA",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Cupertino, CA",
+    "url": "https://jobs.apple.com/en-us/details/200660772",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_406038820583812022",
+    "title": "DFT Engineer – New College Grad",
+    "company": "NVIDIA",
+    "category": "graduate",
+    "status": "open",
+    "location": "Santa Clara, CA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/DFT-Engineer---New-College-Grad_JR2016865",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_9129754670682433619",
+    "title": "ASIC Design Engineer",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Santa Clara, CA",
+    "url": "https://jobs.apple.com/en-us/details/200662702",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_6433016975271929274",
+    "title": "ASIC Physical Design Engineer New Grad - Netlisting",
+    "company": "NVIDIA",
+    "category": "graduate",
+    "status": "open",
+    "location": "Austin, TX, Santa Clara, CA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Physical-Design-Engineer--Netlisting---New-College-Grad-2026_JR2017681",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_4369893082035090886",
+    "title": "SoC Physical Design Engineer - Place and Route",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "San Jose, CA",
+    "url": "https://jobs.apple.com/en-us/details/200657743",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_7038591366729607336",
+    "title": "Mixed-Signal Behavioral Modeling Engineer",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "San Diego, CA",
+    "url": "https://jobs.apple.com/en-us/details/200658819",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_5223059235349409990",
+    "title": "STA Engineer",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Austin, TX",
+    "url": "https://jobs.apple.com/en-us/details/200656987",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_821719308122490162",
+    "title": "Mixed-Signal Behavioral Modeling Engineer",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Austin, TX",
+    "url": "https://jobs.apple.com/en-us/details/200658821",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_3470485957555981600",
+    "title": "Mixed-Signal Behavioral Modeling Engineer",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Cupertino, CA",
+    "url": "https://jobs.apple.com/en-us/details/200658810",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_7349937417286165149",
+    "title": "SoC Physical Design Engineer - Electrical Analysis",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "San Jose, CA",
+    "url": "https://jobs.apple.com/en-us/details/200658160",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_6826574773349080464",
+    "title": "SoC Performance Analysis Engineer",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Austin, TX",
+    "url": "https://jobs.apple.com/en-us/details/200664332",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_5736765761922649760",
+    "title": "SoC Physical Design Methodology Engineer",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Beaverton, OR",
+    "url": "https://jobs.apple.com/en-us/details/200665555",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_1553887029900879488",
+    "title": "Software Engineer Silicon Engineering Documentation Tools",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Lafayette, KS",
+    "url": "https://jobs.apple.com/en-us/details/200661584",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_7906968795457279998",
+    "title": "Low Power ASIC Engineer New Grad",
+    "company": "NVIDIA",
+    "category": "graduate",
+    "status": "open",
+    "location": "Santa Clara, CA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Low-Power-ASIC-Engineer---New-College-Grad-2026_JR2017005",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_8750323063701127861",
+    "title": "Cell Modeling and Verification Engineer New Grad",
+    "company": "NVIDIA",
+    "category": "graduate",
+    "status": "open",
+    "location": "Santa Clara, CA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Cell-Modelling-and-Verification-Engineer---New-College-Grad-2026_JR2011631",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_7580683834400134925",
+    "title": "Software Engineer New Grad - Hardware Tools and Methodology",
+    "company": "NVIDIA",
+    "category": "graduate",
+    "status": "open",
+    "location": "Santa Clara, CA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Hardware-Tools-and-Methodology---New-College-Grad-2026_JR2018659",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_248248072251878716",
+    "title": "Software R&D Engineer New Grad - VLSI Physical Design",
+    "company": "NVIDIA",
+    "category": "graduate",
+    "status": "open",
+    "location": "Austin, TX",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/Software-R-D-Engineer--VLSI-Physical-Design---New-College-Grad-2026_JR2019330",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_2041273577300855077",
+    "title": "Research Scientist New Grad - Efficient Deep Learning",
+    "company": "NVIDIA",
+    "category": "graduate",
+    "status": "open",
+    "location": "Santa Clara, CA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Efficient-Deep-Learning---New-College-Grad-2026_JR2019729-1",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_752692551176737177",
+    "title": "Forward Deployed Software Engineer New Grad",
+    "company": "Palantir",
+    "category": "graduate",
+    "status": "open",
+    "location": "NYC",
+    "url": "https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_7302543835355695715",
+    "title": "Forward Deployed Software Engineer New Grad",
+    "company": "Palantir",
+    "category": "graduate",
+    "status": "open",
+    "location": "Washington, DC",
+    "url": "https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_6759844113827701507",
+    "title": "Forward Deployed Software Engineer New Grad",
+    "company": "Palantir",
+    "category": "graduate",
+    "status": "open",
+    "location": "Washington, DC",
+    "url": "https://jobs.lever.co/palantir/fbca0358-083a-4222-bdbb-3bd729b48382/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_6353525127838426731",
+    "title": "Forward Deployed Software Engineer New Grad - Commercial",
+    "company": "Palantir",
+    "category": "graduate",
+    "status": "open",
+    "location": "Chicago, IL",
+    "url": "https://jobs.lever.co/palantir/e500bcf3-19d8-4d3c-b340-4d76e4a55b40/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_74758517420620633",
+    "title": "Software Engineer New Grad - Defense",
+    "company": "Palantir",
+    "category": "graduate",
+    "status": "open",
+    "location": "Washington, DC",
+    "url": "https://jobs.lever.co/palantir/18d901fc-93bb-4d18-9f04-c72031e20d79/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_3551045604218147985",
+    "title": "Privacy & Civil Liberties Engineer New Grad",
+    "company": "Palantir",
+    "category": "graduate",
+    "status": "open",
+    "location": "NYC",
+    "url": "https://jobs.lever.co/palantir/95e0d2b0-437a-4096-a5c6-0f247f426c90/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_4777534322218772958",
+    "title": "Software Engineer New Grad - Defense",
+    "company": "Palantir",
+    "category": "graduate",
+    "status": "open",
+    "location": "NYC",
+    "url": "https://jobs.lever.co/palantir/0a838e66-1ab0-4fc4-b4d3-4671c0352278/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_3899486441753331639",
+    "title": "Software Engineer New Grad - Defense",
+    "company": "Palantir",
+    "category": "graduate",
+    "status": "open",
+    "location": "Palo Alto, CA",
+    "url": "https://jobs.lever.co/palantir/f362d7aa-360d-4059-ab38-f482742693b3/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_1356818922497143555",
+    "title": "Forward Deployed Software Engineer New Grad - Commercial",
+    "company": "Palantir",
+    "category": "graduate",
+    "status": "open",
+    "location": "NYC",
+    "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_4593628387865768086",
+    "title": "Graphics Software Content Engineer",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Orlando, FL",
+    "url": "https://jobs.apple.com/en-us/details/200669452",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_313738354442389838",
+    "title": "Software Engineer New Grad",
+    "company": "Palantir",
+    "category": "graduate",
+    "status": "open",
+    "location": "Denver, CO",
+    "url": "https://jobs.lever.co/palantir/c34b424e-caf2-455a-b104-ae1096ccca29/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_129944504061005090",
+    "title": "ASIC Verification Engineer New Grad",
+    "company": "NVIDIA",
+    "category": "graduate",
+    "status": "open",
+    "location": "Santa Clara, CA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Verification-Engineer---New-College-Grad-2026_JR2020640",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_8079128891172262022",
+    "title": "ASIC Design Engineer New Grad",
+    "company": "NVIDIA",
+    "category": "graduate",
+    "status": "open",
+    "location": "Santa Clara, CA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Design-Engineer---New-College-Grad-2026_JR2020309",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_amaz_3170554617170954209",
+    "title": "Software Development Engineer - Military Veterans",
+    "company": "Amazon",
+    "category": "graduate",
+    "status": "open",
+    "location": "Seattle, WA, Redmond, WA",
+    "url": "https://amazon.jobs/en/jobs/3179205/software-development-engineer-military-veterans",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_5309481759745860554",
+    "title": "ASIC Design Engineer - Neural Engine Direct Memory Access",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Sunnyvale, CA",
+    "url": "https://jobs.apple.com/en-us/details/200670681",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_9171563536958692213",
+    "title": "ASIC Design Engineer New Grad",
+    "company": "NVIDIA",
+    "category": "graduate",
+    "status": "open",
+    "location": "Santa Clara, CA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Design-Engineer---New-College-Grad-2026_JR2021534",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_2549271988301992243",
+    "title": "Signal and Power Integrity Engineer New Grad",
+    "company": "NVIDIA",
+    "category": "graduate",
+    "status": "open",
+    "location": "Austin, TX, Santa Clara, CA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/Signal-and-Power-Integrity-Engineer---New-College-Grad-2026_JR2015067",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_3456756230959616537",
+    "title": "RTL Power Optimization Engineer New Grad",
+    "company": "NVIDIA",
+    "category": "graduate",
+    "status": "open",
+    "location": "Santa Clara, CA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/RTL-Power-Optimization-Engineer---New-College-Grad-2026_JR2021841",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_amaz_7158267175901030620",
+    "title": "EFA Network Software Engineer 1 - Annapurna Labs",
+    "company": "Amazon",
+    "category": "graduate",
+    "status": "open",
+    "location": "Seattle, WA",
+    "url": "https://amazon.jobs/en/jobs/10481932/efa-network-software-engineer-i-annapurna-labs",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_adob_1475971533884109287",
+    "title": "Research Scientist",
+    "company": "Adobe",
+    "category": "graduate",
+    "status": "open",
+    "location": "Seattle, WA, SF",
+    "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Research-Scientist_R166368",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_1064560064609712085",
+    "title": "GPU Verification Engineer New Grad",
+    "company": "NVIDIA",
+    "category": "graduate",
+    "status": "open",
+    "location": "Westford, MA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-MA-Westford/GPU-Verification-Engineer---New-College-Grad-2026_JR2022102",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_6654812168988761135",
+    "title": "ASIC Design Engineer - Cache Controller",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Santa Clara, CA",
+    "url": "https://jobs.apple.com/en-us/details/200624401",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_3831499869055907302",
+    "title": "Cellular Power Optimization Software Engineer - Wireless Technologies & Ecosystems",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "San Diego, CA",
+    "url": "https://jobs.apple.com/en-us/details/200657382",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_8850951647180834177",
+    "title": "Forward Deployed Software Engineer New Grad - UK Government",
+    "company": "Palantir",
+    "category": "graduate",
+    "status": "open",
+    "location": "London, UK",
+    "url": "https://jobs.lever.co/palantir/b4aa51a2-bc43-4d67-bf55-12db7feefb3a/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_5753896677070967843",
+    "title": "Software Engineer – New Grad",
+    "company": "Palantir",
+    "category": "graduate",
+    "status": "open",
+    "location": "London, UK",
+    "url": "https://jobs.lever.co/palantir/d372c805-d0cd-4a10-9522-fbecc78d6f3e/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_pala_6672821961339606804",
+    "title": "Forward Deployed Software Engineer New Grad - Commercial",
+    "company": "Palantir",
+    "category": "graduate",
+    "status": "open",
+    "location": "London, UK",
+    "url": "https://jobs.lever.co/palantir/2aa14e4f-d406-486e-9aa8-6ff3358d70a0/apply",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_1778998323397336107",
+    "title": "Emulation Engineer",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "London, UK",
+    "url": "https://jobs.apple.com/en-us/details/200641377",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_1252353558096518543",
+    "title": "CPU Design Verification Engineer",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Austin, TX",
+    "url": "https://jobs.apple.com/en-us/details/200628300",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_9080450578193401227",
+    "title": "Analog Simulation/Environment Automation CAD Engineer",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Sunnyvale, CA",
+    "url": "https://jobs.apple.com/en-us/details/200656678",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_amaz_6030599096036210688",
+    "title": "Product Manager",
+    "company": "Amazon",
+    "category": "graduate",
+    "status": "open",
+    "location": "Seattle, WA",
+    "url": "https://amazon.jobs/en/jobs/10490981/2027-amazon-leadership-accelerator-ala-product-manager-full-time",
+    "tags": [
+      "Product"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_sale_8236660912112425388",
+    "title": "Software Engineer College Grad",
+    "company": "Salesforce",
+    "category": "graduate",
+    "status": "open",
+    "location": "Palo Alto, CA, Seattle, WA",
+    "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Software-Engineering-AMTS--College-Grad-_JR355250-1",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_sale_5339704001887783002",
+    "title": "Software Engineer College Grad",
+    "company": "Salesforce",
+    "category": "graduate",
+    "status": "open",
+    "location": "Palo Alto, CA, Seattle, WA",
+    "url": "https://salesforce.wd12.myworkdayjobs.com/Futureforce_NewGradRoles/job/California---San-Francisco/Software-Engineering-AMTS--College-Grad-_JR355250",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_goog_2792180081930591611",
+    "title": "Software Engineer - Campus",
+    "company": "Google",
+    "category": "graduate",
+    "status": "open",
+    "location": "Cambridge, MA, Seattle, WA",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/78703249065943750",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_3760905679972824950",
+    "title": "SoC Physical Design Engineer - PnR",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Austin, TX",
+    "url": "https://jobs.apple.com/en-us/details/200676744",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_7375108924689608881",
+    "title": "ASIC Design and Integration Engineer",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Beaverton, OR, Cupertino, CA",
+    "url": "https://jobs.apple.com/en-us/details/200643608",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_2494543692633745244",
+    "title": "Frontend Engineer",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Austin, TX",
+    "url": "https://jobs.apple.com/en-us/details/200676168",
+    "tags": [
+      "Frontend"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_3310806810505054281",
+    "title": "GPU Verification Engineer New Grad",
+    "company": "NVIDIA",
+    "category": "graduate",
+    "status": "open",
+    "location": "Santa Clara, CA, Westford, MA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-MA-Westford/GPU-Verification-Engineer---New-College-Grad-2026_JR2023187",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_6816091283986116731",
+    "title": "Design Verification Engineer",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Waltham, MA",
+    "url": "https://jobs.apple.com/en-us/details/200630984",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_amaz_1371356842274536788",
+    "title": "Software Development Engineer - Early Career",
+    "company": "Amazon",
+    "category": "graduate",
+    "status": "open",
+    "location": "Vancouver, BC, Canada",
+    "url": "https://amazon.jobs/en/jobs/10502743/software-development-engineer-early-career-2026",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_1256927985204712688",
+    "title": "Darwin Runtime Engineer - Core OS",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Cupertino, CA",
+    "url": "https://jobs.apple.com/en-us/details/200662330",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_9050105891408821595",
+    "title": "Architecture Energy Modeling Engineer - Power Modeling, Methodology and Analysis",
+    "company": "NVIDIA",
+    "category": "graduate",
+    "status": "open",
+    "location": "Santa Clara, CA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Architecture-Energy-Modeling-Engineer---New-College-Grad-2026_JR2023398",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_goog_5465701261456308441",
+    "title": "Software Engineer Early Career - Multiple Teams",
+    "company": "Google",
+    "category": "graduate",
+    "status": "open",
+    "location": "Madison, WI, Seattle, WA",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/84680705375642310",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_goog_6273217416099743501",
+    "title": "Software Engineer - AI/Machine Learning - PhD",
+    "company": "Google",
+    "category": "graduate",
+    "status": "open",
+    "location": "Madison, WI, Seattle, WA",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/123087196289671878",
+    "tags": [
+      "AI",
+      "Machine Learning"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_amaz_4548675216559174864",
+    "title": "Software Development Engineer - Amazon Leo",
+    "company": "Amazon",
+    "category": "graduate",
+    "status": "open",
+    "location": "Redmond, WA, Northridge, LA",
+    "url": "https://amazon.jobs/en/jobs/10513110/software-development-engineer-amazon-leo-early-career-2026",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_1480247136945893596",
+    "title": "Systems Engineer - UI Compositing",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Cupertino, CA",
+    "url": "https://jobs.apple.com/en-us/details/200680183",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_3208325857573697993",
+    "title": "ASIC Floorplan Design Engineer New Grad",
+    "company": "NVIDIA",
+    "category": "graduate",
+    "status": "open",
+    "location": "Santa Clara, CA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Floorplan-Design-Engineer---New-College-Grad-2026_JR2024651",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_7231904721410831351",
+    "title": "Cellular Layer-1 Control Software Development Engineer - Wireless Technologies & Ecosystems",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Sunnyvale, CA",
+    "url": "https://jobs.apple.com/en-us/details/200681316",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_5908334076175328138",
+    "title": "Applied Systems Engineering Rotation Engineer New Grad",
+    "company": "NVIDIA",
+    "category": "graduate",
+    "status": "open",
+    "location": "Santa Clara, CA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Systems-Engineering-Rotation-Engineer---New-College-Graduate-2026_JR2024713",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_amaz_7230617649938610931",
+    "title": "Robotics System Development Engineer",
+    "company": "Amazon",
+    "category": "graduate",
+    "status": "open",
+    "location": "Austin, TX",
+    "url": "https://amazon.jobs/en/jobs/10523031/robotics-system-development-engineer",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_7690108137649431373",
+    "title": "CAD Automation and Mixed-Signal Simulation Engineer",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Sunnyvale, CA",
+    "url": "https://jobs.apple.com/en-us/details/200680375",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_amaz_6490512065378478609",
+    "title": "Applied Scientist - Global Risk Intelligence and Prevention - Seller Abuse Prevention",
+    "company": "Amazon",
+    "category": "graduate",
+    "status": "open",
+    "location": "Seattle, WA",
+    "url": "https://amazon.jobs/en/jobs/10528088/applied-scientist-global-risk-intelligence-and-prevention-seller-abuse-prevention",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_3139177983338827026",
+    "title": "Research Scientist New Grad - Robotics Research",
+    "company": "NVIDIA",
+    "category": "graduate",
+    "status": "open",
+    "location": "Seattle, WA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Seattle/Research-Scientist--Robotics-Research----PhD-New-College-Grad-2026_JR2011473",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_6288708942612143840",
+    "title": "Research Scientist New Grad - Circuits",
+    "company": "NVIDIA",
+    "category": "graduate",
+    "status": "open",
+    "location": "Santa Clara, CA, Durham, NC",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Circuits---New-College-Grad-2026_JR2010010",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_amaz_4411793625083182259",
+    "title": "Robotics – Software Development Engineer",
+    "company": "Amazon",
+    "category": "graduate",
+    "status": "open",
+    "location": "Seattle, WA, Austin, TX",
+    "url": "https://amazon.jobs/en/jobs/10452115/robotics-software-development-engineer",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_amaz_8862121016611905821",
+    "title": "Software Development Engineer - AWS Data Services",
+    "company": "Amazon",
+    "category": "graduate",
+    "status": "open",
+    "location": "Seattle, WA",
+    "url": "https://amazon.jobs/en/jobs/10414316/software-development-engineer-aws-data-services-2026-us",
+    "tags": [
+      "Data"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_meta_4891819776074015593",
+    "title": "Product Staff Engineer",
+    "company": "Metaview",
+    "category": "graduate",
+    "status": "open",
+    "location": "SF",
+    "url": "https://jobs.ashbyhq.com/metaview/d9f94564-9404-4010-8d9a-413d6a1a6c14/application?embed=true",
+    "tags": [
+      "Product"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_8882525758866301114",
+    "title": "Silicon Validation Engineer",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Cupertino, CA",
+    "url": "https://jobs.apple.com/en-us/details/200682718",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_3796896120537194226",
+    "title": "Silicon Validation Engineer",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Cupertino, CA",
+    "url": "https://jobs.apple.com/en-us/details/200682708",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_meta_401659889572205623",
+    "title": "Research Engineer - AI",
+    "company": "Meta",
+    "category": "graduate",
+    "status": "open",
+    "location": "Montreal, QC, Canada",
+    "url": "https://www.metacareers.com/jobs/1395718268613427",
+    "tags": [
+      "AI"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_amaz_835146729306727808",
+    "title": "Software Privacy Engineer - Multiple Teams",
+    "company": "Amazon",
+    "category": "graduate",
+    "status": "open",
+    "location": "Bellevue, WA",
+    "url": "https://amazon.jobs/en/jobs/10538147/software-privacy-engineer-trust-platform-automation-devices-services-trust-privacy-and-accessibility-tpa",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_531734780109853758",
+    "title": "Hardware Systems Engineer - Board Design",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Cupertino, CA",
+    "url": "https://jobs.apple.com/en-us/details/200683615",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_5597357241756093091",
+    "title": "Systems Software Engineer",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "San Diego, CA",
+    "url": "https://jobs.apple.com/en-us/details/200683808",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_adob_897087801870362298",
+    "title": "Applied Scientist",
+    "company": "Adobe",
+    "category": "graduate",
+    "status": "open",
+    "location": "San Jose, CA",
+    "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Senior-Applied-Scientist_R165817",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_goog_3875997042636807864",
+    "title": "Hardware Architecture Modeling Engineer - PhD - 2027 Start",
+    "company": "Google",
+    "category": "graduate",
+    "status": "open",
+    "location": "Sunnyvale, CA",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/107494065192215238",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_nvid_5622909932344561654",
+    "title": "Applied Machine Learning Engineer New Grad - Circuit Design",
+    "company": "NVIDIA",
+    "category": "graduate",
+    "status": "open",
+    "location": "Santa Clara, CA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Machine-Learning-Engineer--Circuit-Design---New-College-Grad-2026_JR2011517",
+    "tags": [
+      "Machine Learning"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_adob_7512852155194175943",
+    "title": "Product Manager MBA Graduate",
+    "company": "Adobe",
+    "category": "graduate",
+    "status": "open",
+    "location": "SF, San Jose, CA",
+    "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-MBA-University-Graduate---Product-Manager_R171900",
+    "tags": [
+      "Product"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_micr_3217627271471744145",
+    "title": "Software Engineer - Cleared",
+    "company": "Microsoft",
+    "category": "graduate",
+    "status": "open",
+    "location": "Reston, VA",
+    "url": "https://apply.careers.microsoft.com/careers/job/1970393556982911",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_goog_1969581853078939193",
+    "title": "Associate Product Manager - University Graduate",
+    "company": "Google",
+    "category": "graduate",
+    "status": "open",
+    "location": "San Jose, CA, San Bruno, CA",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/107272685397910214",
+    "tags": [
+      "Product"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_meta_2657442680135217290",
+    "title": "Rotational Product Manager",
+    "company": "Meta",
+    "category": "graduate",
+    "status": "open",
+    "location": "Menlo Park, CA, NYC",
+    "url": "https://www.metacareers.com/jobs/1090585757172959",
+    "tags": [
+      "Product"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_adob_7794399963532201967",
+    "title": "Machine Learning Engineer New Grad",
+    "company": "Adobe",
+    "category": "graduate",
+    "status": "open",
+    "location": "Seattle, WA, SF",
+    "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-University-Graduate---Machine-Learning-Engineer_R172085",
+    "tags": [
+      "Machine Learning"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_adob_8204905257743436928",
+    "title": "Software Engineer New Grad",
+    "company": "Adobe",
+    "category": "graduate",
+    "status": "open",
+    "location": "Seattle, WA, SF",
+    "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-University-Graduate---Software-Engineer_R172083",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_5847461770854985551",
+    "title": "SoC Physical Design Engineer - PnR",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "San Diego, CA",
+    "url": "https://jobs.apple.com/en-us/details/200685702",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_prim_999571600993255658",
+    "title": "Engineer 1 - Configuration",
+    "company": "Primetals Technologies",
+    "category": "graduate",
+    "status": "open",
+    "location": "Orlando, FL",
+    "url": "https://mhicareers.com/job/Orlando-Engineer-I,-Configuration-FL-32809/1441572633/?ats=successfactors",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "comm_appl_7709552224471498243",
+    "title": "CAD Engineer - Signoff Infrastructure",
+    "company": "Apple",
+    "category": "graduate",
+    "status": "open",
+    "location": "Austin, TX, San Jose, CA",
+    "url": "https://jobs.apple.com/en-us/details/200685871",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
     "id": "gh_datadog_8181440",
     "title": "Applied Science Intern",
     "company": "Datadog",
@@ -325,19 +3306,6 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_stripe_8066310",
-    "title": "Fraud Operations Associate SDC",
-    "company": "Stripe",
-    "category": "cdi",
-    "status": "open",
-    "location": "Bengaluru",
-    "url": "https://stripe.com/jobs/search?gh_jid=8066310",
-    "tags": [
-      "Tech"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_stripe_7651078",
     "title": "Fraud Operations Associate SDC",
     "company": "Stripe",
@@ -345,6 +3313,19 @@
     "status": "open",
     "location": "Mexico City",
     "url": "https://stripe.com/jobs/search?gh_jid=7651078",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_stripe_8066310",
+    "title": "Fraud Operations Associate SDC",
+    "company": "Stripe",
+    "category": "cdi",
+    "status": "open",
+    "location": "Bengaluru",
+    "url": "https://stripe.com/jobs/search?gh_jid=8066310",
     "tags": [
       "Tech"
     ],
@@ -524,7 +3505,7 @@
     "id": "gh_stripe_7544547",
     "title": "Operations Associate, New Grad (Mexico)",
     "company": "Stripe",
-    "category": "cdi",
+    "category": "graduate",
     "status": "open",
     "location": "Mexico City, Mexico",
     "url": "https://stripe.com/jobs/search?gh_jid=7544547",
@@ -589,7 +3570,7 @@
     "id": "gh_stripe_7737124",
     "title": "Product Manager: New Grad Accelerator",
     "company": "Stripe",
-    "category": "cdi",
+    "category": "graduate",
     "status": "open",
     "location": "San Francisco, New York City, Seattle",
     "url": "https://stripe.com/jobs/search?gh_jid=7737124",
@@ -703,13 +3684,13 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_stripe_8130883",
+    "id": "gh_stripe_8031833",
     "title": "Software Engineer, Intern",
     "company": "Stripe",
     "category": "stage",
     "status": "open",
-    "location": "Singapore",
-    "url": "https://stripe.com/jobs/search?gh_jid=8130883",
+    "location": "Bengaluru",
+    "url": "https://stripe.com/jobs/search?gh_jid=8031833",
     "tags": [
       "Tech"
     ],
@@ -729,13 +3710,13 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_stripe_8031833",
+    "id": "gh_stripe_8130883",
     "title": "Software Engineer, Intern",
     "company": "Stripe",
     "category": "stage",
     "status": "open",
-    "location": "Bengaluru",
-    "url": "https://stripe.com/jobs/search?gh_jid=8031833",
+    "location": "Singapore",
+    "url": "https://stripe.com/jobs/search?gh_jid=8130883",
     "tags": [
       "Tech"
     ],
@@ -768,13 +3749,13 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_stripe_8097801",
+    "id": "gh_stripe_8130805",
     "title": "Software Engineer, Intern (Summer or Winter)",
     "company": "Stripe",
     "category": "stage",
     "status": "open",
-    "location": "Dublin",
-    "url": "https://stripe.com/jobs/search?gh_jid=8097801",
+    "location": "Toronto",
+    "url": "https://stripe.com/jobs/search?gh_jid=8130805",
     "tags": [
       "Tech"
     ],
@@ -794,39 +3775,13 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_stripe_8130805",
+    "id": "gh_stripe_8097801",
     "title": "Software Engineer, Intern (Summer or Winter)",
     "company": "Stripe",
     "category": "stage",
     "status": "open",
-    "location": "Toronto",
-    "url": "https://stripe.com/jobs/search?gh_jid=8130805",
-    "tags": [
-      "Tech"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
-    "id": "gh_stripe_8160776",
-    "title": "Software Engineer, New Grad",
-    "company": "Stripe",
-    "category": "cdi",
-    "status": "open",
-    "location": "Singapore",
-    "url": "https://stripe.com/jobs/search?gh_jid=8160776",
-    "tags": [
-      "Tech"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
-    "id": "gh_stripe_8130881",
-    "title": "Software Engineer, New Grad",
-    "company": "Stripe",
-    "category": "cdi",
-    "status": "open",
     "location": "Dublin",
-    "url": "https://stripe.com/jobs/search?gh_jid=8130881",
+    "url": "https://stripe.com/jobs/search?gh_jid=8097801",
     "tags": [
       "Tech"
     ],
@@ -836,7 +3791,7 @@
     "id": "gh_stripe_8130930",
     "title": "Software Engineer, New Grad",
     "company": "Stripe",
-    "category": "cdi",
+    "category": "graduate",
     "status": "open",
     "location": "London",
     "url": "https://stripe.com/jobs/search?gh_jid=8130930",
@@ -846,13 +3801,13 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_stripe_8157838",
+    "id": "gh_stripe_8160776",
     "title": "Software Engineer, New Grad",
     "company": "Stripe",
-    "category": "cdi",
+    "category": "graduate",
     "status": "open",
-    "location": "Toronto",
-    "url": "https://stripe.com/jobs/search?gh_jid=8157838",
+    "location": "Singapore",
+    "url": "https://stripe.com/jobs/search?gh_jid=8160776",
     "tags": [
       "Tech"
     ],
@@ -862,7 +3817,7 @@
     "id": "gh_stripe_8128744",
     "title": "Software Engineer, New Grad",
     "company": "Stripe",
-    "category": "cdi",
+    "category": "graduate",
     "status": "open",
     "location": "San Francisco, Seattle, New York",
     "url": "https://stripe.com/jobs/search?gh_jid=8128744",
@@ -872,10 +3827,23 @@
     "first_seen": "28/09/2026"
   },
   {
+    "id": "gh_stripe_8130881",
+    "title": "Software Engineer, New Grad",
+    "company": "Stripe",
+    "category": "graduate",
+    "status": "open",
+    "location": "Dublin",
+    "url": "https://stripe.com/jobs/search?gh_jid=8130881",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
     "id": "gh_stripe_8130922",
     "title": "Software Engineer, New Grad",
     "company": "Stripe",
-    "category": "cdi",
+    "category": "graduate",
     "status": "open",
     "location": "Bucharest",
     "url": "https://stripe.com/jobs/search?gh_jid=8130922",
@@ -885,10 +3853,23 @@
     "first_seen": "28/09/2026"
   },
   {
+    "id": "gh_stripe_8157838",
+    "title": "Software Engineer, New Grad",
+    "company": "Stripe",
+    "category": "graduate",
+    "status": "open",
+    "location": "Toronto",
+    "url": "https://stripe.com/jobs/search?gh_jid=8157838",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
     "id": "gh_stripe_8130927",
     "title": "Software Engineer, New Grad - Frontend",
     "company": "Stripe",
-    "category": "cdi",
+    "category": "graduate",
     "status": "open",
     "location": "Barcelona",
     "url": "https://stripe.com/jobs/search?gh_jid=8130927",
@@ -901,7 +3882,7 @@
     "id": "gh_stripe_7718947",
     "title": "Tech Operations Associate, New Grad (Mexico)",
     "company": "Stripe",
-    "category": "cdi",
+    "category": "graduate",
     "status": "open",
     "location": "Mexico City, Mexico",
     "url": "https://stripe.com/jobs/search?gh_jid=7718947",
@@ -1184,97 +4165,6 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_deliveroo_8206641",
-    "title": "Account Associate - Retail & Grocery (H/F)",
-    "company": "Deliveroo",
-    "category": "cdi",
-    "status": "open",
-    "location": "Paris, France",
-    "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8206641",
-    "tags": [
-      "Tech"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
-    "id": "gh_deliveroo_8206065",
-    "title": "Corporate Business Development Associate",
-    "company": "Deliveroo",
-    "category": "cdi",
-    "status": "open",
-    "location": "Bruxelles, Belgium",
-    "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8206065",
-    "tags": [
-      "Tech"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
-    "id": "gh_deliveroo_8202464",
-    "title": "Finance and Strategy Senior Associate",
-    "company": "Deliveroo",
-    "category": "cdi",
-    "status": "open",
-    "location": "London, United Kingdom - Deliveroo",
-    "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8202464",
-    "tags": [
-      "Tech"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
-    "id": "gh_deliveroo_8206365",
-    "title": "F&S Associate - UAE National",
-    "company": "Deliveroo",
-    "category": "cdi",
-    "status": "open",
-    "location": "Dubai, United Arab Emirates",
-    "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8206365",
-    "tags": [
-      "Tech"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
-    "id": "gh_deliveroo_8206037",
-    "title": "Junior Designer - Kuwaiti National Only",
-    "company": "Deliveroo",
-    "category": "cdi",
-    "status": "open",
-    "location": "Kuwait, Kuwait",
-    "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8206037",
-    "tags": [
-      "Tech"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
-    "id": "gh_deliveroo_8206405",
-    "title": "Senior Rider Onboarding Associate - (6 Months FTC)",
-    "company": "Deliveroo",
-    "category": "cdi",
-    "status": "open",
-    "location": "London, United Kingdom - Deliveroo",
-    "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8206405",
-    "tags": [
-      "Tech"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
-    "id": "gh_deliveroo_8202627",
-    "title": "Software Engineer, New Grad",
-    "company": "Deliveroo",
-    "category": "cdi",
-    "status": "open",
-    "location": "London, United Kingdom - Deliveroo",
-    "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8202627",
-    "tags": [
-      "Tech"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "lev_spotify_4310f31c-90e1-4e8d-bdcf-dce39c145b8c",
     "title": "Associate – Audiobook Licensing & Author Partnerships",
     "company": "Spotify",
@@ -1386,6 +4276,97 @@
     "status": "open",
     "location": "Paris",
     "url": "https://jobs.lever.co/qonto/922b19e9-b845-4987-9268-42484a0b9505",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_deliveroo_8206641",
+    "title": "Account Associate - Retail & Grocery (H/F)",
+    "company": "Deliveroo",
+    "category": "cdi",
+    "status": "closed",
+    "location": "Paris, France",
+    "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8206641",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_deliveroo_8206065",
+    "title": "Corporate Business Development Associate",
+    "company": "Deliveroo",
+    "category": "cdi",
+    "status": "closed",
+    "location": "Bruxelles, Belgium",
+    "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8206065",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_deliveroo_8202464",
+    "title": "Finance and Strategy Senior Associate",
+    "company": "Deliveroo",
+    "category": "cdi",
+    "status": "closed",
+    "location": "London, United Kingdom - Deliveroo",
+    "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8202464",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_deliveroo_8206365",
+    "title": "F&S Associate - UAE National",
+    "company": "Deliveroo",
+    "category": "cdi",
+    "status": "closed",
+    "location": "Dubai, United Arab Emirates",
+    "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8206365",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_deliveroo_8206037",
+    "title": "Junior Designer - Kuwaiti National Only",
+    "company": "Deliveroo",
+    "category": "cdi",
+    "status": "closed",
+    "location": "Kuwait, Kuwait",
+    "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8206037",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_deliveroo_8206405",
+    "title": "Senior Rider Onboarding Associate - (6 Months FTC)",
+    "company": "Deliveroo",
+    "category": "cdi",
+    "status": "closed",
+    "location": "London, United Kingdom - Deliveroo",
+    "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8206405",
+    "tags": [
+      "Tech"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_deliveroo_8202627",
+    "title": "Software Engineer, New Grad",
+    "company": "Deliveroo",
+    "category": "cdi",
+    "status": "closed",
+    "location": "London, United Kingdom - Deliveroo",
+    "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8202627",
     "tags": [
       "Tech"
     ],
