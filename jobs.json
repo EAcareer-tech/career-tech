@@ -1565,19 +1565,6 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_stripe_7993151",
-    "title": "Account Executive, Enterprise (Grower)",
-    "company": "Stripe",
-    "category": "cdi",
-    "status": "open",
-    "location": "US-Remote-CA, US-San Francisco, US-Seattle, US-New York",
-    "url": "https://stripe.com/jobs/search?gh_jid=7993151",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_stripe_8107136",
     "title": "Account Executive, Enterprise (Grower)",
     "company": "Stripe",
@@ -1585,6 +1572,19 @@
     "status": "open",
     "location": "US-San Francisco, US-Seattle, US-West Coast (Remote)",
     "url": "https://stripe.com/jobs/search?gh_jid=8107136",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_stripe_7993151",
+    "title": "Account Executive, Enterprise (Grower)",
+    "company": "Stripe",
+    "category": "cdi",
+    "status": "open",
+    "location": "US-Remote-CA, US-San Francisco, US-Seattle, US-New York",
+    "url": "https://stripe.com/jobs/search?gh_jid=7993151",
     "tags": [
       "Account Executive"
     ],
@@ -1942,19 +1942,6 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_stripe_8190054",
-    "title": "Account Executive, Product (Capital) - Hunter",
-    "company": "Stripe",
-    "category": "cdi",
-    "status": "open",
-    "location": "Chicago, New York",
-    "url": "https://stripe.com/jobs/search?gh_jid=8190054",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_stripe_8181024",
     "title": "Account Executive Product - Fraud & Risk",
     "company": "Stripe",
@@ -2046,6 +2033,19 @@
     "first_seen": "28/09/2026"
   },
   {
+    "id": "gh_stripe_8196267",
+    "title": "Account Executive, Product - Local Payment Methods",
+    "company": "Stripe",
+    "category": "cdi",
+    "status": "open",
+    "location": "London",
+    "url": "https://stripe.com/jobs/search?gh_jid=8196267",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
     "id": "gh_stripe_8190036",
     "title": "Account Executive, Product - Local Payment Methods",
     "company": "Stripe",
@@ -2072,13 +2072,13 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_stripe_8196267",
-    "title": "Account Executive, Product - Local Payment Methods",
+    "id": "gh_stripe_8196269",
+    "title": "Account Executive, Product (Payouts) - Hunter",
     "company": "Stripe",
     "category": "cdi",
     "status": "open",
-    "location": "London",
-    "url": "https://stripe.com/jobs/search?gh_jid=8196267",
+    "location": "New York",
+    "url": "https://stripe.com/jobs/search?gh_jid=8196269",
     "tags": [
       "Account Executive"
     ],
@@ -2092,19 +2092,6 @@
     "status": "open",
     "location": "London, Dublin",
     "url": "https://stripe.com/jobs/search?gh_jid=8196259",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
-    "id": "gh_stripe_8196269",
-    "title": "Account Executive, Product (Payouts) - Hunter",
-    "company": "Stripe",
-    "category": "cdi",
-    "status": "open",
-    "location": "New York",
-    "url": "https://stripe.com/jobs/search?gh_jid=8196269",
     "tags": [
       "Account Executive"
     ],
@@ -2384,19 +2371,6 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_stripe_7576999",
-    "title": "Account Executive, SMB Grower",
-    "company": "Stripe",
-    "category": "cdi",
-    "status": "open",
-    "location": "Chicago",
-    "url": "https://stripe.com/jobs/search?gh_jid=7576999",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_stripe_8238741",
     "title": "Account Executive, SMB Grower",
     "company": "Stripe",
@@ -2408,6 +2382,19 @@
       "Account Executive"
     ],
     "first_seen": "30/09/2026"
+  },
+  {
+    "id": "gh_stripe_7576999",
+    "title": "Account Executive, SMB Grower",
+    "company": "Stripe",
+    "category": "cdi",
+    "status": "open",
+    "location": "Chicago",
+    "url": "https://stripe.com/jobs/search?gh_jid=7576999",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
   },
   {
     "id": "gh_stripe_8238743",
@@ -2672,19 +2659,6 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_stripe_7896538",
-    "title": "Manager, Sales Development",
-    "company": "Stripe",
-    "category": "cdi",
-    "status": "open",
-    "location": "Chicago, Illinois",
-    "url": "https://stripe.com/jobs/search?gh_jid=7896538",
-    "tags": [
-      "SDR"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_stripe_7337544",
     "title": "Manager, Sales Development",
     "company": "Stripe",
@@ -2698,6 +2672,19 @@
     "first_seen": "28/09/2026"
   },
   {
+    "id": "gh_stripe_7896538",
+    "title": "Manager, Sales Development",
+    "company": "Stripe",
+    "category": "cdi",
+    "status": "open",
+    "location": "Chicago, Illinois",
+    "url": "https://stripe.com/jobs/search?gh_jid=7896538",
+    "tags": [
+      "SDR"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
     "id": "gh_stripe_8179341",
     "title": "Product Sales Development Representative (Mandarin-speaking)",
     "company": "Stripe",
@@ -2705,19 +2692,6 @@
     "status": "open",
     "location": "Singapore",
     "url": "https://stripe.com/jobs/search?gh_jid=8179341",
-    "tags": [
-      "SDR"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
-    "id": "gh_stripe_6470774",
-    "title": "Sales Development Representative",
-    "company": "Stripe",
-    "category": "cdi",
-    "status": "open",
-    "location": "Bangalore",
-    "url": "https://stripe.com/jobs/search?gh_jid=6470774",
     "tags": [
       "SDR"
     ],
@@ -3487,7 +3461,7 @@
     "company": "Databricks",
     "category": "cdi",
     "status": "open",
-    "location": "Sydney, Australia",
+    "location": "Melbourne, Australia",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8441865002",
     "tags": [
       "Account Executive"
@@ -5117,19 +5091,6 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_cloudflare_8071416",
-    "title": "Senior Named Account Executive",
-    "company": "Cloudflare",
-    "category": "cdi",
-    "status": "open",
-    "location": "Hybrid",
-    "url": "https://boards.greenhouse.io/cloudflare/jobs/8071416?gh_jid=8071416",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_cloudflare_8180521",
     "title": "Senior Named Account Executive",
     "company": "Cloudflare",
@@ -5137,6 +5098,19 @@
     "status": "open",
     "location": "Hybrid",
     "url": "https://boards.greenhouse.io/cloudflare/jobs/8180521?gh_jid=8180521",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_cloudflare_8071416",
+    "title": "Senior Named Account Executive",
+    "company": "Cloudflare",
+    "category": "cdi",
+    "status": "open",
+    "location": "Hybrid",
+    "url": "https://boards.greenhouse.io/cloudflare/jobs/8071416?gh_jid=8071416",
     "tags": [
       "Account Executive"
     ],
@@ -5912,19 +5886,6 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_gitlab_8736457002",
-    "title": "Business Development Representative (Sydney or Melbourne)",
-    "company": "GitLab",
-    "category": "cdi",
-    "status": "open",
-    "location": "Remote, Australia",
-    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8736457002",
-    "tags": [
-      "BDR"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_gitlab_8784553002",
     "title": "Business Development Representative, Turkish Speaking",
     "company": "GitLab",
@@ -6498,6 +6459,45 @@
     "status": "open",
     "location": "Singapore",
     "url": "https://jobs.lever.co/spotify/973b0b71-e8d2-4d7d-9c4b-1c716bd45c8b",
+    "tags": [
+      "BDR"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_stripe_8190054",
+    "title": "Account Executive, Product (Capital) - Hunter",
+    "company": "Stripe",
+    "category": "cdi",
+    "status": "closed",
+    "location": "Chicago, New York",
+    "url": "https://stripe.com/jobs/search?gh_jid=8190054",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_stripe_6470774",
+    "title": "Sales Development Representative",
+    "company": "Stripe",
+    "category": "cdi",
+    "status": "closed",
+    "location": "Bangalore",
+    "url": "https://stripe.com/jobs/search?gh_jid=6470774",
+    "tags": [
+      "SDR"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_gitlab_8736457002",
+    "title": "Business Development Representative (Sydney or Melbourne)",
+    "company": "GitLab",
+    "category": "cdi",
+    "status": "closed",
+    "location": "Remote, Australia",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8736457002",
     "tags": [
       "BDR"
     ],
