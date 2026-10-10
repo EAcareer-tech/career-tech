@@ -4003,19 +4003,6 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_databricks_8536436002",
-    "title": "Named Enterprise Account Executive",
-    "company": "Databricks",
-    "category": "cdi",
-    "status": "open",
-    "location": "Stockholm, Sweden",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8536436002",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_databricks_8536432002",
     "title": "Named Enterprise Account Executive",
     "company": "Databricks",
@@ -4023,6 +4010,19 @@
     "status": "open",
     "location": "Remote - Denmark",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8536432002",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_databricks_8536436002",
+    "title": "Named Enterprise Account Executive",
+    "company": "Databricks",
+    "category": "cdi",
+    "status": "open",
+    "location": "Stockholm, Sweden",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8536436002",
     "tags": [
       "Account Executive"
     ],
