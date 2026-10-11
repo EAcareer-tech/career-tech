@@ -1642,19 +1642,6 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_stripe_8138042",
-    "title": "Account Executive, Enterprise Platforms, Tier 2 Grower",
-    "company": "Stripe",
-    "category": "cdi",
-    "status": "open",
-    "location": "New York, NY; San Francisco, CA",
-    "url": "https://stripe.com/jobs/search?gh_jid=8138042",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "09/10/2026"
-  },
-  {
     "id": "gh_stripe_8041894",
     "title": "Account Executive, Enterprise Platforms, Tier 2 Grower",
     "company": "Stripe",
@@ -1666,6 +1653,19 @@
       "Account Executive"
     ],
     "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_stripe_8138042",
+    "title": "Account Executive, Enterprise Platforms, Tier 2 Grower",
+    "company": "Stripe",
+    "category": "cdi",
+    "status": "open",
+    "location": "New York, NY; San Francisco, CA",
+    "url": "https://stripe.com/jobs/search?gh_jid=8138042",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "09/10/2026"
   },
   {
     "id": "gh_stripe_8114155",
@@ -2058,19 +2058,6 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_stripe_8196259",
-    "title": "Account Executive, Product (Payouts) - Hunter",
-    "company": "Stripe",
-    "category": "cdi",
-    "status": "open",
-    "location": "London, Dublin",
-    "url": "https://stripe.com/jobs/search?gh_jid=8196259",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_stripe_8196269",
     "title": "Account Executive, Product (Payouts) - Hunter",
     "company": "Stripe",
@@ -2078,6 +2065,19 @@
     "status": "open",
     "location": "New York",
     "url": "https://stripe.com/jobs/search?gh_jid=8196269",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_stripe_8196259",
+    "title": "Account Executive, Product (Payouts) - Hunter",
+    "company": "Stripe",
+    "category": "cdi",
+    "status": "open",
+    "location": "London, Dublin",
+    "url": "https://stripe.com/jobs/search?gh_jid=8196259",
     "tags": [
       "Account Executive"
     ],
@@ -2673,19 +2673,6 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_stripe_8232741",
-    "title": "Enterprise Account Executive, Privy",
-    "company": "Stripe",
-    "category": "cdi",
-    "status": "open",
-    "location": "New York",
-    "url": "https://stripe.com/jobs/search?gh_jid=8232741",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_stripe_8232743",
     "title": "Enterprise Account Executive, Privy",
     "company": "Stripe",
@@ -2693,6 +2680,19 @@
     "status": "open",
     "location": "New York",
     "url": "https://stripe.com/jobs/search?gh_jid=8232743",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_stripe_8232741",
+    "title": "Enterprise Account Executive, Privy",
+    "company": "Stripe",
+    "category": "cdi",
+    "status": "open",
+    "location": "New York",
+    "url": "https://stripe.com/jobs/search?gh_jid=8232741",
     "tags": [
       "Account Executive"
     ],
@@ -2726,19 +2726,6 @@
     "first_seen": "05/10/2026"
   },
   {
-    "id": "gh_stripe_7896538",
-    "title": "Manager, Sales Development",
-    "company": "Stripe",
-    "category": "cdi",
-    "status": "open",
-    "location": "Chicago, Illinois",
-    "url": "https://stripe.com/jobs/search?gh_jid=7896538",
-    "tags": [
-      "SDR"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_stripe_7337544",
     "title": "Manager, Sales Development",
     "company": "Stripe",
@@ -2746,6 +2733,19 @@
     "status": "open",
     "location": "Dublin",
     "url": "https://stripe.com/jobs/search?gh_jid=7337544",
+    "tags": [
+      "SDR"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_stripe_7896538",
+    "title": "Manager, Sales Development",
+    "company": "Stripe",
+    "category": "cdi",
+    "status": "open",
+    "location": "Chicago, Illinois",
+    "url": "https://stripe.com/jobs/search?gh_jid=7896538",
     "tags": [
       "SDR"
     ],
@@ -2765,19 +2765,6 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_stripe_6470774",
-    "title": "Sales Development Representative",
-    "company": "Stripe",
-    "category": "cdi",
-    "status": "open",
-    "location": "Bangalore",
-    "url": "https://stripe.com/jobs/search?gh_jid=6470774",
-    "tags": [
-      "SDR"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_stripe_6570253",
     "title": "Sales Development Representative",
     "company": "Stripe",
@@ -2785,6 +2772,19 @@
     "status": "open",
     "location": "Chicago, Illinois",
     "url": "https://stripe.com/jobs/search?gh_jid=6570253",
+    "tags": [
+      "SDR"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_stripe_6470774",
+    "title": "Sales Development Representative",
+    "company": "Stripe",
+    "category": "cdi",
+    "status": "open",
+    "location": "Bangalore",
+    "url": "https://stripe.com/jobs/search?gh_jid=6470774",
     "tags": [
       "SDR"
     ],
@@ -3003,20 +3003,6 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_stripe_8044158",
-    "title": "Technical Account Manager",
-    "company": "Stripe",
-    "category": "cdi",
-    "status": "open",
-    "location": "Sydney",
-    "url": "https://stripe.com/jobs/search?gh_jid=8044158",
-    "tags": [
-      "Tech Sales",
-      "B2B SaaS"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_stripe_8023524",
     "title": "Technical Account Manager",
     "company": "Stripe",
@@ -3024,6 +3010,20 @@
     "status": "open",
     "location": "Mexico City",
     "url": "https://stripe.com/jobs/search?gh_jid=8023524",
+    "tags": [
+      "Tech Sales",
+      "B2B SaaS"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_stripe_8044158",
+    "title": "Technical Account Manager",
+    "company": "Stripe",
+    "category": "cdi",
+    "status": "open",
+    "location": "Sydney",
+    "url": "https://stripe.com/jobs/search?gh_jid=8044158",
     "tags": [
       "Tech Sales",
       "B2B SaaS"
@@ -3508,19 +3508,6 @@
     "first_seen": "06/10/2026"
   },
   {
-    "id": "gh_databricks_8423167002",
-    "title": "Business Development Representative",
-    "company": "Databricks",
-    "category": "cdi",
-    "status": "open",
-    "location": "Washington, D.C.",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8423167002",
-    "tags": [
-      "BDR"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_databricks_8423165002",
     "title": "Business Development Representative",
     "company": "Databricks",
@@ -3528,6 +3515,19 @@
     "status": "open",
     "location": "Chicago, Illinois",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8423165002",
+    "tags": [
+      "BDR"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_databricks_8423167002",
+    "title": "Business Development Representative",
+    "company": "Databricks",
+    "category": "cdi",
+    "status": "open",
+    "location": "Washington, D.C.",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8423167002",
     "tags": [
       "BDR"
     ],
@@ -3586,19 +3586,6 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_databricks_7716357002",
-    "title": "Emerging Enterprise Account Executive",
-    "company": "Databricks",
-    "category": "cdi",
-    "status": "open",
-    "location": "United States",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7716357002",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_databricks_8194916002",
     "title": "Emerging Enterprise Account Executive",
     "company": "Databricks",
@@ -3606,6 +3593,19 @@
     "status": "open",
     "location": "Tokyo, Japan",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8194916002",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_databricks_7716357002",
+    "title": "Emerging Enterprise Account Executive",
+    "company": "Databricks",
+    "category": "cdi",
+    "status": "open",
+    "location": "United States",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7716357002",
     "tags": [
       "Account Executive"
     ],
@@ -4291,19 +4291,6 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_databricks_8868531002",
-    "title": "Strategic Core Account Executive",
-    "company": "Databricks",
-    "category": "cdi",
-    "status": "open",
-    "location": "West Coast - United States",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8868531002",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "06/10/2026"
-  },
-  {
     "id": "gh_databricks_8766584002",
     "title": "Strategic Core Account Executive",
     "company": "Databricks",
@@ -4315,6 +4302,19 @@
       "Account Executive"
     ],
     "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_databricks_8868531002",
+    "title": "Strategic Core Account Executive",
+    "company": "Databricks",
+    "category": "cdi",
+    "status": "open",
+    "location": "West Coast - United States",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8868531002",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "06/10/2026"
   },
   {
     "id": "gh_databricks_8878722002",
@@ -4499,19 +4499,6 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_databricks_8648999002",
-    "title": "Strategic Enterprise Account Executive, Life Sciences",
-    "company": "Databricks",
-    "category": "cdi",
-    "status": "open",
-    "location": "Chicago, Illinois; Indiana",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8648999002",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_databricks_8790046002",
     "title": "Strategic Enterprise Account Executive, Life Sciences",
     "company": "Databricks",
@@ -4532,6 +4519,19 @@
     "status": "open",
     "location": "Mountain View, California; Remote - North Carolina; San Francisco, California",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8645718002",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_databricks_8648999002",
+    "title": "Strategic Enterprise Account Executive, Life Sciences",
+    "company": "Databricks",
+    "category": "cdi",
+    "status": "open",
+    "location": "Chicago, Illinois; Indiana",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8648999002",
     "tags": [
       "Account Executive"
     ],
