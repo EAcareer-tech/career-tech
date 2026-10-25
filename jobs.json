@@ -3900,19 +3900,6 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_databricks_8813191002",
-    "title": "Enterprise Account Executive - China",
-    "company": "Databricks",
-    "category": "cdi",
-    "status": "open",
-    "location": "Singapore",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8813191002",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_databricks_8844022002",
     "title": "Enterprise Account Executive - China",
     "company": "Databricks",
@@ -3920,6 +3907,19 @@
     "status": "open",
     "location": "Remote - China",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8844022002",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_databricks_8813191002",
+    "title": "Enterprise Account Executive - China",
+    "company": "Databricks",
+    "category": "cdi",
+    "status": "open",
+    "location": "Singapore",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8813191002",
     "tags": [
       "Account Executive"
     ],
@@ -4356,19 +4356,6 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_databricks_8536436002",
-    "title": "Named Enterprise Account Executive",
-    "company": "Databricks",
-    "category": "cdi",
-    "status": "open",
-    "location": "Stockholm, Sweden",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8536436002",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_databricks_8536432002",
     "title": "Named Enterprise Account Executive",
     "company": "Databricks",
@@ -4376,6 +4363,19 @@
     "status": "open",
     "location": "Remote - Denmark",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8536432002",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_databricks_8536436002",
+    "title": "Named Enterprise Account Executive",
+    "company": "Databricks",
+    "category": "cdi",
+    "status": "open",
+    "location": "Stockholm, Sweden",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8536436002",
     "tags": [
       "Account Executive"
     ],
@@ -4449,19 +4449,6 @@
     "first_seen": "14/10/2026"
   },
   {
-    "id": "gh_databricks_8741927002",
-    "title": "Sr. Manager, Sales Development",
-    "company": "Databricks",
-    "category": "cdi",
-    "status": "open",
-    "location": "Bengaluru, India",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8741927002",
-    "tags": [
-      "SDR"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_databricks_8839016002",
     "title": "Sr. Manager, Sales Development",
     "company": "Databricks",
@@ -4475,6 +4462,19 @@
     "first_seen": "05/10/2026"
   },
   {
+    "id": "gh_databricks_8741927002",
+    "title": "Sr. Manager, Sales Development",
+    "company": "Databricks",
+    "category": "cdi",
+    "status": "open",
+    "location": "Bengaluru, India",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8741927002",
+    "tags": [
+      "SDR"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
     "id": "gh_databricks_8899929002",
     "title": "Startup Core Account Executive",
     "company": "Databricks",
@@ -4482,6 +4482,19 @@
     "status": "open",
     "location": "Stockholm, Sweden",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8899929002",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "19/10/2026"
+  },
+  {
+    "id": "gh_databricks_8899923002",
+    "title": "Startup Hunter Account Executive",
+    "company": "Databricks",
+    "category": "cdi",
+    "status": "open",
+    "location": "Stockholm, Sweden",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8899923002",
     "tags": [
       "Account Executive"
     ],
@@ -4499,19 +4512,6 @@
       "Account Executive"
     ],
     "first_seen": "28/09/2026"
-  },
-  {
-    "id": "gh_databricks_8899923002",
-    "title": "Startup Hunter Account Executive",
-    "company": "Databricks",
-    "category": "cdi",
-    "status": "open",
-    "location": "Stockholm, Sweden",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8899923002",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "19/10/2026"
   },
   {
     "id": "gh_databricks_8815165002",
@@ -4618,17 +4618,17 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_databricks_8902939002",
+    "id": "gh_databricks_8766584002",
     "title": "Strategic Core Account Executive",
     "company": "Databricks",
     "category": "cdi",
     "status": "open",
-    "location": "Remote - Virginia; Remote - Washington D.C.",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8902939002",
+    "location": "San Francisco, California",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8766584002",
     "tags": [
       "Account Executive"
     ],
-    "first_seen": "20/10/2026"
+    "first_seen": "28/09/2026"
   },
   {
     "id": "gh_databricks_8868531002",
@@ -4644,32 +4644,6 @@
     "first_seen": "06/10/2026"
   },
   {
-    "id": "gh_databricks_8878722002",
-    "title": "Strategic Core Account Executive",
-    "company": "Databricks",
-    "category": "cdi",
-    "status": "open",
-    "location": "Herzliya, Israel",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8878722002",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "08/10/2026"
-  },
-  {
-    "id": "gh_databricks_8766584002",
-    "title": "Strategic Core Account Executive",
-    "company": "Databricks",
-    "category": "cdi",
-    "status": "open",
-    "location": "San Francisco, California",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8766584002",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_databricks_8628029002",
     "title": "Strategic Core Account Executive",
     "company": "Databricks",
@@ -4681,6 +4655,32 @@
       "Account Executive"
     ],
     "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_databricks_8902939002",
+    "title": "Strategic Core Account Executive",
+    "company": "Databricks",
+    "category": "cdi",
+    "status": "open",
+    "location": "Remote - Virginia; Remote - Washington D.C.",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8902939002",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "20/10/2026"
+  },
+  {
+    "id": "gh_databricks_8878722002",
+    "title": "Strategic Core Account Executive",
+    "company": "Databricks",
+    "category": "cdi",
+    "status": "open",
+    "location": "Herzliya, Israel",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8878722002",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "08/10/2026"
   },
   {
     "id": "gh_databricks_8869256002",
@@ -4852,19 +4852,6 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_databricks_8585188002",
-    "title": "Strategic DNB Hunter Account Executive (China)",
-    "company": "Databricks",
-    "category": "cdi",
-    "status": "open",
-    "location": "Singapore",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8585188002",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_databricks_8644185002",
     "title": "Strategic DNB Hunter Account Executive (China)",
     "company": "Databricks",
@@ -4872,6 +4859,19 @@
     "status": "open",
     "location": "China",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8644185002",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_databricks_8585188002",
+    "title": "Strategic DNB Hunter Account Executive (China)",
+    "company": "Databricks",
+    "category": "cdi",
+    "status": "open",
+    "location": "Singapore",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8585188002",
     "tags": [
       "Account Executive"
     ],
@@ -4930,19 +4930,6 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_databricks_8645718002",
-    "title": "Strategic Enterprise Account Executive, Life Sciences",
-    "company": "Databricks",
-    "category": "cdi",
-    "status": "open",
-    "location": "Mountain View, California; Remote - North Carolina; San Francisco, California",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8645718002",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_databricks_8892943002",
     "title": "Strategic Enterprise Account Executive, Life Sciences",
     "company": "Databricks",
@@ -4969,6 +4956,19 @@
     "first_seen": "28/09/2026"
   },
   {
+    "id": "gh_databricks_8645718002",
+    "title": "Strategic Enterprise Account Executive, Life Sciences",
+    "company": "Databricks",
+    "category": "cdi",
+    "status": "open",
+    "location": "Mountain View, California; Remote - North Carolina; San Francisco, California",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8645718002",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
     "id": "gh_databricks_8905733002",
     "title": "Strategic Enterprise Account Executive, Media",
     "company": "Databricks",
@@ -4982,19 +4982,6 @@
     "first_seen": "22/10/2026"
   },
   {
-    "id": "gh_databricks_8737167002",
-    "title": "Strategic Hunter Account Executive",
-    "company": "Databricks",
-    "category": "cdi",
-    "status": "open",
-    "location": "Paris, France",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8737167002",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_databricks_8880400002",
     "title": "Strategic Hunter Account Executive",
     "company": "Databricks",
@@ -5006,6 +4993,19 @@
       "Account Executive"
     ],
     "first_seen": "12/10/2026"
+  },
+  {
+    "id": "gh_databricks_8737167002",
+    "title": "Strategic Hunter Account Executive",
+    "company": "Databricks",
+    "category": "cdi",
+    "status": "open",
+    "location": "Paris, France",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8737167002",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
   },
   {
     "id": "gh_databricks_8885667002",
