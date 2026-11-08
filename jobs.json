@@ -1588,19 +1588,6 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_stripe_8138044",
-    "title": "Account Executive, AI Sales",
-    "company": "Stripe",
-    "category": "cdi",
-    "status": "open",
-    "location": "San Francisco, CA",
-    "url": "https://stripe.com/jobs/search?gh_jid=8138044",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_stripe_8332467",
     "title": "Account Executive, AI Sales",
     "company": "Stripe",
@@ -1614,6 +1601,19 @@
     "first_seen": "06/11/2026"
   },
   {
+    "id": "gh_stripe_8138044",
+    "title": "Account Executive, AI Sales",
+    "company": "Stripe",
+    "category": "cdi",
+    "status": "open",
+    "location": "San Francisco, CA",
+    "url": "https://stripe.com/jobs/search?gh_jid=8138044",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
     "id": "gh_stripe_8238731",
     "title": "Account Executive, AI Startups - Grower",
     "company": "Stripe",
@@ -1625,19 +1625,6 @@
       "Account Executive"
     ],
     "first_seen": "02/10/2026"
-  },
-  {
-    "id": "gh_stripe_8322584",
-    "title": "Account Executive, Benelux",
-    "company": "Stripe",
-    "category": "cdi",
-    "status": "open",
-    "location": "Dublin",
-    "url": "https://stripe.com/jobs/search?gh_jid=8322584",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "02/11/2026"
   },
   {
     "id": "gh_stripe_8215824",
@@ -2394,19 +2381,6 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_stripe_8181024",
-    "title": "Account Executive Product - Fraud & Risk",
-    "company": "Stripe",
-    "category": "cdi",
-    "status": "open",
-    "location": "Chicago, Seattle, NYC, San Francisco, Remote",
-    "url": "https://stripe.com/jobs/search?gh_jid=8181024",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_stripe_8271657",
     "title": "Account Executive Product - Fraud & Risk",
     "company": "Stripe",
@@ -2418,6 +2392,19 @@
       "Account Executive"
     ],
     "first_seen": "14/10/2026"
+  },
+  {
+    "id": "gh_stripe_8181024",
+    "title": "Account Executive Product - Fraud & Risk",
+    "company": "Stripe",
+    "category": "cdi",
+    "status": "open",
+    "location": "Chicago, Seattle, NYC, San Francisco, Remote",
+    "url": "https://stripe.com/jobs/search?gh_jid=8181024",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
   },
   {
     "id": "gh_stripe_8213481",
@@ -2485,19 +2472,6 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_stripe_8174160",
-    "title": "Account Executive, Product - Local Payment Methods",
-    "company": "Stripe",
-    "category": "cdi",
-    "status": "open",
-    "location": "Singapore",
-    "url": "https://stripe.com/jobs/search?gh_jid=8174160",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_stripe_8190036",
     "title": "Account Executive, Product - Local Payment Methods",
     "company": "Stripe",
@@ -2505,6 +2479,19 @@
     "status": "open",
     "location": "US-CA",
     "url": "https://stripe.com/jobs/search?gh_jid=8190036",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_stripe_8174160",
+    "title": "Account Executive, Product - Local Payment Methods",
+    "company": "Stripe",
+    "category": "cdi",
+    "status": "open",
+    "location": "Singapore",
+    "url": "https://stripe.com/jobs/search?gh_jid=8174160",
     "tags": [
       "Account Executive"
     ],
@@ -2615,19 +2602,6 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_stripe_8190042",
-    "title": "Account Executive, Product Sales, Metronome",
-    "company": "Stripe",
-    "category": "cdi",
-    "status": "open",
-    "location": "US-NYC",
-    "url": "https://stripe.com/jobs/search?gh_jid=8190042",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_stripe_8154295",
     "title": "Account Executive, Product Sales, Metronome",
     "company": "Stripe",
@@ -2639,6 +2613,19 @@
       "Account Executive"
     ],
     "first_seen": "29/10/2026"
+  },
+  {
+    "id": "gh_stripe_8190042",
+    "title": "Account Executive, Product Sales, Metronome",
+    "company": "Stripe",
+    "category": "cdi",
+    "status": "open",
+    "location": "US-NYC",
+    "url": "https://stripe.com/jobs/search?gh_jid=8190042",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
   },
   {
     "id": "gh_stripe_8029043",
@@ -2769,6 +2756,19 @@
       "Account Executive"
     ],
     "first_seen": "23/10/2026"
+  },
+  {
+    "id": "gh_stripe_8322584",
+    "title": "Account Executive, SMB",
+    "company": "Stripe",
+    "category": "cdi",
+    "status": "open",
+    "location": "Dublin",
+    "url": "https://stripe.com/jobs/search?gh_jid=8322584",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "02/11/2026"
   },
   {
     "id": "gh_stripe_8286655",
@@ -2966,19 +2966,6 @@
     "first_seen": "04/11/2026"
   },
   {
-    "id": "gh_stripe_8287920",
-    "title": "Account Executive, Startups (Grower)",
-    "company": "Stripe",
-    "category": "cdi",
-    "status": "open",
-    "location": "Chicago",
-    "url": "https://stripe.com/jobs/search?gh_jid=8287920",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "02/11/2026"
-  },
-  {
     "id": "gh_stripe_8280266",
     "title": "Account Executive, Startups (Grower)",
     "company": "Stripe",
@@ -2990,6 +2977,19 @@
       "Account Executive"
     ],
     "first_seen": "28/10/2026"
+  },
+  {
+    "id": "gh_stripe_8287920",
+    "title": "Account Executive, Startups (Grower)",
+    "company": "Stripe",
+    "category": "cdi",
+    "status": "open",
+    "location": "Chicago",
+    "url": "https://stripe.com/jobs/search?gh_jid=8287920",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "02/11/2026"
   },
   {
     "id": "gh_stripe_8351500",
@@ -3096,19 +3096,6 @@
     "first_seen": "21/10/2026"
   },
   {
-    "id": "gh_stripe_8267839",
-    "title": "Account Executive, Velocity Platforms (Hunter)",
-    "company": "Stripe",
-    "category": "cdi",
-    "status": "open",
-    "location": "Chicago, IL; New York, NY; San Francisco, CA",
-    "url": "https://stripe.com/jobs/search?gh_jid=8267839",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "19/10/2026"
-  },
-  {
     "id": "gh_stripe_8267841",
     "title": "Account Executive, Velocity Platforms (Hunter)",
     "company": "Stripe",
@@ -3133,6 +3120,19 @@
       "Account Executive"
     ],
     "first_seen": "21/10/2026"
+  },
+  {
+    "id": "gh_stripe_8267839",
+    "title": "Account Executive, Velocity Platforms (Hunter)",
+    "company": "Stripe",
+    "category": "cdi",
+    "status": "open",
+    "location": "Chicago, IL; New York, NY; San Francisco, CA",
+    "url": "https://stripe.com/jobs/search?gh_jid=8267839",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "19/10/2026"
   },
   {
     "id": "gh_stripe_8241345",
