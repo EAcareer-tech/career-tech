@@ -1,5 +1,18 @@
 [
   {
+    "id": "gh_datadog_7463765",
+    "title": "Commercial Account Executive",
+    "company": "Datadog",
+    "category": "cdi",
+    "status": "open",
+    "location": "Sydney, Australia",
+    "url": "https://careers.datadoghq.com/detail/7463765/?gh_jid=7463765",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
     "id": "gh_datadog_1694375",
     "title": "Commercial Account Executive",
     "company": "Datadog",
@@ -7,19 +20,6 @@
     "status": "open",
     "location": "Denver, Colorado, USA",
     "url": "https://careers.datadoghq.com/detail/1694375/?gh_jid=1694375",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
-    "id": "gh_datadog_6512586",
-    "title": "Commercial Account Executive",
-    "company": "Datadog",
-    "category": "cdi",
-    "status": "open",
-    "location": "Seoul, South Korea",
-    "url": "https://careers.datadoghq.com/detail/6512586/?gh_jid=6512586",
     "tags": [
       "Account Executive"
     ],
@@ -78,13 +78,13 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_datadog_7463765",
+    "id": "gh_datadog_6512586",
     "title": "Commercial Account Executive",
     "company": "Datadog",
     "category": "cdi",
     "status": "open",
-    "location": "Sydney, Australia",
-    "url": "https://careers.datadoghq.com/detail/7463765/?gh_jid=7463765",
+    "location": "Seoul, South Korea",
+    "url": "https://careers.datadoghq.com/detail/6512586/?gh_jid=6512586",
     "tags": [
       "Account Executive"
     ],
@@ -262,20 +262,6 @@
     "first_seen": "13/10/2026"
   },
   {
-    "id": "gh_datadog_8131949",
-    "title": "Commercial & Mid-Market Sales Engineer",
-    "company": "Datadog",
-    "category": "cdi",
-    "status": "open",
-    "location": "Seoul, South Korea",
-    "url": "https://careers.datadoghq.com/detail/8131949/?gh_jid=8131949",
-    "tags": [
-      "Tech Sales",
-      "B2B SaaS"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_datadog_8130580",
     "title": "Commercial & Mid-Market Sales Engineer",
     "company": "Datadog",
@@ -283,6 +269,20 @@
     "status": "open",
     "location": "Seoul, South Korea",
     "url": "https://careers.datadoghq.com/detail/8130580/?gh_jid=8130580",
+    "tags": [
+      "Tech Sales",
+      "B2B SaaS"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_datadog_8131949",
+    "title": "Commercial & Mid-Market Sales Engineer",
+    "company": "Datadog",
+    "category": "cdi",
+    "status": "open",
+    "location": "Seoul, South Korea",
+    "url": "https://careers.datadoghq.com/detail/8131949/?gh_jid=8131949",
     "tags": [
       "Tech Sales",
       "B2B SaaS"
@@ -414,20 +414,6 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_datadog_8125958",
-    "title": "Major Account Manager",
-    "company": "Datadog",
-    "category": "cdi",
-    "status": "open",
-    "location": "Michigan, USA, Remote; Ohio, USA, Remote; Texas, USA, Remote",
-    "url": "https://careers.datadoghq.com/detail/8125958/?gh_jid=8125958",
-    "tags": [
-      "Tech Sales",
-      "B2B SaaS"
-    ],
-    "first_seen": "28/10/2026"
-  },
-  {
     "id": "gh_datadog_7630041",
     "title": "Major Account Manager",
     "company": "Datadog",
@@ -468,6 +454,20 @@
       "B2B SaaS"
     ],
     "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_datadog_8125958",
+    "title": "Major Account Manager",
+    "company": "Datadog",
+    "category": "cdi",
+    "status": "open",
+    "location": "Michigan, USA, Remote; Ohio, USA, Remote; Texas, USA, Remote",
+    "url": "https://careers.datadoghq.com/detail/8125958/?gh_jid=8125958",
+    "tags": [
+      "Tech Sales",
+      "B2B SaaS"
+    ],
+    "first_seen": "28/10/2026"
   },
   {
     "id": "gh_datadog_7244867",
@@ -526,19 +526,6 @@
     "first_seen": "11/11/2026"
   },
   {
-    "id": "gh_datadog_8345039",
-    "title": "Manager, Sales Development",
-    "company": "Datadog",
-    "category": "cdi",
-    "status": "open",
-    "location": "Tokyo, Japan",
-    "url": "https://careers.datadoghq.com/detail/8345039/?gh_jid=8345039",
-    "tags": [
-      "SDR"
-    ],
-    "first_seen": "04/11/2026"
-  },
-  {
     "id": "gh_datadog_8345094",
     "title": "Manager, Sales Development",
     "company": "Datadog",
@@ -552,17 +539,17 @@
     "first_seen": "04/11/2026"
   },
   {
-    "id": "gh_datadog_8263060",
-    "title": "Manager, Sales Development - Denver",
+    "id": "gh_datadog_8345039",
+    "title": "Manager, Sales Development",
     "company": "Datadog",
     "category": "cdi",
     "status": "open",
-    "location": "Denver, Colorado, USA",
-    "url": "https://careers.datadoghq.com/detail/8263060/?gh_jid=8263060",
+    "location": "Tokyo, Japan",
+    "url": "https://careers.datadoghq.com/detail/8345039/?gh_jid=8345039",
     "tags": [
       "SDR"
     ],
-    "first_seen": "15/10/2026"
+    "first_seen": "04/11/2026"
   },
   {
     "id": "gh_datadog_8303622",
@@ -578,13 +565,13 @@
     "first_seen": "21/10/2026"
   },
   {
-    "id": "gh_datadog_6523631",
+    "id": "gh_datadog_6665385",
     "title": "Mid Market Account Executive",
     "company": "Datadog",
     "category": "cdi",
     "status": "open",
-    "location": "Tokyo, Japan",
-    "url": "https://careers.datadoghq.com/detail/6523631/?gh_jid=6523631",
+    "location": "New York, New York, USA",
+    "url": "https://careers.datadoghq.com/detail/6665385/?gh_jid=6665385",
     "tags": [
       "Account Executive"
     ],
@@ -617,13 +604,13 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_datadog_6665385",
+    "id": "gh_datadog_6523631",
     "title": "Mid Market Account Executive",
     "company": "Datadog",
     "category": "cdi",
     "status": "open",
-    "location": "New York, New York, USA",
-    "url": "https://careers.datadoghq.com/detail/6665385/?gh_jid=6665385",
+    "location": "Tokyo, Japan",
+    "url": "https://careers.datadoghq.com/detail/6523631/?gh_jid=6523631",
     "tags": [
       "Account Executive"
     ],
@@ -643,19 +630,6 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_datadog_8334237",
-    "title": "Mid-Market Account Executive",
-    "company": "Datadog",
-    "category": "cdi",
-    "status": "open",
-    "location": "Riyadh, Saudi Arabia",
-    "url": "https://careers.datadoghq.com/detail/8334237/?gh_jid=8334237",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "02/11/2026"
-  },
-  {
     "id": "gh_datadog_8334003",
     "title": "Mid-Market Account Executive",
     "company": "Datadog",
@@ -667,6 +641,19 @@
       "Account Executive"
     ],
     "first_seen": "30/10/2026"
+  },
+  {
+    "id": "gh_datadog_8334237",
+    "title": "Mid-Market Account Executive",
+    "company": "Datadog",
+    "category": "cdi",
+    "status": "open",
+    "location": "Riyadh, Saudi Arabia",
+    "url": "https://careers.datadoghq.com/detail/8334237/?gh_jid=8334237",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "02/11/2026"
   },
   {
     "id": "gh_datadog_8096105",
@@ -734,6 +721,19 @@
     "first_seen": "28/09/2026"
   },
   {
+    "id": "gh_datadog_8334294",
+    "title": "Mid-Market Account Executive (France)",
+    "company": "Datadog",
+    "category": "cdi",
+    "status": "open",
+    "location": "Amsterdam, The Netherlands; Dublin, Ireland",
+    "url": "https://careers.datadoghq.com/detail/8334294/?gh_jid=8334294",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "06/11/2026"
+  },
+  {
     "id": "gh_datadog_8243549",
     "title": "Mid Market Account Executive (Mexico)",
     "company": "Datadog",
@@ -771,6 +771,19 @@
       "Account Executive"
     ],
     "first_seen": "02/11/2026"
+  },
+  {
+    "id": "gh_datadog_8042600",
+    "title": "Sales Development Representative",
+    "company": "Datadog",
+    "category": "cdi",
+    "status": "open",
+    "location": "Sydney, Australia",
+    "url": "https://careers.datadoghq.com/detail/8042600/?gh_jid=8042600",
+    "tags": [
+      "SDR"
+    ],
+    "first_seen": "28/09/2026"
   },
   {
     "id": "gh_datadog_7531575",
@@ -879,6 +892,20 @@
     "first_seen": "30/10/2026"
   },
   {
+    "id": "gh_datadog_8398016",
+    "title": "Senior Commercial Counsel",
+    "company": "Datadog",
+    "category": "cdi",
+    "status": "open",
+    "location": "Melbourne, Australia",
+    "url": "https://careers.datadoghq.com/detail/8398016/?gh_jid=8398016",
+    "tags": [
+      "Tech Sales",
+      "B2B SaaS"
+    ],
+    "first_seen": "20/11/2026"
+  },
+  {
     "id": "gh_datadog_7905276",
     "title": "Senior Commercial Counsel",
     "company": "Datadog",
@@ -893,134 +920,30 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_datadog_7131726",
+    "id": "gh_datadog_7134079",
     "title": "Strategic Account Executive",
     "company": "Datadog",
     "category": "cdi",
     "status": "open",
-    "location": "Jakarta, Indonesia",
-    "url": "https://careers.datadoghq.com/detail/7131726/?gh_jid=7131726",
+    "location": "Texas, USA, Remote",
+    "url": "https://careers.datadoghq.com/detail/7134079/?gh_jid=7134079",
     "tags": [
       "Account Executive"
     ],
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_datadog_7142205",
+    "id": "gh_datadog_8247540",
     "title": "Strategic Account Executive",
     "company": "Datadog",
     "category": "cdi",
     "status": "open",
-    "location": "Seoul, South Korea",
-    "url": "https://careers.datadoghq.com/detail/7142205/?gh_jid=7142205",
+    "location": "Mumbai, India",
+    "url": "https://careers.datadoghq.com/detail/8247540/?gh_jid=8247540",
     "tags": [
       "Account Executive"
     ],
-    "first_seen": "28/09/2026"
-  },
-  {
-    "id": "gh_datadog_7155024",
-    "title": "Strategic Account Executive",
-    "company": "Datadog",
-    "category": "cdi",
-    "status": "open",
-    "location": "California, USA, Remote",
-    "url": "https://careers.datadoghq.com/detail/7155024/?gh_jid=7155024",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "15/10/2026"
-  },
-  {
-    "id": "gh_datadog_7131445",
-    "title": "Strategic Account Executive",
-    "company": "Datadog",
-    "category": "cdi",
-    "status": "open",
-    "location": "San Francisco, California, USA",
-    "url": "https://careers.datadoghq.com/detail/7131445/?gh_jid=7131445",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "06/10/2026"
-  },
-  {
-    "id": "gh_datadog_7131363",
-    "title": "Strategic Account Executive",
-    "company": "Datadog",
-    "category": "cdi",
-    "status": "open",
-    "location": "North Carolina, USA, Remote; South Carolina, USA, Remote",
-    "url": "https://careers.datadoghq.com/detail/7131363/?gh_jid=7131363",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
-    "id": "gh_datadog_7131386",
-    "title": "Strategic Account Executive",
-    "company": "Datadog",
-    "category": "cdi",
-    "status": "open",
-    "location": "New York, New York, USA",
-    "url": "https://careers.datadoghq.com/detail/7131386/?gh_jid=7131386",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
-    "id": "gh_datadog_7131396",
-    "title": "Strategic Account Executive",
-    "company": "Datadog",
-    "category": "cdi",
-    "status": "open",
-    "location": "Mexico City, Mexico",
-    "url": "https://careers.datadoghq.com/detail/7131396/?gh_jid=7131396",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
-    "id": "gh_datadog_7131495",
-    "title": "Strategic Account Executive",
-    "company": "Datadog",
-    "category": "cdi",
-    "status": "open",
-    "location": "Washington, USA, Remote",
-    "url": "https://careers.datadoghq.com/detail/7131495/?gh_jid=7131495",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
-    "id": "gh_datadog_7439145",
-    "title": "Strategic Account Executive",
-    "company": "Datadog",
-    "category": "cdi",
-    "status": "open",
-    "location": "Singapore, Singapore",
-    "url": "https://careers.datadoghq.com/detail/7439145/?gh_jid=7439145",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
-    "id": "gh_datadog_7131404",
-    "title": "Strategic Account Executive",
-    "company": "Datadog",
-    "category": "cdi",
-    "status": "open",
-    "location": "Chile, Remote",
-    "url": "https://careers.datadoghq.com/detail/7131404/?gh_jid=7131404",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
+    "first_seen": "13/10/2026"
   },
   {
     "id": "gh_datadog_6522720",
@@ -1062,17 +985,17 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_datadog_8247540",
+    "id": "gh_datadog_8157360",
     "title": "Strategic Account Executive",
     "company": "Datadog",
     "category": "cdi",
     "status": "open",
-    "location": "Mumbai, India",
-    "url": "https://careers.datadoghq.com/detail/8247540/?gh_jid=8247540",
+    "location": "Florida, USA, Remote",
+    "url": "https://careers.datadoghq.com/detail/8157360/?gh_jid=8157360",
     "tags": [
       "Account Executive"
     ],
-    "first_seen": "13/10/2026"
+    "first_seen": "28/09/2026"
   },
   {
     "id": "gh_datadog_6522865",
@@ -1088,32 +1011,6 @@
     "first_seen": "15/10/2026"
   },
   {
-    "id": "gh_datadog_8184643",
-    "title": "Strategic Account Executive",
-    "company": "Datadog",
-    "category": "cdi",
-    "status": "open",
-    "location": "Bangalore, India",
-    "url": "https://careers.datadoghq.com/detail/8184643/?gh_jid=8184643",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
-    "id": "gh_datadog_8157360",
-    "title": "Strategic Account Executive",
-    "company": "Datadog",
-    "category": "cdi",
-    "status": "open",
-    "location": "Florida, USA, Remote",
-    "url": "https://careers.datadoghq.com/detail/8157360/?gh_jid=8157360",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_datadog_7055008",
     "title": "Strategic Account Executive",
     "company": "Datadog",
@@ -1121,6 +1018,45 @@
     "status": "open",
     "location": "Sao Paulo, Brazil",
     "url": "https://careers.datadoghq.com/detail/7055008/?gh_jid=7055008",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_datadog_7131495",
+    "title": "Strategic Account Executive",
+    "company": "Datadog",
+    "category": "cdi",
+    "status": "open",
+    "location": "Washington, USA, Remote",
+    "url": "https://careers.datadoghq.com/detail/7131495/?gh_jid=7131495",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_datadog_7131404",
+    "title": "Strategic Account Executive",
+    "company": "Datadog",
+    "category": "cdi",
+    "status": "open",
+    "location": "Chile, Remote",
+    "url": "https://careers.datadoghq.com/detail/7131404/?gh_jid=7131404",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_datadog_7439145",
+    "title": "Strategic Account Executive",
+    "company": "Datadog",
+    "category": "cdi",
+    "status": "open",
+    "location": "Singapore, Singapore",
+    "url": "https://careers.datadoghq.com/detail/7439145/?gh_jid=7439145",
     "tags": [
       "Account Executive"
     ],
@@ -1140,6 +1076,71 @@
     "first_seen": "28/09/2026"
   },
   {
+    "id": "gh_datadog_7131396",
+    "title": "Strategic Account Executive",
+    "company": "Datadog",
+    "category": "cdi",
+    "status": "open",
+    "location": "Mexico City, Mexico",
+    "url": "https://careers.datadoghq.com/detail/7131396/?gh_jid=7131396",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_datadog_7131386",
+    "title": "Strategic Account Executive",
+    "company": "Datadog",
+    "category": "cdi",
+    "status": "open",
+    "location": "New York, New York, USA",
+    "url": "https://careers.datadoghq.com/detail/7131386/?gh_jid=7131386",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_datadog_7131363",
+    "title": "Strategic Account Executive",
+    "company": "Datadog",
+    "category": "cdi",
+    "status": "open",
+    "location": "North Carolina, USA, Remote; South Carolina, USA, Remote",
+    "url": "https://careers.datadoghq.com/detail/7131363/?gh_jid=7131363",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_datadog_7131445",
+    "title": "Strategic Account Executive",
+    "company": "Datadog",
+    "category": "cdi",
+    "status": "open",
+    "location": "San Francisco, California, USA",
+    "url": "https://careers.datadoghq.com/detail/7131445/?gh_jid=7131445",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "06/10/2026"
+  },
+  {
+    "id": "gh_datadog_7155024",
+    "title": "Strategic Account Executive",
+    "company": "Datadog",
+    "category": "cdi",
+    "status": "open",
+    "location": "California, USA, Remote",
+    "url": "https://careers.datadoghq.com/detail/7155024/?gh_jid=7155024",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "15/10/2026"
+  },
+  {
     "id": "gh_datadog_7117086",
     "title": "Strategic Account Executive",
     "company": "Datadog",
@@ -1153,13 +1154,39 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_datadog_7134079",
+    "id": "gh_datadog_7142205",
     "title": "Strategic Account Executive",
     "company": "Datadog",
     "category": "cdi",
     "status": "open",
-    "location": "Texas, USA, Remote",
-    "url": "https://careers.datadoghq.com/detail/7134079/?gh_jid=7134079",
+    "location": "Seoul, South Korea",
+    "url": "https://careers.datadoghq.com/detail/7142205/?gh_jid=7142205",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_datadog_7131726",
+    "title": "Strategic Account Executive",
+    "company": "Datadog",
+    "category": "cdi",
+    "status": "open",
+    "location": "Jakarta, Indonesia",
+    "url": "https://careers.datadoghq.com/detail/7131726/?gh_jid=7131726",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_datadog_8184643",
+    "title": "Strategic Account Executive",
+    "company": "Datadog",
+    "category": "cdi",
+    "status": "open",
+    "location": "Bangalore, India",
+    "url": "https://careers.datadoghq.com/detail/8184643/?gh_jid=8184643",
     "tags": [
       "Account Executive"
     ],
@@ -1179,19 +1206,6 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_datadog_7645709",
-    "title": "Strategic Account Executive (FED)",
-    "company": "Datadog",
-    "category": "cdi",
-    "status": "open",
-    "location": "Canberra, Australia",
-    "url": "https://careers.datadoghq.com/detail/7645709/?gh_jid=7645709",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_datadog_8021535",
     "title": "Strategic Account Executive (FED)",
     "company": "Datadog",
@@ -1199,6 +1213,19 @@
     "status": "open",
     "location": "District of Columbia, USA, Remote; Maryland, USA, Remote; Virginia, USA, Remote",
     "url": "https://careers.datadoghq.com/detail/8021535/?gh_jid=8021535",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_datadog_7645709",
+    "title": "Strategic Account Executive (FED)",
+    "company": "Datadog",
+    "category": "cdi",
+    "status": "open",
+    "location": "Canberra, Australia",
+    "url": "https://careers.datadoghq.com/detail/7645709/?gh_jid=7645709",
     "tags": [
       "Account Executive"
     ],
@@ -1283,19 +1310,6 @@
     "first_seen": "13/10/2026"
   },
   {
-    "id": "gh_datadog_7439149",
-    "title": "Strategic Account Executive, Public Sector Japan, FED",
-    "company": "Datadog",
-    "category": "cdi",
-    "status": "open",
-    "location": "Tokyo, Japan",
-    "url": "https://careers.datadoghq.com/detail/7439149/?gh_jid=7439149",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_datadog_7439569",
     "title": "Strategic Account Executive, Public Sector Japan, FED",
     "company": "Datadog",
@@ -1309,13 +1323,13 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_datadog_7439573",
-    "title": "Strategic Account Executive, Public Sector Japan, SLED",
+    "id": "gh_datadog_7439149",
+    "title": "Strategic Account Executive, Public Sector Japan, FED",
     "company": "Datadog",
     "category": "cdi",
     "status": "open",
     "location": "Tokyo, Japan",
-    "url": "https://careers.datadoghq.com/detail/7439573/?gh_jid=7439573",
+    "url": "https://careers.datadoghq.com/detail/7439149/?gh_jid=7439149",
     "tags": [
       "Account Executive"
     ],
@@ -1335,6 +1349,19 @@
     "first_seen": "28/09/2026"
   },
   {
+    "id": "gh_datadog_7439573",
+    "title": "Strategic Account Executive, Public Sector Japan, SLED",
+    "company": "Datadog",
+    "category": "cdi",
+    "status": "open",
+    "location": "Tokyo, Japan",
+    "url": "https://careers.datadoghq.com/detail/7439573/?gh_jid=7439573",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
     "id": "gh_datadog_7338800",
     "title": "Strategic Account Executive (Saudi Arabia)",
     "company": "Datadog",
@@ -1348,13 +1375,13 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_datadog_7314667",
+    "id": "gh_datadog_6430945",
     "title": "Strategic Account Executive (SLED)",
     "company": "Datadog",
     "category": "cdi",
     "status": "open",
-    "location": "Boston, Massachusetts, USA; New York, New York, USA",
-    "url": "https://careers.datadoghq.com/detail/7314667/?gh_jid=7314667",
+    "location": "California, USA, Remote",
+    "url": "https://careers.datadoghq.com/detail/6430945/?gh_jid=6430945",
     "tags": [
       "Account Executive"
     ],
@@ -1374,13 +1401,13 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_datadog_6430945",
+    "id": "gh_datadog_7314667",
     "title": "Strategic Account Executive (SLED)",
     "company": "Datadog",
     "category": "cdi",
     "status": "open",
-    "location": "California, USA, Remote",
-    "url": "https://careers.datadoghq.com/detail/6430945/?gh_jid=6430945",
+    "location": "Boston, Massachusetts, USA; New York, New York, USA",
+    "url": "https://careers.datadoghq.com/detail/7314667/?gh_jid=7314667",
     "tags": [
       "Account Executive"
     ],
@@ -1588,19 +1615,6 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_stripe_8332467",
-    "title": "Account Executive, AI Sales",
-    "company": "Stripe",
-    "category": "cdi",
-    "status": "open",
-    "location": "San Francisco, CA",
-    "url": "https://stripe.com/jobs/search?gh_jid=8332467",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "06/11/2026"
-  },
-  {
     "id": "gh_stripe_8138044",
     "title": "Account Executive, AI Sales",
     "company": "Stripe",
@@ -1612,6 +1626,19 @@
       "Account Executive"
     ],
     "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_stripe_8332467",
+    "title": "Account Executive, AI Sales",
+    "company": "Stripe",
+    "category": "cdi",
+    "status": "open",
+    "location": "San Francisco, CA",
+    "url": "https://stripe.com/jobs/search?gh_jid=8332467",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "06/11/2026"
   },
   {
     "id": "gh_stripe_8238731",
@@ -1807,19 +1834,6 @@
       "Account Executive"
     ],
     "first_seen": "03/11/2026"
-  },
-  {
-    "id": "gh_stripe_7993151",
-    "title": "Account Executive, Enterprise (Grower)",
-    "company": "Stripe",
-    "category": "cdi",
-    "status": "open",
-    "location": "US-New York, US-Chicago",
-    "url": "https://stripe.com/jobs/search?gh_jid=7993151",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
   },
   {
     "id": "gh_stripe_8107136",
@@ -2420,19 +2434,6 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_stripe_8181024",
-    "title": "Account Executive Product - Fraud & Risk",
-    "company": "Stripe",
-    "category": "cdi",
-    "status": "open",
-    "location": "Chicago, Seattle, NYC, San Francisco, Remote",
-    "url": "https://stripe.com/jobs/search?gh_jid=8181024",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_stripe_8271657",
     "title": "Account Executive Product - Fraud & Risk",
     "company": "Stripe",
@@ -2444,6 +2445,19 @@
       "Account Executive"
     ],
     "first_seen": "14/10/2026"
+  },
+  {
+    "id": "gh_stripe_8181024",
+    "title": "Account Executive Product - Fraud & Risk",
+    "company": "Stripe",
+    "category": "cdi",
+    "status": "open",
+    "location": "Chicago, Seattle, NYC, San Francisco, Remote",
+    "url": "https://stripe.com/jobs/search?gh_jid=8181024",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
   },
   {
     "id": "gh_stripe_8213481",
@@ -3057,19 +3071,6 @@
     "first_seen": "04/11/2026"
   },
   {
-    "id": "gh_stripe_8280266",
-    "title": "Account Executive, Startups (Grower)",
-    "company": "Stripe",
-    "category": "cdi",
-    "status": "open",
-    "location": "San Francisco",
-    "url": "https://stripe.com/jobs/search?gh_jid=8280266",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/10/2026"
-  },
-  {
     "id": "gh_stripe_8287920",
     "title": "Account Executive, Startups (Grower)",
     "company": "Stripe",
@@ -3081,6 +3082,19 @@
       "Account Executive"
     ],
     "first_seen": "02/11/2026"
+  },
+  {
+    "id": "gh_stripe_8280266",
+    "title": "Account Executive, Startups (Grower)",
+    "company": "Stripe",
+    "category": "cdi",
+    "status": "open",
+    "location": "San Francisco",
+    "url": "https://stripe.com/jobs/search?gh_jid=8280266",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/10/2026"
   },
   {
     "id": "gh_stripe_8351500",
@@ -3226,19 +3240,6 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_stripe_8304836",
-    "title": "Account Executive, Velocity Platforms (Hunter)",
-    "company": "Stripe",
-    "category": "cdi",
-    "status": "open",
-    "location": "New York, NY",
-    "url": "https://stripe.com/jobs/search?gh_jid=8304836",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "21/10/2026"
-  },
-  {
     "id": "gh_stripe_8267839",
     "title": "Account Executive, Velocity Platforms (Hunter)",
     "company": "Stripe",
@@ -3250,6 +3251,19 @@
       "Account Executive"
     ],
     "first_seen": "19/10/2026"
+  },
+  {
+    "id": "gh_stripe_8304836",
+    "title": "Account Executive, Velocity Platforms (Hunter)",
+    "company": "Stripe",
+    "category": "cdi",
+    "status": "open",
+    "location": "New York, NY",
+    "url": "https://stripe.com/jobs/search?gh_jid=8304836",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "21/10/2026"
   },
   {
     "id": "gh_stripe_8267841",
@@ -3399,19 +3413,6 @@
     "first_seen": "22/10/2026"
   },
   {
-    "id": "gh_stripe_8336023",
-    "title": "Enterprise Account Executive - Grower",
-    "company": "Stripe",
-    "category": "cdi",
-    "status": "open",
-    "location": "Sydney Or Melbourne",
-    "url": "https://stripe.com/jobs/search?gh_jid=8336023",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "30/10/2026"
-  },
-  {
     "id": "gh_stripe_8330789",
     "title": "Enterprise Account Executive - Grower",
     "company": "Stripe",
@@ -3423,6 +3424,19 @@
       "Account Executive"
     ],
     "first_seen": "12/11/2026"
+  },
+  {
+    "id": "gh_stripe_8336023",
+    "title": "Enterprise Account Executive - Grower",
+    "company": "Stripe",
+    "category": "cdi",
+    "status": "open",
+    "location": "Sydney Or Melbourne",
+    "url": "https://stripe.com/jobs/search?gh_jid=8336023",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "30/10/2026"
   },
   {
     "id": "gh_stripe_8284968",
@@ -4405,19 +4419,6 @@
     "first_seen": "06/10/2026"
   },
   {
-    "id": "gh_databricks_8423165002",
-    "title": "Business Development Representative",
-    "company": "Databricks",
-    "category": "cdi",
-    "status": "open",
-    "location": "Chicago, Illinois",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8423165002",
-    "tags": [
-      "BDR"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_databricks_8949593002",
     "title": "Business Development Representative",
     "company": "Databricks",
@@ -4438,6 +4439,19 @@
     "status": "open",
     "location": "Washington, D.C.",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8423167002",
+    "tags": [
+      "BDR"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_databricks_8423165002",
+    "title": "Business Development Representative",
+    "company": "Databricks",
+    "category": "cdi",
+    "status": "open",
+    "location": "Chicago, Illinois",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8423165002",
     "tags": [
       "BDR"
     ],
@@ -4666,19 +4680,6 @@
     "first_seen": "20/10/2026"
   },
   {
-    "id": "gh_databricks_8870938002",
-    "title": "Enterprise Account Executive - CPG",
-    "company": "Databricks",
-    "category": "cdi",
-    "status": "open",
-    "location": "Northeast - United States",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8870938002",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "07/10/2026"
-  },
-  {
     "id": "gh_databricks_8816440002",
     "title": "Enterprise Account Executive, Federal Civilian",
     "company": "Databricks",
@@ -4703,19 +4704,6 @@
       "Account Executive"
     ],
     "first_seen": "14/10/2026"
-  },
-  {
-    "id": "gh_databricks_8920452002",
-    "title": "Enterprise Account Executive - Financial Services",
-    "company": "Databricks",
-    "category": "cdi",
-    "status": "open",
-    "location": "Northeast - United States; Remote - Massachusetts; Remote - New York",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8920452002",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/10/2026"
   },
   {
     "id": "gh_databricks_8932854002",
@@ -4744,6 +4732,19 @@
     "first_seen": "19/10/2026"
   },
   {
+    "id": "gh_databricks_8920452002",
+    "title": "Enterprise Account Executive - Financial Services",
+    "company": "Databricks",
+    "category": "cdi",
+    "status": "open",
+    "location": "Northeast - United States; Remote - Massachusetts; Remote - New York",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8920452002",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/10/2026"
+  },
+  {
     "id": "gh_databricks_8588516002",
     "title": "Enterprise Account Executive - Gaming",
     "company": "Databricks",
@@ -4770,19 +4771,6 @@
     "first_seen": "02/11/2026"
   },
   {
-    "id": "gh_databricks_8871484002",
-    "title": "Enterprise Account Executive, Healthcare",
-    "company": "Databricks",
-    "category": "cdi",
-    "status": "open",
-    "location": "Remote - Missouri; Remote - New York; Remote - Ohio; Remote - Pennsylvania",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8871484002",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "12/10/2026"
-  },
-  {
     "id": "gh_databricks_8925467002",
     "title": "Enterprise Account Executive, Healthcare",
     "company": "Databricks",
@@ -4794,6 +4782,19 @@
       "Account Executive"
     ],
     "first_seen": "02/11/2026"
+  },
+  {
+    "id": "gh_databricks_8871484002",
+    "title": "Enterprise Account Executive, Healthcare",
+    "company": "Databricks",
+    "category": "cdi",
+    "status": "open",
+    "location": "Remote - Missouri; Remote - New York; Remote - Ohio; Remote - Pennsylvania",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8871484002",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "12/10/2026"
   },
   {
     "id": "gh_databricks_8910864002",
@@ -5044,19 +5045,6 @@
     "first_seen": "16/10/2026"
   },
   {
-    "id": "gh_databricks_8906055002",
-    "title": "Named Core Account Executive",
-    "company": "Databricks",
-    "category": "cdi",
-    "status": "open",
-    "location": "United States",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8906055002",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/10/2026"
-  },
-  {
     "id": "gh_databricks_8903962002",
     "title": "Named Core Account Executive",
     "company": "Databricks",
@@ -5268,19 +5256,6 @@
     "first_seen": "14/10/2026"
   },
   {
-    "id": "gh_databricks_8741927002",
-    "title": "Sr. Manager, Sales Development",
-    "company": "Databricks",
-    "category": "cdi",
-    "status": "open",
-    "location": "Bengaluru, India",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8741927002",
-    "tags": [
-      "SDR"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_databricks_8839016002",
     "title": "Sr. Manager, Sales Development",
     "company": "Databricks",
@@ -5294,17 +5269,17 @@
     "first_seen": "05/10/2026"
   },
   {
-    "id": "gh_databricks_8927392002",
-    "title": "Startup Account Executive",
+    "id": "gh_databricks_8741927002",
+    "title": "Sr. Manager, Sales Development",
     "company": "Databricks",
     "category": "cdi",
     "status": "open",
-    "location": "London, United Kingdom",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8927392002",
+    "location": "Bengaluru, India",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8741927002",
     "tags": [
-      "Account Executive"
+      "SDR"
     ],
-    "first_seen": "19/11/2026"
+    "first_seen": "28/09/2026"
   },
   {
     "id": "gh_databricks_8103500002",
@@ -5318,6 +5293,19 @@
       "Account Executive"
     ],
     "first_seen": "26/10/2026"
+  },
+  {
+    "id": "gh_databricks_8927392002",
+    "title": "Startup Account Executive",
+    "company": "Databricks",
+    "category": "cdi",
+    "status": "open",
+    "location": "London, United Kingdom",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8927392002",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "19/11/2026"
   },
   {
     "id": "gh_databricks_8899929002",
@@ -5359,19 +5347,6 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_databricks_8815165002",
-    "title": "Strategic Account Executive",
-    "company": "Databricks",
-    "category": "cdi",
-    "status": "open",
-    "location": "San Francisco, California; United States",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8815165002",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_databricks_8929492002",
     "title": "Strategic Account Executive",
     "company": "Databricks",
@@ -5383,6 +5358,19 @@
       "Account Executive"
     ],
     "first_seen": "04/11/2026"
+  },
+  {
+    "id": "gh_databricks_8815165002",
+    "title": "Strategic Account Executive",
+    "company": "Databricks",
+    "category": "cdi",
+    "status": "open",
+    "location": "San Francisco, California; United States",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8815165002",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
   },
   {
     "id": "gh_databricks_8845180002",
@@ -5515,19 +5503,6 @@
     "first_seen": "26/10/2026"
   },
   {
-    "id": "gh_databricks_8628029002",
-    "title": "Strategic Core Account Executive",
-    "company": "Databricks",
-    "category": "cdi",
-    "status": "open",
-    "location": "Paris, France",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8628029002",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_databricks_8929498002",
     "title": "Strategic Core Account Executive",
     "company": "Databricks",
@@ -5541,17 +5516,17 @@
     "first_seen": "09/11/2026"
   },
   {
-    "id": "gh_databricks_8766584002",
+    "id": "gh_databricks_8883463002",
     "title": "Strategic Core Account Executive",
     "company": "Databricks",
     "category": "cdi",
     "status": "open",
-    "location": "San Francisco, California",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8766584002",
+    "location": "Madrid",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8883463002",
     "tags": [
       "Account Executive"
     ],
-    "first_seen": "28/09/2026"
+    "first_seen": "03/11/2026"
   },
   {
     "id": "gh_databricks_8878722002",
@@ -5567,6 +5542,19 @@
     "first_seen": "08/10/2026"
   },
   {
+    "id": "gh_databricks_8628029002",
+    "title": "Strategic Core Account Executive",
+    "company": "Databricks",
+    "category": "cdi",
+    "status": "open",
+    "location": "Paris, France",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8628029002",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
     "id": "gh_databricks_8895633002",
     "title": "Strategic Core Account Executive",
     "company": "Databricks",
@@ -5580,17 +5568,17 @@
     "first_seen": "02/11/2026"
   },
   {
-    "id": "gh_databricks_8883463002",
+    "id": "gh_databricks_8766584002",
     "title": "Strategic Core Account Executive",
     "company": "Databricks",
     "category": "cdi",
     "status": "open",
-    "location": "Madrid",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8883463002",
+    "location": "San Francisco, California",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8766584002",
     "tags": [
       "Account Executive"
     ],
-    "first_seen": "03/11/2026"
+    "first_seen": "28/09/2026"
   },
   {
     "id": "gh_databricks_8903089002",
@@ -5931,19 +5919,6 @@
     "first_seen": "22/10/2026"
   },
   {
-    "id": "gh_databricks_8737167002",
-    "title": "Strategic Hunter Account Executive",
-    "company": "Databricks",
-    "category": "cdi",
-    "status": "open",
-    "location": "Paris, France",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8737167002",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_databricks_8880400002",
     "title": "Strategic Hunter Account Executive",
     "company": "Databricks",
@@ -5955,6 +5930,19 @@
       "Account Executive"
     ],
     "first_seen": "12/10/2026"
+  },
+  {
+    "id": "gh_databricks_8737167002",
+    "title": "Strategic Hunter Account Executive",
+    "company": "Databricks",
+    "category": "cdi",
+    "status": "open",
+    "location": "Paris, France",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8737167002",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
   },
   {
     "id": "gh_databricks_8885667002",
@@ -5996,19 +5984,6 @@
     "first_seen": "19/11/2026"
   },
   {
-    "id": "gh_cloudflare_8288902",
-    "title": "Business Development Representative",
-    "company": "Cloudflare",
-    "category": "cdi",
-    "status": "open",
-    "location": "Hybrid",
-    "url": "https://boards.greenhouse.io/cloudflare/jobs/8288902?gh_jid=8288902",
-    "tags": [
-      "BDR"
-    ],
-    "first_seen": "16/10/2026"
-  },
-  {
     "id": "gh_cloudflare_7540853",
     "title": "Business Development Representative",
     "company": "Cloudflare",
@@ -6020,6 +5995,19 @@
       "BDR"
     ],
     "first_seen": "18/11/2026"
+  },
+  {
+    "id": "gh_cloudflare_8288902",
+    "title": "Business Development Representative",
+    "company": "Cloudflare",
+    "category": "cdi",
+    "status": "open",
+    "location": "Hybrid",
+    "url": "https://boards.greenhouse.io/cloudflare/jobs/8288902?gh_jid=8288902",
+    "tags": [
+      "BDR"
+    ],
+    "first_seen": "16/10/2026"
   },
   {
     "id": "gh_cloudflare_6696709",
@@ -6176,6 +6164,19 @@
       "Account Executive"
     ],
     "first_seen": "18/11/2026"
+  },
+  {
+    "id": "gh_cloudflare_8304060",
+    "title": "Commercial Account Executive (Austin, TX or Raleigh, NC)",
+    "company": "Cloudflare",
+    "category": "cdi",
+    "status": "open",
+    "location": "Hybrid",
+    "url": "https://boards.greenhouse.io/cloudflare/jobs/8304060?gh_jid=8304060",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "20/10/2026"
   },
   {
     "id": "gh_cloudflare_8324315",
@@ -6350,18 +6351,18 @@
     "first_seen": "26/10/2026"
   },
   {
-    "id": "gh_cloudflare_8230670",
-    "title": "Global Commercial Attorney (Public Sector)",
+    "id": "gh_cloudflare_8317920",
+    "title": "Inside Sales Representative",
     "company": "Cloudflare",
     "category": "cdi",
     "status": "open",
     "location": "Hybrid",
-    "url": "https://boards.greenhouse.io/cloudflare/jobs/8230670?gh_jid=8230670",
+    "url": "https://boards.greenhouse.io/cloudflare/jobs/8317920?gh_jid=8317920",
     "tags": [
       "Tech Sales",
       "B2B SaaS"
     ],
-    "first_seen": "01/10/2026"
+    "first_seen": "09/11/2026"
   },
   {
     "id": "gh_cloudflare_8317970",
@@ -6371,20 +6372,6 @@
     "status": "open",
     "location": "Hybrid",
     "url": "https://boards.greenhouse.io/cloudflare/jobs/8317970?gh_jid=8317970",
-    "tags": [
-      "Tech Sales",
-      "B2B SaaS"
-    ],
-    "first_seen": "09/11/2026"
-  },
-  {
-    "id": "gh_cloudflare_8317920",
-    "title": "Inside Sales Representative",
-    "company": "Cloudflare",
-    "category": "cdi",
-    "status": "open",
-    "location": "Hybrid",
-    "url": "https://boards.greenhouse.io/cloudflare/jobs/8317920?gh_jid=8317920",
     "tags": [
       "Tech Sales",
       "B2B SaaS"
@@ -6667,17 +6654,17 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_cloudflare_8303996",
-    "title": "Senior Commercial Account Executive (San Francisco)",
+    "id": "gh_cloudflare_8403466",
+    "title": "Senior Commercial Account Executive (Austin)",
     "company": "Cloudflare",
     "category": "cdi",
     "status": "open",
     "location": "Hybrid",
-    "url": "https://boards.greenhouse.io/cloudflare/jobs/8303996?gh_jid=8303996",
+    "url": "https://boards.greenhouse.io/cloudflare/jobs/8403466?gh_jid=8403466",
     "tags": [
       "Account Executive"
     ],
-    "first_seen": "20/10/2026"
+    "first_seen": "20/11/2026"
   },
   {
     "id": "gh_cloudflare_7272028",
@@ -7307,19 +7294,6 @@
     "first_seen": "18/11/2026"
   },
   {
-    "id": "gh_cloudflare_7774534",
-    "title": "Senior Territory Account Executive",
-    "company": "Cloudflare",
-    "category": "cdi",
-    "status": "open",
-    "location": "Hybrid",
-    "url": "https://boards.greenhouse.io/cloudflare/jobs/7774534?gh_jid=7774534",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_cloudflare_8358480",
     "title": "Senior Territory Account Executive",
     "company": "Cloudflare",
@@ -7331,6 +7305,19 @@
       "Account Executive"
     ],
     "first_seen": "11/11/2026"
+  },
+  {
+    "id": "gh_cloudflare_7774534",
+    "title": "Senior Territory Account Executive",
+    "company": "Cloudflare",
+    "category": "cdi",
+    "status": "open",
+    "location": "Hybrid",
+    "url": "https://boards.greenhouse.io/cloudflare/jobs/7774534?gh_jid=7774534",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
   },
   {
     "id": "gh_cloudflare_8202094",
@@ -7593,20 +7580,6 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_cloudflare_8395178",
-    "title": "Technical Account Manager",
-    "company": "Cloudflare",
-    "category": "cdi",
-    "status": "open",
-    "location": "Hybrid",
-    "url": "https://boards.greenhouse.io/cloudflare/jobs/8395178?gh_jid=8395178",
-    "tags": [
-      "Tech Sales",
-      "B2B SaaS"
-    ],
-    "first_seen": "18/11/2026"
-  },
-  {
     "id": "gh_cloudflare_8220734",
     "title": "Technical Account Manager",
     "company": "Cloudflare",
@@ -7619,6 +7592,20 @@
       "B2B SaaS"
     ],
     "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_cloudflare_8395178",
+    "title": "Technical Account Manager",
+    "company": "Cloudflare",
+    "category": "cdi",
+    "status": "open",
+    "location": "Hybrid",
+    "url": "https://boards.greenhouse.io/cloudflare/jobs/8395178?gh_jid=8395178",
+    "tags": [
+      "Tech Sales",
+      "B2B SaaS"
+    ],
+    "first_seen": "18/11/2026"
   },
   {
     "id": "gh_cloudflare_8245695",
@@ -7635,19 +7622,6 @@
     "first_seen": "10/11/2026"
   },
   {
-    "id": "gh_cloudflare_8384276",
-    "title": "Territory Account Executive",
-    "company": "Cloudflare",
-    "category": "cdi",
-    "status": "open",
-    "location": "Hybrid",
-    "url": "https://boards.greenhouse.io/cloudflare/jobs/8384276?gh_jid=8384276",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "13/11/2026"
-  },
-  {
     "id": "gh_cloudflare_8109271",
     "title": "Territory Account Executive",
     "company": "Cloudflare",
@@ -7659,6 +7633,19 @@
       "Account Executive"
     ],
     "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_cloudflare_8384276",
+    "title": "Territory Account Executive",
+    "company": "Cloudflare",
+    "category": "cdi",
+    "status": "open",
+    "location": "Hybrid",
+    "url": "https://boards.greenhouse.io/cloudflare/jobs/8384276?gh_jid=8384276",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "13/11/2026"
   },
   {
     "id": "gh_cloudflare_6528593",
@@ -8065,19 +8052,6 @@
     "first_seen": "02/10/2026"
   },
   {
-    "id": "gh_gitlab_8928280002",
-    "title": "New Business Account Executive - East",
-    "company": "GitLab",
-    "category": "cdi",
-    "status": "open",
-    "location": "Remote, United States",
-    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8928280002",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "06/11/2026"
-  },
-  {
     "id": "gh_gitlab_8949667002",
     "title": "New Business Account Executive - Nordics",
     "company": "GitLab",
@@ -8247,19 +8221,6 @@
       "Account Executive"
     ],
     "first_seen": "17/10/2026"
-  },
-  {
-    "id": "gh_gitlab_8895511002",
-    "title": "Strategic Account Executive - Chicago",
-    "company": "GitLab",
-    "category": "cdi",
-    "status": "open",
-    "location": "Remote, United States",
-    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8895511002",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "20/10/2026"
   },
   {
     "id": "gh_gitlab_8877428002",
@@ -8614,20 +8575,6 @@
     "first_seen": "28/09/2026"
   },
   {
-    "id": "gh_vercel_6112845004",
-    "title": "Senior Technical Account Manager",
-    "company": "Vercel",
-    "category": "cdi",
-    "status": "open",
-    "location": "Hybrid - San Francisco, New York City, Austin",
-    "url": "https://job-boards.greenhouse.io/vercel/jobs/6112845004",
-    "tags": [
-      "Tech Sales",
-      "B2B SaaS"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_vercel_6121381004",
     "title": "Senior Technical Account Manager",
     "company": "Vercel",
@@ -8635,6 +8582,20 @@
     "status": "open",
     "location": "Hybrid - London, Berlin",
     "url": "https://job-boards.greenhouse.io/vercel/jobs/6121381004",
+    "tags": [
+      "Tech Sales",
+      "B2B SaaS"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_vercel_6112845004",
+    "title": "Senior Technical Account Manager",
+    "company": "Vercel",
+    "category": "cdi",
+    "status": "open",
+    "location": "Hybrid - San Francisco, New York City, Austin",
+    "url": "https://job-boards.greenhouse.io/vercel/jobs/6112845004",
     "tags": [
       "Tech Sales",
       "B2B SaaS"
@@ -8707,6 +8668,111 @@
     "first_seen": "23/10/2026"
   },
   {
+    "id": "gh_datadog_8263060",
+    "title": "Manager, Sales Development - Denver",
+    "company": "Datadog",
+    "category": "cdi",
+    "status": "closed",
+    "location": "Denver, Colorado, USA",
+    "url": "https://careers.datadoghq.com/detail/8263060/?gh_jid=8263060",
+    "tags": [
+      "SDR"
+    ],
+    "first_seen": "15/10/2026"
+  },
+  {
+    "id": "gh_stripe_7993151",
+    "title": "Account Executive, Enterprise (Grower)",
+    "company": "Stripe",
+    "category": "cdi",
+    "status": "closed",
+    "location": "US-New York, US-Chicago",
+    "url": "https://stripe.com/jobs/search?gh_jid=7993151",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/09/2026"
+  },
+  {
+    "id": "gh_databricks_8870938002",
+    "title": "Enterprise Account Executive - CPG",
+    "company": "Databricks",
+    "category": "cdi",
+    "status": "closed",
+    "location": "Northeast - United States",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8870938002",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "07/10/2026"
+  },
+  {
+    "id": "gh_databricks_8906055002",
+    "title": "Named Core Account Executive",
+    "company": "Databricks",
+    "category": "cdi",
+    "status": "closed",
+    "location": "United States",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8906055002",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "28/10/2026"
+  },
+  {
+    "id": "gh_cloudflare_8230670",
+    "title": "Global Commercial Attorney (Public Sector)",
+    "company": "Cloudflare",
+    "category": "cdi",
+    "status": "closed",
+    "location": "Hybrid",
+    "url": "https://boards.greenhouse.io/cloudflare/jobs/8230670?gh_jid=8230670",
+    "tags": [
+      "Tech Sales",
+      "B2B SaaS"
+    ],
+    "first_seen": "01/10/2026"
+  },
+  {
+    "id": "gh_cloudflare_8303996",
+    "title": "Senior Commercial Account Executive (San Francisco)",
+    "company": "Cloudflare",
+    "category": "cdi",
+    "status": "closed",
+    "location": "Hybrid",
+    "url": "https://boards.greenhouse.io/cloudflare/jobs/8303996?gh_jid=8303996",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "20/10/2026"
+  },
+  {
+    "id": "gh_gitlab_8928280002",
+    "title": "New Business Account Executive - East",
+    "company": "GitLab",
+    "category": "cdi",
+    "status": "closed",
+    "location": "Remote, United States",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8928280002",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "06/11/2026"
+  },
+  {
+    "id": "gh_gitlab_8895511002",
+    "title": "Strategic Account Executive - Chicago",
+    "company": "GitLab",
+    "category": "cdi",
+    "status": "closed",
+    "location": "Remote, United States",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8895511002",
+    "tags": [
+      "Account Executive"
+    ],
+    "first_seen": "20/10/2026"
+  },
+  {
     "id": "gh_datadog_7683226",
     "title": "Commercial Sales Engineer (AMER - West)",
     "company": "Datadog",
@@ -8719,19 +8785,6 @@
       "B2B SaaS"
     ],
     "first_seen": "28/09/2026"
-  },
-  {
-    "id": "gh_datadog_8334294",
-    "title": "Mid-Market Account Executive (France)",
-    "company": "Datadog",
-    "category": "cdi",
-    "status": "closed",
-    "location": "Amsterdam, The Netherlands; Dublin, Ireland",
-    "url": "https://careers.datadoghq.com/detail/8334294/?gh_jid=8334294",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "06/11/2026"
   },
   {
     "id": "gh_datadog_8356637",
@@ -10354,19 +10407,6 @@
     "first_seen": "15/10/2026"
   },
   {
-    "id": "gh_datadog_8042600",
-    "title": "Sales Development Representative",
-    "company": "Datadog",
-    "category": "cdi",
-    "status": "closed",
-    "location": "Sydney, Australia",
-    "url": "https://careers.datadoghq.com/detail/8042600/?gh_jid=8042600",
-    "tags": [
-      "SDR"
-    ],
-    "first_seen": "28/09/2026"
-  },
-  {
     "id": "gh_stripe_8113687",
     "title": "Account Executive, Product Sales (Data Pipeline)",
     "company": "Stripe",
@@ -10707,19 +10747,6 @@
       "Account Executive"
     ],
     "first_seen": "21/10/2026"
-  },
-  {
-    "id": "gh_cloudflare_8304060",
-    "title": "Commercial Account Executive (Austin, TX or Raleigh, NC)",
-    "company": "Cloudflare",
-    "category": "cdi",
-    "status": "closed",
-    "location": "Hybrid",
-    "url": "https://boards.greenhouse.io/cloudflare/jobs/8304060?gh_jid=8304060",
-    "tags": [
-      "Account Executive"
-    ],
-    "first_seen": "20/10/2026"
   },
   {
     "id": "gh_cloudflare_8213269",
